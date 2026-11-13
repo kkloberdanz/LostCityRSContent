@@ -1,0 +1,407 @@
+// Barrows (rev 377, May 2006).
+//
+// Brother index used throughout: 1 ahrim, 2 dharok, 3 guthan, 4 karil, 5 torag, 6 verac.
+//
+// State:
+//   %barrows_killed_<brother>   killed this run (varp barrows_kills)
+//   %barrows_killed_count       tunnel monsters killed this run, shown on the overlay (inter_98)
+//   %barrows_killed_monster     reward potential S: summed combat levels of everything killed, capped at 1000
+//   %barrows_chest_open         chest opened this run
+//   %barrows_tunnel             brother whose sarcophagus hides the tunnel (0 = not picked yet)
+//   %barrows_looted             chest looted: the tunnels collapse until you leave, then the run resets
+//   %barrows_chamber_<a|c|g|i>  shows the exit ladder in the corner room you came down into
+//
+// Sources: OSRS Wiki "Barrows", "Barrows/Strategies", "Barrows tunnels", "Chest (Barrows)" (fetched 2026-11-12).
+// Approximations are marked "approx".
+
+// ---- areas ----
+
+[proc,barrows_in_crypt]()(boolean)
+return(inzone(3_55_151_0_0, 3_55_151_63_63, coord));
+
+[proc,barrows_in_tunnels]()(boolean)
+return(inzone(0_55_151_0_0, 0_55_151_63_63, coord));
+
+[proc,barrows_underground]()(boolean)
+if (~barrows_in_crypt = true | ~barrows_in_tunnels = true) {
+    return(true);
+}
+return(false);
+
+// which mound (1-6) the coord is on, or 0. A mound is the 5x5 square around its centre (approx).
+[proc,barrows_mound_at](coord $coord)(int)
+def_int $b = 1;
+def_coord $centre;
+while ($b <= 6) {
+    $centre = enum(int, coord, barrows_mound, $b);
+    if (inzone(movecoord($centre, -2, 0, -2), movecoord($centre, 2, 0, 2), $coord) = true) {
+        return($b);
+    }
+    $b = add($b, 1);
+}
+return(0);
+
+// ---- run state ----
+
+[proc,barrows_killed](int $b)(boolean)
+def_int $v = 0;
+switch_int ($b) {
+    case 1 : $v = %barrows_killed_ahrim;
+    case 2 : $v = %barrows_killed_dharok;
+    case 3 : $v = %barrows_killed_guthan;
+    case 4 : $v = %barrows_killed_karil;
+    case 5 : $v = %barrows_killed_torag;
+    case 6 : $v = %barrows_killed_verac;
+}
+if ($v = 1) {
+    return(true);
+}
+return(false);
+
+[proc,barrows_set_killed](int $b)
+switch_int ($b) {
+    case 1 : %barrows_killed_ahrim = 1;
+    case 2 : %barrows_killed_dharok = 1;
+    case 3 : %barrows_killed_guthan = 1;
+    case 4 : %barrows_killed_karil = 1;
+    case 5 : %barrows_killed_torag = 1;
+    case 6 : %barrows_killed_verac = 1;
+}
+
+[proc,barrows_killed_total]()(int)
+return(calc(%barrows_killed_ahrim + %barrows_killed_dharok + %barrows_killed_guthan + %barrows_killed_karil + %barrows_killed_torag + %barrows_killed_verac));
+
+// The crypt hiding the tunnel is picked at random for each run (OSRS Wiki, Barrows tunnels).
+[proc,barrows_tunnel_brother]()(int)
+if (%barrows_tunnel = 0) {
+    %barrows_tunnel = add(random(6), 1);
+}
+return(%barrows_tunnel);
+
+[proc,barrows_add_potential](int $levels)
+%barrows_killed_monster = min(1000, add(%barrows_killed_monster, $levels));
+
+// ---- entering and leaving ----
+
+[proc,barrows_enter]
+if_openoverlay(inter_98);
+~barrows_update_overlay;
+// prayer drain every 18 seconds while underground (OSRS Wiki, Barrows/Strategies)
+settimer(barrows_drain, 30);
+if (%barrows_looted = 1) {
+    settimer(barrows_collapse, 10);
+}
+
+[proc,barrows_leave]
+if_openoverlay(null);
+cleartimer(barrows_drain);
+cleartimer(barrows_collapse);
+if (%barrows_looted = 1) {
+    // run over: forget the tunnel, chambers and doors so the next run re-randomises
+    ~barrows_reset_run;
+} else {
+    ~barrows_clear_chambers;
+}
+
+[proc,barrows_reset_run]
+%barrows = 0;
+%barrows_tunnel = 0;
+%barrows_looted = 0;
+
+[proc,barrows_clear_chambers]
+%barrows_chamber_a = 0;
+%barrows_chamber_c = 0;
+%barrows_chamber_g = 0;
+%barrows_chamber_i = 0;
+
+[proc,barrows_login]
+if (~barrows_underground = true) {
+    ~barrows_enter;
+}
+
+// the overlay: kill count text is driven by %barrows_killed_count in the interface itself
+[proc,barrows_update_overlay]
+~barrows_overlay_icon(inter_98:com_1, 1);
+~barrows_overlay_icon(inter_98:com_2, 2);
+~barrows_overlay_icon(inter_98:com_3, 3);
+~barrows_overlay_icon(inter_98:com_4, 4);
+~barrows_overlay_icon(inter_98:com_5, 5);
+~barrows_overlay_icon(inter_98:com_6, 6);
+
+[proc,barrows_overlay_icon](component $com, int $b)
+if (~barrows_killed($b) = true) {
+    if_setobject($com, enum(int, obj, barrows_icon_killed, $b), 400);
+} else {
+    if_setobject($com, enum(int, obj, barrows_icon, $b), 400);
+}
+
+// ---- digging into a crypt (called from [opheld1,spade]) ----
+
+[label,barrows_dig](int $b)
+p_arrivedelay;
+p_stopaction;
+anim(human_dig, 0);
+p_delay(1);
+p_telejump(enum(int, coord, barrows_crypt, $b));
+mes("You've broken into a crypt!");
+~barrows_enter;
+
+// ---- crypt stairs back up to the mound ----
+
+[oploc1,barrows_stairs_ahrim] @barrows_stairs_up(1);
+[oploc1,barrows_stairs_dharok] @barrows_stairs_up(2);
+[oploc1,barrows_stairs_guthan] @barrows_stairs_up(3);
+[oploc1,barrows_stairs_karil] @barrows_stairs_up(4);
+[oploc1,barrows_stairs_torag] @barrows_stairs_up(5);
+[oploc1,barrows_stairs_verac] @barrows_stairs_up(6);
+
+[label,barrows_stairs_up](int $b)
+p_telejump(enum(int, coord, barrows_mound, $b));
+~barrows_leave;
+
+// ---- sarcophagi ----
+
+[oploc1,barrow_ahrim_sarcophagus] @barrows_search_sarcophagus(1);
+[oploc1,barrow_dharok_sarcophagus] @barrows_search_sarcophagus(2);
+[oploc1,barrow_guthan_sarcophagus] @barrows_search_sarcophagus(3);
+[oploc1,barrow_karil_sarcophagus] @barrows_search_sarcophagus(4);
+[oploc1,barrow_torag_sarcophagus] @barrows_search_sarcophagus(5);
+[oploc1,barrow_verac_sarcophagus] @barrows_search_sarcophagus(6);
+
+[label,barrows_search_sarcophagus](int $b)
+p_arrivedelay;
+if (~barrows_tunnel_brother = $b & %barrows_looted = 0) {
+    ~mesbox("You've found a hidden tunnel, do you want to enter?");
+    def_int $choice = ~p_choice2("Yeah I'm fearless!", 1, "No way, that looks scary!", 2);
+    if ($choice = 1) {
+        @barrows_enter_tunnel;
+    }
+    return;
+}
+if (~barrows_killed($b) = true | ~barrows_brother_present($b) = true) {
+    mes("You don't find anything.");
+    return;
+}
+~barrows_spawn_brother($b, coord);
+
+[label,barrows_enter_tunnel]
+// you arrive in one of the four corner rooms, the only one where the exit ladder shows (approx: OSRS Wiki
+// says the ladder only shows in the room you came down in, not which room that is)
+def_int $corner = random(4);
+~barrows_clear_chambers;
+switch_int ($corner) {
+    case 0 : %barrows_chamber_a = 1;
+    case 1 : %barrows_chamber_c = 1;
+    case 2 : %barrows_chamber_g = 1;
+    case 3 : %barrows_chamber_i = 1;
+}
+p_telejump(enum(int, coord, barrows_corner, $corner));
+~barrows_enter;
+
+// ---- tunnel ladders: back up into the tunnel brother's crypt ----
+
+[oploc1,barrows_ladder_a] @barrows_ladder_up;
+[oploc1,barrows_ladder_c] @barrows_ladder_up;
+[oploc1,barrows_ladder_g] @barrows_ladder_up;
+[oploc1,barrows_ladder_i] @barrows_ladder_up;
+
+[label,barrows_ladder_up]
+def_int $b = ~barrows_tunnel_brother;
+p_arrivedelay;
+anim(human_reachforladder, 0);
+p_delay(0);
+p_telejump(enum(int, coord, barrows_crypt, $b));
+cleartimer(barrows_collapse);
+if (%barrows_looted = 1) {
+    ~barrows_reset_run;
+} else {
+    ~barrows_clear_chambers;
+}
+
+// ---- tunnel doors ----
+// Phase 1: every door opens (door varbits all 0 = unlocked). The real per-run locking comes later.
+
+[oploc1,barrows_door_a_l] @barrows_door;
+[oploc1,barrows_door_a_r] @barrows_door;
+[oploc1,barrows_door_b_l] @barrows_door;
+[oploc1,barrows_door_b_r] @barrows_door;
+[oploc1,barrows_door_c_l] @barrows_door;
+[oploc1,barrows_door_c_r] @barrows_door;
+[oploc1,barrows_door_d_l] @barrows_door;
+[oploc1,barrows_door_d_r] @barrows_door;
+[oploc1,barrows_door_e_l] @barrows_door;
+[oploc1,barrows_door_e_r] @barrows_door;
+[oploc1,barrows_door_f_l] @barrows_door;
+[oploc1,barrows_door_f_r] @barrows_door;
+[oploc1,barrows_door_g_l] @barrows_door;
+[oploc1,barrows_door_g_r] @barrows_door;
+[oploc1,barrows_door_h_l] @barrows_door;
+[oploc1,barrows_door_h_r] @barrows_door;
+[oploc1,barrows_door_i_l] @barrows_door;
+[oploc1,barrows_door_i_r] @barrows_door;
+[oploc1,barrows_door_j_l] @barrows_door;
+[oploc1,barrows_door_j_r] @barrows_door;
+[oploc1,barrows_door_k_l] @barrows_door;
+[oploc1,barrows_door_k_r] @barrows_door;
+[oploc1,barrows_door_l_l] @barrows_door;
+[oploc1,barrows_door_l_r] @barrows_door;
+[oploc1,barrows_door_m_l] @barrows_door;
+[oploc1,barrows_door_m_r] @barrows_door;
+[oploc1,barrows_door_n_l] @barrows_door;
+[oploc1,barrows_door_n_r] @barrows_door;
+[oploc1,barrows_door_o_l] @barrows_door;
+[oploc1,barrows_door_o_r] @barrows_door;
+[oploc1,barrows_door_p_l] @barrows_door;
+[oploc1,barrows_door_p_r] @barrows_door;
+
+// step through the doorway (the doors have no open model, so the player is moved through, like other doors)
+[label,barrows_door]
+def_int $x;
+def_int $z;
+def_coord $loc_coord = loc_coord;
+$x, $z = ~door_open(loc_angle, loc_shape);
+sound_synth(barrows_door_open, 1, 0);
+if (~check_axis(coord, $loc_coord, loc_angle) = true) {
+    if (coord ! $loc_coord) {
+        p_teleport($loc_coord);
+        p_delay(0);
+    }
+    p_teleport(movecoord($loc_coord, $x, 0, $z));
+} else {
+    p_teleport($loc_coord);
+}
+
+// ---- the chest ----
+
+[oploc1,barrows_stone_chest]
+p_arrivedelay;
+if (%barrows_chest_open = 0) {
+    // Open
+    anim(human_pickupfloor, 0);
+    %barrows_chest_open = 1;
+    // since 22 Nov 2005 opening the chest confronts the last brother if you haven't met him (OSRS Wiki, Barrows)
+    ~barrows_chest_confront;
+    return;
+}
+// Search
+if (%barrows_looted = 1) {
+    mes("The chest is empty.");
+    return;
+}
+if (~barrows_chest_confront = true) {
+    return;
+}
+~barrows_reward;
+
+[oploc2,barrows_stone_chest]
+// Close
+p_arrivedelay;
+%barrows_chest_open = 0;
+
+[proc,barrows_chest_confront]()(boolean)
+def_int $b = ~barrows_tunnel_brother;
+if (~barrows_killed($b) = true) {
+    return(false);
+}
+if (~barrows_brother_present($b) = false) {
+    ~barrows_spawn_brother($b, coord);
+}
+return(true);
+
+// OSRS Wiki, Chest (Barrows): N brothers killed gives N + 1 rolls. Each roll is a Barrows piece with chance
+// 1/(450 - 58N), from the sets of brothers killed, otherwise a roll from the common table scaled by reward
+// potential R = S + 2N (S = summed combat levels of everything killed, max 1000).
+[proc,barrows_reward]
+def_int $n = ~barrows_killed_total;
+def_int $rp = add(%barrows_killed_monster, multiply($n, 2));
+if ($rp < 1) {
+    mes("The chest is empty.");
+    return;
+}
+def_int $rolls = add($n, 1);
+def_int $i = 0;
+while ($i < $rolls) {
+    if ($n > 0 & random(sub(450, multiply(58, $n))) = 0) {
+        ~barrows_give(~barrows_random_item, 1);
+    } else {
+        ~barrows_roll_common($rp);
+    }
+    $i = add($i, 1);
+}
+mes("You find some treasure in the chest!");
+// the run is over: kills and kill count reset now, the tunnels collapse until you leave
+%barrows_kills = 0;
+%barrows_looted = 1;
+~barrows_update_overlay;
+settimer(barrows_collapse, 10);
+
+[proc,barrows_random_item]()(namedobj)
+def_int $pick = random(~barrows_killed_total);
+def_int $b = 1;
+while ($b <= 6) {
+    if (~barrows_killed($b) = true) {
+        if ($pick = 0) {
+            return(enum(int, namedobj, barrows_items, add(multiply($b, 4), random(4))));
+        }
+        $pick = sub($pick, 1);
+    }
+    $b = add($b, 1);
+}
+return(coins);
+
+[proc,barrows_roll_common](int $rp)
+def_int $r = add(random($rp), 1);
+if ($r <= 380) {
+    ~barrows_give(coins, add(random(773), 2));
+} else if ($r <= 505) {
+    ~barrows_give(mindrune, add(random(84), 253));
+} else if ($r <= 630) {
+    ~barrows_give(chaosrune, add(random(28), 112));
+} else if ($r <= 755) {
+    ~barrows_give(deathrune, add(random(14), 70));
+} else if ($r <= 880) {
+    ~barrows_give(bloodrune, add(random(7), 37));
+} else if ($r <= 1005) {
+    ~barrows_give(barrows_karil_ammo, add(random(6), 35));
+} else if ($r <= 1008) {
+    ~barrows_give(keyhalf1, 1);
+} else if ($r <= 1011) {
+    ~barrows_give(keyhalf2, 1);
+} else {
+    ~barrows_give(dragon_med_helm, 1);
+}
+
+[proc,barrows_give](namedobj $obj, int $count)
+if (inv_freespace(inv) > 0 | (oc_stackable($obj) = true & inv_total(inv, $obj) > 0)) {
+    inv_add(inv, $obj, $count);
+} else {
+    obj_add(coord, $obj, $count, ^lootdrop_duration);
+}
+
+// ---- underground effects ----
+
+// 8 prayer points plus one per brother killed, every 18 seconds (OSRS Wiki, Barrows/Strategies)
+[timer,barrows_drain]
+if (~barrows_underground = false) {
+    ~barrows_leave;
+    return;
+}
+if (stat(prayer) > 0) {
+    stat_sub(prayer, add(8, ~barrows_killed_total), 0);
+    if (stat(prayer) = 0) {
+        sound_synth(prayer_drain, 1, 0);
+        mes("You have run out of prayer points, you must recharge at an altar.");
+        ~prayer_deactivate_all;
+    }
+}
+
+// after looting the tunnels shake and rocks fall "causing occasional damage" (OSRS Wiki). Amount and rate approx.
+[timer,barrows_collapse]
+if (~barrows_in_tunnels = false) {
+    cleartimer(barrows_collapse);
+    return;
+}
+if (stat(hitpoints) > 0) {
+    mes("Some rocks fall from the ceiling and hit you.");
+    ~damage_self(randominc(3));
+}

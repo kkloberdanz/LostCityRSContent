@@ -1,0 +1,3 @@
+// the player a barrows brother was summoned for
+[npc_barrows_owner]
+type=player_uid

@@ -1,0 +1,10 @@
+// Server-side run state. These reuse the IDs of the empty, unreferenced 377 varps varp_189 and varp_190
+// (the way upstream placed macro_event at 204), so the client cache stays identical to 377's.
+
+// which brother's sarcophagus hides the tunnel this run: 0 = not chosen yet, 1-6 = ahrim..verac
+[barrows_tunnel]
+scope=perm
+
+// chest looted this run: the tunnels collapse until the player leaves, then the run resets
+[barrows_looted]
+scope=perm

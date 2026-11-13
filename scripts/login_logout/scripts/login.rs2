@@ -78,6 +78,7 @@ if (%tutorial < ^tutorial_complete & ~in_tutorial_island(coord) = true) {
 }
 
 ~castlewars_login;
+~barrows_login;
 
 ~initalltabs;
 ~update_all(inv_getobj(worn, ^wearpos_rhand));

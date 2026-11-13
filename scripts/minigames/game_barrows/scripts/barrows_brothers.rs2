@@ -1,0 +1,161 @@
+// The six Barrows brothers. They are summoned for one player (%npc_barrows_owner) by searching their
+// sarcophagus (or the chest, for the tunnel brother) and vanish if that player leaves.
+//
+// NPC set effects (OSRS Wiki brother pages; 25% chance per attack unless noted):
+//   Ahrim  lowers your Strength by 5      Dharok hits harder the more HP he has lost (always)
+//   Guthan heals by the damage dealt      Karil  lowers your Agility by 20%
+//   Torag  drains 20% run energy          Verac  hits through Defence and protection prayers
+
+[proc,barrows_brother_present](int $b)(boolean)
+npc_findall(coord, enum(int, npc, barrows_brother_npc, $b), 25, ^vis_off);
+while (npc_findnext = true) {
+    if (%npc_barrows_owner = uid) {
+        return(true);
+    }
+}
+return(false);
+
+[proc,barrows_spawn_brother](int $b, coord $near)
+def_coord $spawn = map_findsquare($near, 1, 2, ^map_findsquare_lineofwalk);
+if ($spawn = null) {
+    $spawn = $near;
+}
+npc_add($spawn, enum(int, npc, barrows_brother_npc, $b), 1000);
+%npc_barrows_owner = uid;
+npc_facesquare(coord);
+%aggressive_npc = npc_uid;
+npc_setmode(opplayer2);
+
+// every 5 ticks (npc timer=5): vanish if the owner has gone (left the crypt or tunnels, logged out)
+[ai_timer,barrows_ahrim] ~barrows_brother_timer;
+[ai_timer,barrows_dharok] ~barrows_brother_timer;
+[ai_timer,barrows_guthan] ~barrows_brother_timer;
+[ai_timer,barrows_karil] ~barrows_brother_timer;
+[ai_timer,barrows_torag] ~barrows_brother_timer;
+[ai_timer,barrows_verac] ~barrows_brother_timer;
+
+[proc,barrows_brother_timer]
+if (finduid(%npc_barrows_owner) = false) {
+    npc_del;
+    return;
+}
+if (coordy(coord) ! coordy(npc_coord) | npc_range(coord) > 15) {
+    npc_del;
+}
+
+// retaliation: melee brothers step in, Ahrim and Karil keep their distance
+[ai_queue1,barrows_ahrim] ~npc_default_retaliate_ap;
+[ai_queue1,barrows_karil] ~npc_default_retaliate_ap;
+[ai_queue1,barrows_dharok] gosub(npc_default_retaliate);
+[ai_queue1,barrows_guthan] gosub(npc_default_retaliate);
+[ai_queue1,barrows_torag] gosub(npc_default_retaliate);
+[ai_queue1,barrows_verac] gosub(npc_default_retaliate);
+
+[ai_queue3,barrows_ahrim] @barrows_brother_death(1);
+[ai_queue3,barrows_dharok] @barrows_brother_death(2);
+[ai_queue3,barrows_guthan] @barrows_brother_death(3);
+[ai_queue3,barrows_karil] @barrows_brother_death(4);
+[ai_queue3,barrows_torag] @barrows_brother_death(5);
+[ai_queue3,barrows_verac] @barrows_brother_death(6);
+
+[label,barrows_brother_death](int $b)
+if (finduid(%npc_barrows_owner) = true) {
+    queue(barrows_brother_killed, 0, $b);
+}
+gosub(npc_death);
+
+[queue,barrows_brother_killed](int $b)
+~barrows_set_killed($b);
+~barrows_add_potential(enum(int, int, barrows_brother_level, $b));
+~barrows_update_overlay;
+
+// ---- attacks ----
+
+[ai_opplayer2,barrows_dharok] ~barrows_melee_attack(2);
+[ai_opplayer2,barrows_guthan] ~barrows_melee_attack(3);
+[ai_opplayer2,barrows_torag] ~barrows_melee_attack(5);
+[ai_opplayer2,barrows_verac] ~barrows_melee_attack(6);
+
+[ai_opplayer2,barrows_karil] npc_setmode(applayer2);
+[ai_applayer2,barrows_karil]
+def_int $before = %npc_action_delay;
+~npc_rangeattack;
+if (%npc_action_delay ! $before & random(4) = 0) {
+    // Karil's tainted shot: Agility -20% (approx: OSRS player set effect)
+    stat_sub(agility, 0, 20);
+    spotanim_pl(barrows_karil_tainted_shot, 0, 30);
+}
+
+[ai_opplayer2,barrows_ahrim] npc_setmode(applayer2);
+[ai_applayer2,barrows_ahrim]
+// Fire Wave, max hit 25 (OSRS Wiki), sometimes a Confuse/Weaken/Curse instead (approx: 1 in 5)
+def_int $before = %npc_action_delay;
+def_int $spell = ^fire_wave;
+if (random(5) = 0) {
+    switch_int (random(3)) {
+        case 0 : $spell = ^confuse;
+        case 1 : $spell = ^weaken;
+        case default : $spell = ^curse;
+    }
+    ~npc_cast_spell($spell, 6);
+} else {
+    ~npc_cast_spell_with_forced_max_hit($spell, 6, 25);
+}
+if (%npc_action_delay ! $before & random(4) = 0) {
+    // blighted aura: Strength -5
+    stat_sub(strength, 5, 0);
+    spotanim_pl(barrows_ahirm_blighted_aura, 0, 30);
+}
+
+// ~npc_default_attack + ~npc_meleeattack with the brothers' set effects folded in.
+[proc,barrows_melee_attack](int $b)
+if (%death = ^true) {
+    npc_setmode(null);
+    return;
+}
+if (%npc_action_delay > map_clock) return;
+if (~npc_check_notcombat = false) {
+    npc_setmode(null);
+    return;
+}
+if (~npc_check_notcombat_self = false) {
+    return;
+}
+anim(%com_defendanim, 0);
+npc_anim(npc_param(attack_anim), 0);
+if (npc_param(attack_sound) ! null) {
+    sound_synth(npc_param(attack_sound), 0, 0);
+}
+
+def_boolean $effect = false;
+if (random(4) = 0) {
+    $effect = true;
+}
+
+def_int $maxhit = ~npc_melee_maxhit;
+if ($b = 2) {
+    // Dharok: max hit scales with missing HP, like his set effect: max * (1 + lost/100 * maxhp/100)
+    def_int $lost = sub(npc_basestat(hitpoints), npc_stat(hitpoints));
+    $maxhit = add($maxhit, scale(multiply($lost, npc_basestat(hitpoints)), 10000, $maxhit));
+}
+
+def_int $damage = 0;
+if ($b = 6 & $effect = true) {
+    // Verac: the hit ignores Defence and protection prayers
+    $damage = randominc($maxhit);
+} else if (randominc(~npc_melee_attack_roll) > randominc(~player_defence_roll_specific(npc_param(damagetype)))) {
+    $damage = randominc($maxhit);
+}
+
+if ($effect = true & $damage > 0) {
+    if ($b = 3) {
+        // Guthan: heals by the damage dealt
+        npc_statheal(hitpoints, $damage, 0);
+        spotanim_pl(barrows_guthan_effect, 0, 0);
+    } else if ($b = 5) {
+        // Torag: drains 20% run energy
+        healenergy(-2000);
+        spotanim_pl(barrows_torag_effect, 0, 0);
+    }
+}
+~playerhit_n_melee($damage, npc_param(attackrate));

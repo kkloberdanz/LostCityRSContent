@@ -1,0 +1,28 @@
+// Crypt monsters in the tunnels. Each kill adds 1 to the overlay kill count and the monster's combat level
+// to the reward potential (OSRS Wiki, Chest (Barrows)). Levels from OSRS Wiki, Barrows tunnels.
+
+[ai_queue3,barrows_rat] @barrows_monster_death(43);
+[ai_queue3,barrows_bloodworm] @barrows_monster_death(52);
+[ai_queue3,barrows_spider] @barrows_monster_death(56);
+[ai_queue3,barrows_giantrat] @barrows_monster_death(76);
+[ai_queue3,barrows_skeleton_unarmed] @barrows_monster_death(77);
+[ai_queue3,barrows_skeleton_armed] @barrows_monster_death(77);
+[ai_queue3,barrows_giantspider] @barrows_monster_death(79);
+
+[label,barrows_monster_death](int $level)
+if (npc_findhero = ^true) {
+    queue(barrows_monster_killed, 0, $level);
+}
+gosub(npc_death);
+if (npc_findhero = ^false) {
+    return;
+}
+if (npc_param(death_drop) ! null) {
+    obj_add(npc_coord, npc_param(death_drop), 1, ^lootdrop_duration);
+}
+
+[queue,barrows_monster_killed](int $level)
+if (~barrows_in_tunnels = true & %barrows_looted = 0) {
+    %barrows_killed_count = min(32767, add(%barrows_killed_count, 1));
+    ~barrows_add_potential($level);
+}
