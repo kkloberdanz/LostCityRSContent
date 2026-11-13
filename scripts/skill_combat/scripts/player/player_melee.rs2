@@ -53,6 +53,7 @@ if ($weapon ! null) {
 }
 
 //mes("attackstyle: <tostring(%attackstyle)>, damagestyle: <tostring(%damagestyle)>, damage: <tostring($damage)>, damagetype: <tostring(%damagetype)>");
+~barrows_degrade_combat;
 anim(%com_attackanim, 0);
 sound_synth(%com_attacksound, 0, 0);
 ~npc_retaliate(0);

@@ -2,3 +2,13 @@
 [barrows_set]
 type=int
 default=0
+
+// degradation (phase 4): piece 1-24 = (brother-1)*4 + slot + 1 (slot 0 head, 1 body, 2 legs, 3 weapon)
+[barrows_piece]
+type=int
+default=0
+
+// 0 fresh, 1 "100", 2 "75", 3 "50", 4 "25", 5 broken
+[barrows_stage]
+type=int
+default=0

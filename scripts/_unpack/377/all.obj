@@ -55602,6 +55602,8 @@ param=slashdefence,13
 param=crushdefence,16
 param=magicdefence,6
 param=barrows_set,1
+param=barrows_piece,1
+param=barrows_stage,0
 
 [cert_barrows_ahrim_head]
 certlink=barrows_ahrim_head
@@ -55647,6 +55649,8 @@ param=crushattack_anim,barrows_quarterstaff_attack
 param=defend_anim,barrows_quarterstaff_defend
 param=crush_sound,staff_hit
 param=barrows_set,1
+param=barrows_piece,4
+param=barrows_stage,0
 
 [cert_barrows_ahrim_weapon]
 certlink=barrows_ahrim_weapon
@@ -55680,6 +55684,8 @@ param=slashdefence,37
 param=crushdefence,63
 param=magicdefence,30
 param=barrows_set,1
+param=barrows_piece,2
+param=barrows_stage,0
 
 [cert_barrows_ahrim_body]
 certlink=barrows_ahrim_body
@@ -55710,6 +55716,8 @@ param=slashdefence,30
 param=crushdefence,36
 param=magicdefence,22
 param=barrows_set,1
+param=barrows_piece,3
+param=barrows_stage,0
 
 [cert_barrows_ahrim_legs]
 certlink=barrows_ahrim_legs
@@ -55746,6 +55754,8 @@ param=crushdefence,44
 param=magicdefence,-1
 param=rangedefence,51
 param=barrows_set,2
+param=barrows_piece,5
+param=barrows_stage,0
 
 [cert_barrows_dharok_head]
 certlink=barrows_dharok_head
@@ -55787,6 +55797,8 @@ param=defend_anim,human_axe_block
 param=slash_sound,dharok_axe_slash
 param=crush_sound,dharok_axe_crush
 param=barrows_set,2
+param=barrows_piece,8
+param=barrows_stage,0
 
 [cert_barrows_dharok_weapon]
 certlink=barrows_dharok_weapon
@@ -55822,6 +55834,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,2
+param=barrows_piece,6
+param=barrows_stage,0
 
 [cert_barrows_dharok_body]
 certlink=barrows_dharok_body
@@ -55854,6 +55868,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,2
+param=barrows_piece,7
+param=barrows_stage,0
 
 [cert_barrows_dharok_legs]
 certlink=barrows_dharok_legs
@@ -55890,6 +55906,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,3
+param=barrows_piece,9
+param=barrows_stage,0
 
 [cert_barrows_guthan_head]
 certlink=barrows_guthan_head
@@ -55940,6 +55958,8 @@ param=stab_sound,staff_stab
 param=slash_sound,staff_hit
 param=crush_sound,staff_hit
 param=barrows_set,3
+param=barrows_piece,12
+param=barrows_stage,0
 
 [cert_barrows_guthan_weapon]
 certlink=barrows_guthan_weapon
@@ -55974,6 +55994,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,3
+param=barrows_piece,10
+param=barrows_stage,0
 
 [cert_barrows_guthan_body]
 certlink=barrows_guthan_body
@@ -56007,6 +56029,8 @@ param=crushdefence,73
 param=magicdefence,-4
 param=rangedefence,82
 param=barrows_set,3
+param=barrows_piece,11
+param=barrows_stage,0
 
 [cert_barrows_guthan_legs]
 certlink=barrows_guthan_legs
@@ -56051,6 +56075,8 @@ param=crushdefence,12
 param=magicdefence,6
 param=rangedefence,10
 param=barrows_set,4
+param=barrows_piece,13
+param=barrows_stage,0
 
 [cert_barrows_karil_head]
 certlink=barrows_karil_head
@@ -56097,6 +56123,8 @@ param=rangeattack_anim,barrows_repeating_crossbow_fire
 param=defend_anim,human_unarmedblock
 param=rangeattack_sound,crossbow
 param=barrows_set,4
+param=barrows_piece,16
+param=barrows_stage,0
 
 [cert_barrows_karil_weapon]
 certlink=barrows_karil_weapon
@@ -56137,6 +56165,8 @@ param=crushdefence,50
 param=magicdefence,65
 param=rangedefence,57
 param=barrows_set,4
+param=barrows_piece,14
+param=barrows_stage,0
 
 [cert_barrows_karil_body]
 certlink=barrows_karil_body
@@ -56175,6 +56205,8 @@ param=crushdefence,28
 param=magicdefence,35
 param=rangedefence,33
 param=barrows_set,4
+param=barrows_piece,15
+param=barrows_stage,0
 
 [cert_barrows_karil_legs]
 certlink=barrows_karil_legs
@@ -56312,6 +56344,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,5
+param=barrows_piece,17
+param=barrows_stage,0
 
 [cert_barrows_torag_head]
 certlink=barrows_torag_head
@@ -56345,6 +56379,8 @@ param=crushattack_anim,barrow_torag_crush
 param=defend_anim,human_blunt_block
 param=crush_sound,torag_crush
 param=barrows_set,5
+param=barrows_piece,20
+param=barrows_stage,0
 
 [cert_barrows_torag_weapon]
 certlink=barrows_torag_weapon
@@ -56379,6 +56415,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,5
+param=barrows_piece,18
+param=barrows_stage,0
 
 [cert_barrows_torag_body]
 certlink=barrows_torag_body
@@ -56408,6 +56446,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,5
+param=barrows_piece,19
+param=barrows_stage,0
 
 [cert_barrows_torag_legs]
 certlink=barrows_torag_legs
@@ -56453,6 +56493,8 @@ param=crushdefence,54
 param=rangedefence,56
 param=prayerbonus,3
 param=barrows_set,6
+param=barrows_piece,21
+param=barrows_stage,0
 
 [cert_barrows_verac_head]
 certlink=barrows_verac_head
@@ -56493,6 +56535,8 @@ param=defend_anim,barrow_guthan_defend
 param=stab_sound,flail_stab
 param=crush_sound,flail_crush
 param=barrows_set,6
+param=barrows_piece,24
+param=barrows_stage,0
 
 [cert_barrows_verac_weapon]
 certlink=barrows_verac_weapon
@@ -56535,6 +56579,8 @@ param=crushdefence,85
 param=rangedefence,81
 param=prayerbonus,5
 param=barrows_set,6
+param=barrows_piece,22
+param=barrows_stage,0
 
 [cert_barrows_verac_body]
 certlink=barrows_verac_body
@@ -56569,6 +56615,8 @@ param=crushdefence,83
 param=rangedefence,84
 param=prayerbonus,4
 param=barrows_set,6
+param=barrows_piece,23
+param=barrows_stage,0
 
 [cert_barrows_verac_legs]
 certlink=barrows_verac_legs
@@ -57961,6 +58009,8 @@ param=slashdefence,13
 param=crushdefence,16
 param=magicdefence,6
 param=barrows_set,1
+param=barrows_piece,1
+param=barrows_stage,1
 
 [barrows_ahrim_head_75]
 name=Ahrims hood 75
@@ -57987,6 +58037,8 @@ param=slashdefence,13
 param=crushdefence,16
 param=magicdefence,6
 param=barrows_set,1
+param=barrows_piece,1
+param=barrows_stage,2
 
 [barrows_ahrim_head_50]
 name=Ahrims hood 50
@@ -58013,6 +58065,8 @@ param=slashdefence,13
 param=crushdefence,16
 param=magicdefence,6
 param=barrows_set,1
+param=barrows_piece,1
+param=barrows_stage,3
 
 [barrows_ahrim_head_25]
 name=Ahrims hood 25
@@ -58039,6 +58093,8 @@ param=slashdefence,13
 param=crushdefence,16
 param=magicdefence,6
 param=barrows_set,1
+param=barrows_piece,1
+param=barrows_stage,4
 
 [barrows_ahrim_head_broken]
 name=Ahrims hood 0
@@ -58057,6 +58113,8 @@ model=obj_barrows_ahrim_head_broken
 weight=2lb
 wearpos=hat
 wearpos2=head
+param=barrows_piece,1
+param=barrows_stage,5
 
 [cert_barrows_ahrim_head_broken]
 certlink=barrows_ahrim_head_broken
@@ -58102,6 +58160,8 @@ param=crushattack_anim,barrows_quarterstaff_attack
 param=defend_anim,barrows_quarterstaff_defend
 param=crush_sound,staff_hit
 param=barrows_set,1
+param=barrows_piece,4
+param=barrows_stage,1
 
 [barrows_ahrim_weapon_75]
 name=Ahrims staff 75
@@ -58143,6 +58203,8 @@ param=crushattack_anim,barrows_quarterstaff_attack
 param=defend_anim,barrows_quarterstaff_defend
 param=crush_sound,staff_hit
 param=barrows_set,1
+param=barrows_piece,4
+param=barrows_stage,2
 
 [barrows_ahrim_weapon_50]
 name=Ahrims staff 50
@@ -58184,6 +58246,8 @@ param=crushattack_anim,barrows_quarterstaff_attack
 param=defend_anim,barrows_quarterstaff_defend
 param=crush_sound,staff_hit
 param=barrows_set,1
+param=barrows_piece,4
+param=barrows_stage,3
 
 [barrows_ahrim_weapon_25]
 name=Ahrims staff 25
@@ -58225,6 +58289,8 @@ param=crushattack_anim,barrows_quarterstaff_attack
 param=defend_anim,barrows_quarterstaff_defend
 param=crush_sound,staff_hit
 param=barrows_set,1
+param=barrows_piece,4
+param=barrows_stage,4
 
 [barrows_ahrim_weapon_broken]
 name=Ahrims staff 0
@@ -58249,6 +58315,8 @@ womanwear=obj_barrows_ahrim_weapon_manwear,6
 model=obj_barrows_ahrim_weapon_broken
 weight=5lb
 wearpos=righthand
+param=barrows_piece,4
+param=barrows_stage,5
 
 [cert_barrows_ahrim_weapon_broken]
 certlink=barrows_ahrim_weapon_broken
@@ -58282,6 +58350,8 @@ param=slashdefence,37
 param=crushdefence,63
 param=magicdefence,30
 param=barrows_set,1
+param=barrows_piece,2
+param=barrows_stage,1
 
 [barrows_ahrim_body_75]
 name=Ahrims top 75
@@ -58311,6 +58381,8 @@ param=slashdefence,37
 param=crushdefence,63
 param=magicdefence,30
 param=barrows_set,1
+param=barrows_piece,2
+param=barrows_stage,2
 
 [barrows_ahrim_body_50]
 name=Ahrims top 50
@@ -58340,6 +58412,8 @@ param=slashdefence,37
 param=crushdefence,63
 param=magicdefence,30
 param=barrows_set,1
+param=barrows_piece,2
+param=barrows_stage,3
 
 [barrows_ahrim_body_25]
 name=Ahrims top 25
@@ -58369,6 +58443,8 @@ param=slashdefence,37
 param=crushdefence,63
 param=magicdefence,30
 param=barrows_set,1
+param=barrows_piece,2
+param=barrows_stage,4
 
 [barrows_ahrim_body_broken]
 name=Ahrims top 0
@@ -58390,6 +58466,8 @@ model=obj_barrows_ahrim_body_broken
 weight=10lb
 wearpos=torso
 wearpos2=arms
+param=barrows_piece,2
+param=barrows_stage,5
 
 [cert_barrows_ahrim_body_broken]
 certlink=barrows_ahrim_body_broken
@@ -58420,6 +58498,8 @@ param=slashdefence,30
 param=crushdefence,36
 param=magicdefence,22
 param=barrows_set,1
+param=barrows_piece,3
+param=barrows_stage,1
 
 [barrows_ahrim_legs_75]
 name=Ahrims skirt 75
@@ -58446,6 +58526,8 @@ param=slashdefence,30
 param=crushdefence,36
 param=magicdefence,22
 param=barrows_set,1
+param=barrows_piece,3
+param=barrows_stage,2
 
 [barrows_ahrim_legs_50]
 name=Ahrims skirt 50
@@ -58472,6 +58554,8 @@ param=slashdefence,30
 param=crushdefence,36
 param=magicdefence,22
 param=barrows_set,1
+param=barrows_piece,3
+param=barrows_stage,3
 
 [barrows_ahrim_legs_25]
 name=Ahrims skirt 25
@@ -58498,6 +58582,8 @@ param=slashdefence,30
 param=crushdefence,36
 param=magicdefence,22
 param=barrows_set,1
+param=barrows_piece,3
+param=barrows_stage,4
 
 [barrows_ahrim_legs_broken]
 name=Ahrims skirt 0
@@ -58516,6 +58602,8 @@ womanwear=obj_barrows_ahrim_legs_womanwear,0
 model=obj_barrows_ahrim_legs_broken
 weight=25lb
 wearpos=legs
+param=barrows_piece,3
+param=barrows_stage,5
 
 [cert_barrows_ahrim_legs_broken]
 certlink=barrows_ahrim_legs_broken
@@ -58552,6 +58640,8 @@ param=crushdefence,44
 param=magicdefence,-1
 param=rangedefence,51
 param=barrows_set,2
+param=barrows_piece,5
+param=barrows_stage,1
 
 [barrows_dharok_head_75]
 name=Dharoks helm 75
@@ -58584,6 +58674,8 @@ param=crushdefence,44
 param=magicdefence,-1
 param=rangedefence,51
 param=barrows_set,2
+param=barrows_piece,5
+param=barrows_stage,2
 
 [barrows_dharok_head_50]
 name=Dharoks helm 50
@@ -58616,6 +58708,8 @@ param=crushdefence,44
 param=magicdefence,-1
 param=rangedefence,51
 param=barrows_set,2
+param=barrows_piece,5
+param=barrows_stage,3
 
 [barrows_dharok_head_25]
 name=Dharoks helm 25
@@ -58648,6 +58742,8 @@ param=crushdefence,44
 param=magicdefence,-1
 param=rangedefence,51
 param=barrows_set,2
+param=barrows_piece,5
+param=barrows_stage,4
 
 [barrows_dharok_head_broken]
 name=Dharoks helm 0
@@ -58671,6 +58767,8 @@ model=obj_barrows_dharok_head_broken
 weight=4lb
 wearpos=hat
 wearpos2=head
+param=barrows_piece,5
+param=barrows_stage,5
 
 [cert_barrows_dharok_head_broken]
 certlink=barrows_dharok_head_broken
@@ -58712,6 +58810,8 @@ param=defend_anim,human_axe_block
 param=slash_sound,dharok_axe_slash
 param=crush_sound,dharok_axe_crush
 param=barrows_set,2
+param=barrows_piece,8
+param=barrows_stage,1
 
 [barrows_dharok_weapon_75]
 name=Dharoks axe 75
@@ -58749,6 +58849,8 @@ param=defend_anim,human_axe_block
 param=slash_sound,dharok_axe_slash
 param=crush_sound,dharok_axe_crush
 param=barrows_set,2
+param=barrows_piece,8
+param=barrows_stage,2
 
 [barrows_dharok_weapon_50]
 name=Dharoks axe 50
@@ -58786,6 +58888,8 @@ param=defend_anim,human_axe_block
 param=slash_sound,dharok_axe_slash
 param=crush_sound,dharok_axe_crush
 param=barrows_set,2
+param=barrows_piece,8
+param=barrows_stage,3
 
 [barrows_dharok_weapon_25]
 name=Dharoks axe 25
@@ -58823,6 +58927,8 @@ param=defend_anim,human_axe_block
 param=slash_sound,dharok_axe_slash
 param=crush_sound,dharok_axe_crush
 param=barrows_set,2
+param=barrows_piece,8
+param=barrows_stage,4
 
 [barrows_dharok_weapon_broken]
 name=Dharoks axe 0
@@ -58839,6 +58945,8 @@ model=obj_barrows_dharok_weapon_broken
 weight=7lb
 wearpos=righthand
 wearpos2=lefthand
+param=barrows_piece,8
+param=barrows_stage,5
 
 [cert_barrows_dharok_weapon_broken]
 certlink=barrows_dharok_weapon_broken
@@ -58874,6 +58982,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,2
+param=barrows_piece,6
+param=barrows_stage,1
 
 [barrows_dharok_body_75]
 name=Dharoks body 75
@@ -58905,6 +59015,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,2
+param=barrows_piece,6
+param=barrows_stage,2
 
 [barrows_dharok_body_50]
 name=Dharoks body 50
@@ -58936,6 +59048,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,2
+param=barrows_piece,6
+param=barrows_stage,3
 
 [barrows_dharok_body_25]
 name=Dharoks body 25
@@ -58967,6 +59081,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,2
+param=barrows_piece,6
+param=barrows_stage,4
 
 [barrows_dharok_body_broken]
 name=Dharoks body 0
@@ -58989,6 +59105,8 @@ model=obj_barrows_dharok_body_broken
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=barrows_piece,6
+param=barrows_stage,5
 
 [cert_barrows_dharok_body_broken]
 certlink=barrows_dharok_body_broken
@@ -59021,6 +59139,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,2
+param=barrows_piece,7
+param=barrows_stage,1
 
 [barrows_dharok_legs_75]
 name=Dharoks legs 75
@@ -59049,6 +59169,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,2
+param=barrows_piece,7
+param=barrows_stage,2
 
 [barrows_dharok_legs_50]
 name=Dharoks legs 50
@@ -59077,6 +59199,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,2
+param=barrows_piece,7
+param=barrows_stage,3
 
 [barrows_dharok_legs_25]
 name=Dharoks legs 25
@@ -59105,6 +59229,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,2
+param=barrows_piece,7
+param=barrows_stage,4
 
 [barrows_dharok_legs_broken]
 name=Dharoks legs 0
@@ -59124,6 +59250,8 @@ model=obj_barrows_dharok_legs_broken
 2dxan=456
 weight=20lb
 wearpos=legs
+param=barrows_piece,7
+param=barrows_stage,5
 
 [cert_barrows_dharok_legs_broken]
 certlink=barrows_dharok_legs_broken
@@ -59160,6 +59288,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,3
+param=barrows_piece,9
+param=barrows_stage,1
 
 [barrows_guthan_head_75]
 name=Guthans helm 75
@@ -59192,6 +59322,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,3
+param=barrows_piece,9
+param=barrows_stage,2
 
 [barrows_guthan_head_50]
 name=Guthans helm 50
@@ -59224,6 +59356,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,3
+param=barrows_piece,9
+param=barrows_stage,3
 
 [barrows_guthan_head_25]
 name=Guthans helm 25
@@ -59256,6 +59390,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,3
+param=barrows_piece,9
+param=barrows_stage,4
 
 [barrows_guthan_head_broken]
 name=Guthans helm 0
@@ -59279,6 +59415,8 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=barrows_piece,9
+param=barrows_stage,5
 
 [cert_barrows_guthan_head_broken]
 certlink=barrows_guthan_head_broken
@@ -59329,6 +59467,8 @@ param=stab_sound,staff_stab
 param=slash_sound,staff_hit
 param=crush_sound,staff_hit
 param=barrows_set,3
+param=barrows_piece,12
+param=barrows_stage,1
 
 [barrows_guthan_weapon_75]
 name=Guthans spear 75
@@ -59375,6 +59515,8 @@ param=stab_sound,staff_stab
 param=slash_sound,staff_hit
 param=crush_sound,staff_hit
 param=barrows_set,3
+param=barrows_piece,12
+param=barrows_stage,2
 
 [barrows_guthan_weapon_50]
 name=Guthans spear 50
@@ -59421,6 +59563,8 @@ param=stab_sound,staff_stab
 param=slash_sound,staff_hit
 param=crush_sound,staff_hit
 param=barrows_set,3
+param=barrows_piece,12
+param=barrows_stage,3
 
 [barrows_guthan_weapon_25]
 name=Guthans spear 25
@@ -59467,6 +59611,8 @@ param=stab_sound,staff_stab
 param=slash_sound,staff_hit
 param=crush_sound,staff_hit
 param=barrows_set,3
+param=barrows_piece,12
+param=barrows_stage,4
 
 [barrows_guthan_weapon_broken]
 name=Guthans spear 0
@@ -59494,6 +59640,8 @@ model=obj_barrows_guthan_weapon_broken
 weight=5lb
 wearpos=righthand
 wearpos2=lefthand
+param=barrows_piece,12
+param=barrows_stage,5
 
 [cert_barrows_guthan_weapon_broken]
 certlink=barrows_guthan_weapon_broken
@@ -59528,6 +59676,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,3
+param=barrows_piece,10
+param=barrows_stage,1
 
 [barrows_guthan_body_75]
 name=Guthans body 75
@@ -59558,6 +59708,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,3
+param=barrows_piece,10
+param=barrows_stage,2
 
 [barrows_guthan_body_50]
 name=Guthans body 50
@@ -59588,6 +59740,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,3
+param=barrows_piece,10
+param=barrows_stage,3
 
 [barrows_guthan_body_25]
 name=Guthans body 25
@@ -59618,6 +59772,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,3
+param=barrows_piece,10
+param=barrows_stage,4
 
 [barrows_guthan_body_broken]
 name=Guthans body 0
@@ -59639,6 +59795,8 @@ model=obj_barrows_guthan_body_broken
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=barrows_piece,10
+param=barrows_stage,5
 
 [cert_barrows_guthan_body_broken]
 certlink=barrows_guthan_body_broken
@@ -59672,6 +59830,8 @@ param=crushdefence,73
 param=magicdefence,-4
 param=rangedefence,82
 param=barrows_set,3
+param=barrows_piece,11
+param=barrows_stage,1
 
 [barrows_guthan_legs_75]
 name=Guthans skirt 75
@@ -59701,6 +59861,8 @@ param=crushdefence,73
 param=magicdefence,-4
 param=rangedefence,82
 param=barrows_set,3
+param=barrows_piece,11
+param=barrows_stage,2
 
 [barrows_guthan_legs_50]
 name=Guthans skirt 50
@@ -59730,6 +59892,8 @@ param=crushdefence,73
 param=magicdefence,-4
 param=rangedefence,82
 param=barrows_set,3
+param=barrows_piece,11
+param=barrows_stage,3
 
 [barrows_guthan_legs_25]
 name=Guthans skirt 25
@@ -59759,6 +59923,8 @@ param=crushdefence,73
 param=magicdefence,-4
 param=rangedefence,82
 param=barrows_set,3
+param=barrows_piece,11
+param=barrows_stage,4
 
 [barrows_guthan_legs_broken]
 name=Guthans skirt 0
@@ -59779,6 +59945,8 @@ model=obj_barrows_guthan_legs_broken
 2dxan=468
 weight=18lb
 wearpos=legs
+param=barrows_piece,11
+param=barrows_stage,5
 
 [cert_barrows_guthan_legs_broken]
 certlink=barrows_guthan_legs_broken
@@ -59823,6 +59991,8 @@ param=crushdefence,12
 param=magicdefence,6
 param=rangedefence,10
 param=barrows_set,4
+param=barrows_piece,13
+param=barrows_stage,1
 
 [barrows_karil_head_75]
 name=Karils coif 75
@@ -59863,6 +60033,8 @@ param=crushdefence,12
 param=magicdefence,6
 param=rangedefence,10
 param=barrows_set,4
+param=barrows_piece,13
+param=barrows_stage,2
 
 [barrows_karil_head_50]
 name=Karils coif 50
@@ -59903,6 +60075,8 @@ param=crushdefence,12
 param=magicdefence,6
 param=rangedefence,10
 param=barrows_set,4
+param=barrows_piece,13
+param=barrows_stage,3
 
 [barrows_karil_head_25]
 name=Karils coif 25
@@ -59943,6 +60117,8 @@ param=crushdefence,12
 param=magicdefence,6
 param=rangedefence,10
 param=barrows_set,4
+param=barrows_piece,13
+param=barrows_stage,4
 
 [barrows_karil_head_broken]
 name=Karils coif 0
@@ -59974,6 +60150,8 @@ weight=2lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=barrows_piece,13
+param=barrows_stage,5
 
 [cert_barrows_karil_head_broken]
 certlink=barrows_karil_head_broken
@@ -60020,6 +60198,8 @@ param=rangeattack_anim,barrows_repeating_crossbow_fire
 param=defend_anim,human_unarmedblock
 param=rangeattack_sound,crossbow
 param=barrows_set,4
+param=barrows_piece,16
+param=barrows_stage,1
 
 [barrows_karil_weapon_75]
 name=Karils x-bow 75
@@ -60062,6 +60242,8 @@ param=rangeattack_anim,barrows_repeating_crossbow_fire
 param=defend_anim,human_unarmedblock
 param=rangeattack_sound,crossbow
 param=barrows_set,4
+param=barrows_piece,16
+param=barrows_stage,2
 
 [barrows_karil_weapon_50]
 name=Karils x-bow 50
@@ -60104,6 +60286,8 @@ param=rangeattack_anim,barrows_repeating_crossbow_fire
 param=defend_anim,human_unarmedblock
 param=rangeattack_sound,crossbow
 param=barrows_set,4
+param=barrows_piece,16
+param=barrows_stage,3
 
 [barrows_karil_weapon_25]
 name=Karils x-bow 25
@@ -60146,6 +60330,8 @@ param=rangeattack_anim,barrows_repeating_crossbow_fire
 param=defend_anim,human_unarmedblock
 param=rangeattack_sound,crossbow
 param=barrows_set,4
+param=barrows_piece,16
+param=barrows_stage,4
 
 [barrows_karil_weapon_broken]
 name=Karils x-bow 0
@@ -60171,6 +60357,8 @@ model=obj_barrows_karil_weapon_broken
 weight=8lb
 wearpos=righthand
 wearpos2=lefthand
+param=barrows_piece,16
+param=barrows_stage,5
 
 [cert_barrows_karil_weapon_broken]
 certlink=barrows_karil_weapon_broken
@@ -60211,6 +60399,8 @@ param=crushdefence,50
 param=magicdefence,65
 param=rangedefence,57
 param=barrows_set,4
+param=barrows_piece,14
+param=barrows_stage,1
 
 [barrows_karil_body_75]
 name=Karils top 75
@@ -60247,6 +60437,8 @@ param=crushdefence,50
 param=magicdefence,65
 param=rangedefence,57
 param=barrows_set,4
+param=barrows_piece,14
+param=barrows_stage,2
 
 [barrows_karil_body_50]
 name=Karils top 50
@@ -60283,6 +60475,8 @@ param=crushdefence,50
 param=magicdefence,65
 param=rangedefence,57
 param=barrows_set,4
+param=barrows_piece,14
+param=barrows_stage,3
 
 [barrows_karil_body_25]
 name=Karils top 25
@@ -60319,6 +60513,8 @@ param=crushdefence,50
 param=magicdefence,65
 param=rangedefence,57
 param=barrows_set,4
+param=barrows_piece,14
+param=barrows_stage,4
 
 [barrows_karil_body_broken]
 name=Karils top 0
@@ -60346,6 +60542,8 @@ model=obj_barrows_karil_body_broken
 weight=15lb
 wearpos=torso
 wearpos2=arms
+param=barrows_piece,14
+param=barrows_stage,5
 
 [cert_barrows_karil_body_broken]
 certlink=barrows_karil_body_broken
@@ -60384,6 +60582,8 @@ param=crushdefence,28
 param=magicdefence,35
 param=rangedefence,33
 param=barrows_set,4
+param=barrows_piece,15
+param=barrows_stage,1
 
 [barrows_karil_legs_75]
 name=Karils skirt 75
@@ -60418,6 +60618,8 @@ param=crushdefence,28
 param=magicdefence,35
 param=rangedefence,33
 param=barrows_set,4
+param=barrows_piece,15
+param=barrows_stage,2
 
 [barrows_karil_legs_50]
 name=Karils skirt 50
@@ -60452,6 +60654,8 @@ param=crushdefence,28
 param=magicdefence,35
 param=rangedefence,33
 param=barrows_set,4
+param=barrows_piece,15
+param=barrows_stage,3
 
 [barrows_karil_legs_25]
 name=Karils skirt 25
@@ -60486,6 +60690,8 @@ param=crushdefence,28
 param=magicdefence,35
 param=rangedefence,33
 param=barrows_set,4
+param=barrows_piece,15
+param=barrows_stage,4
 
 [barrows_karil_legs_broken]
 name=Karils skirt 0
@@ -60511,6 +60717,8 @@ womanwear=obj_barrows_karil_legs_womanwear,0
 model=obj_barrows_karil_legs_broken
 weight=12lb
 wearpos=legs
+param=barrows_piece,15
+param=barrows_stage,5
 
 [cert_barrows_karil_legs_broken]
 certlink=barrows_karil_legs_broken
@@ -60546,6 +60754,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,5
+param=barrows_piece,17
+param=barrows_stage,1
 
 [barrows_torag_head_75]
 name=Torags helm 75
@@ -60577,6 +60787,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,5
+param=barrows_piece,17
+param=barrows_stage,2
 
 [barrows_torag_head_50]
 name=Torags helm 50
@@ -60608,6 +60820,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,5
+param=barrows_piece,17
+param=barrows_stage,3
 
 [barrows_torag_head_25]
 name=Torags helm 25
@@ -60639,6 +60853,8 @@ param=crushdefence,54
 param=magicdefence,-1
 param=rangedefence,62
 param=barrows_set,5
+param=barrows_piece,17
+param=barrows_stage,4
 
 [barrows_torag_head_broken]
 name=Torags helm 0
@@ -60661,6 +60877,8 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=barrows_piece,17
+param=barrows_stage,5
 
 [cert_barrows_torag_head_broken]
 certlink=barrows_torag_head_broken
@@ -60694,6 +60912,8 @@ param=crushattack_anim,barrow_torag_crush
 param=defend_anim,human_blunt_block
 param=crush_sound,torag_crush
 param=barrows_set,5
+param=barrows_piece,20
+param=barrows_stage,1
 
 [barrows_torag_weapon_75]
 name=Torags hammer 75
@@ -60723,6 +60943,8 @@ param=crushattack_anim,barrow_torag_crush
 param=defend_anim,human_blunt_block
 param=crush_sound,torag_crush
 param=barrows_set,5
+param=barrows_piece,20
+param=barrows_stage,2
 
 [barrows_torag_weapon_50]
 name=Torags hammer 50
@@ -60752,6 +60974,8 @@ param=crushattack_anim,barrow_torag_crush
 param=defend_anim,human_blunt_block
 param=crush_sound,torag_crush
 param=barrows_set,5
+param=barrows_piece,20
+param=barrows_stage,3
 
 [barrows_torag_weapon_25]
 name=Torags hammer 25
@@ -60781,6 +61005,8 @@ param=crushattack_anim,barrow_torag_crush
 param=defend_anim,human_blunt_block
 param=crush_sound,torag_crush
 param=barrows_set,5
+param=barrows_piece,20
+param=barrows_stage,4
 
 [barrows_torag_weapon_broken]
 name=Torags hammer 0
@@ -60798,6 +61024,8 @@ model=obj_barrows_torag_weapon_broken
 weight=8lb
 wearpos=righthand
 wearpos2=lefthand
+param=barrows_piece,20
+param=barrows_stage,5
 
 [cert_barrows_torag_weapon_broken]
 certlink=barrows_torag_weapon_broken
@@ -60832,6 +61060,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,5
+param=barrows_piece,18
+param=barrows_stage,1
 
 [barrows_torag_body_75]
 name=Torags body 75
@@ -60862,6 +61092,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,5
+param=barrows_piece,18
+param=barrows_stage,2
 
 [barrows_torag_body_50]
 name=Torags body 50
@@ -60892,6 +61124,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,5
+param=barrows_piece,18
+param=barrows_stage,3
 
 [barrows_torag_body_25]
 name=Torags body 25
@@ -60922,6 +61156,8 @@ param=crushdefence,107
 param=magicdefence,-6
 param=rangedefence,132
 param=barrows_set,5
+param=barrows_piece,18
+param=barrows_stage,4
 
 [barrows_torag_body_broken]
 name=Torags body 0
@@ -60943,6 +61179,8 @@ model=obj_barrows_torag_body_broken
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=barrows_piece,18
+param=barrows_stage,5
 
 [cert_barrows_torag_body_broken]
 certlink=barrows_torag_body_broken
@@ -60972,6 +61210,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,5
+param=barrows_piece,19
+param=barrows_stage,1
 
 [barrows_torag_legs_75]
 name=Torags legs 75
@@ -60997,6 +61237,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,5
+param=barrows_piece,19
+param=barrows_stage,2
 
 [barrows_torag_legs_50]
 name=Torags legs 50
@@ -61022,6 +61264,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,5
+param=barrows_piece,19
+param=barrows_stage,3
 
 [barrows_torag_legs_25]
 name=Torags legs 25
@@ -61047,6 +61291,8 @@ param=crushdefence,83
 param=magicdefence,-4
 param=rangedefence,92
 param=barrows_set,5
+param=barrows_piece,19
+param=barrows_stage,4
 
 [barrows_torag_legs_broken]
 name=Torags legs 0
@@ -61063,6 +61309,8 @@ model=obj_barrows_torag_legs_broken
 2dxan=468
 weight=20lb
 wearpos=legs
+param=barrows_piece,19
+param=barrows_stage,5
 
 [cert_barrows_torag_legs_broken]
 certlink=barrows_torag_legs_broken
@@ -61108,6 +61356,8 @@ param=crushdefence,54
 param=rangedefence,56
 param=prayerbonus,3
 param=barrows_set,6
+param=barrows_piece,21
+param=barrows_stage,1
 
 [barrows_verac_head_75]
 name=Veracs helm 75
@@ -61149,6 +61399,8 @@ param=crushdefence,54
 param=rangedefence,56
 param=prayerbonus,3
 param=barrows_set,6
+param=barrows_piece,21
+param=barrows_stage,2
 
 [barrows_verac_head_50]
 name=Veracs helm 50
@@ -61190,6 +61442,8 @@ param=crushdefence,54
 param=rangedefence,56
 param=prayerbonus,3
 param=barrows_set,6
+param=barrows_piece,21
+param=barrows_stage,3
 
 [barrows_verac_head_25]
 name=Veracs helm 25
@@ -61231,6 +61485,8 @@ param=crushdefence,54
 param=rangedefence,56
 param=prayerbonus,3
 param=barrows_set,6
+param=barrows_piece,21
+param=barrows_stage,4
 
 [barrows_verac_head_broken]
 name=Veracs helm 0
@@ -61263,6 +61519,8 @@ weight=3lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=barrows_piece,21
+param=barrows_stage,5
 
 [cert_barrows_verac_head_broken]
 certlink=barrows_verac_head_broken
@@ -61303,6 +61561,8 @@ param=defend_anim,barrow_guthan_defend
 param=stab_sound,flail_stab
 param=crush_sound,flail_crush
 param=barrows_set,6
+param=barrows_piece,24
+param=barrows_stage,1
 
 [barrows_verac_weapon_75]
 name=Veracs flail 75
@@ -61339,6 +61599,8 @@ param=defend_anim,barrow_guthan_defend
 param=stab_sound,flail_stab
 param=crush_sound,flail_crush
 param=barrows_set,6
+param=barrows_piece,24
+param=barrows_stage,2
 
 [barrows_verac_weapon_50]
 name=Veracs flail 50
@@ -61375,6 +61637,8 @@ param=defend_anim,barrow_guthan_defend
 param=stab_sound,flail_stab
 param=crush_sound,flail_crush
 param=barrows_set,6
+param=barrows_piece,24
+param=barrows_stage,3
 
 [barrows_verac_weapon_25]
 name=Veracs flail 25
@@ -61411,6 +61675,8 @@ param=defend_anim,barrow_guthan_defend
 param=stab_sound,flail_stab
 param=crush_sound,flail_crush
 param=barrows_set,6
+param=barrows_piece,24
+param=barrows_stage,4
 
 [barrows_verac_weapon_broken]
 name=Veracs flail 0
@@ -61427,6 +61693,8 @@ model=obj_barrows_verac_weapon_broken
 weight=5lb
 wearpos=righthand
 wearpos2=lefthand
+param=barrows_piece,24
+param=barrows_stage,5
 
 [cert_barrows_verac_weapon_broken]
 certlink=barrows_verac_weapon_broken
@@ -61469,6 +61737,8 @@ param=crushdefence,85
 param=rangedefence,81
 param=prayerbonus,5
 param=barrows_set,6
+param=barrows_piece,22
+param=barrows_stage,1
 
 [barrows_verac_body_75]
 name=Veracs top 75
@@ -61507,6 +61777,8 @@ param=crushdefence,85
 param=rangedefence,81
 param=prayerbonus,5
 param=barrows_set,6
+param=barrows_piece,22
+param=barrows_stage,2
 
 [barrows_verac_body_50]
 name=Veracs top 50
@@ -61545,6 +61817,8 @@ param=crushdefence,85
 param=rangedefence,81
 param=prayerbonus,5
 param=barrows_set,6
+param=barrows_piece,22
+param=barrows_stage,3
 
 [barrows_verac_body_25]
 name=Veracs top 25
@@ -61583,6 +61857,8 @@ param=crushdefence,85
 param=rangedefence,81
 param=prayerbonus,5
 param=barrows_set,6
+param=barrows_piece,22
+param=barrows_stage,4
 
 [barrows_verac_body_broken]
 name=Veracs top 0
@@ -61612,6 +61888,8 @@ model=obj_barrows_verac_body_broken
 weight=11lb
 wearpos=torso
 wearpos2=arms
+param=barrows_piece,22
+param=barrows_stage,5
 
 [cert_barrows_verac_body_broken]
 certlink=barrows_verac_body_broken
@@ -61646,6 +61924,8 @@ param=crushdefence,83
 param=rangedefence,84
 param=prayerbonus,4
 param=barrows_set,6
+param=barrows_piece,23
+param=barrows_stage,1
 
 [barrows_verac_legs_75]
 name=Veracs skirt 75
@@ -61676,6 +61956,8 @@ param=crushdefence,83
 param=rangedefence,84
 param=prayerbonus,4
 param=barrows_set,6
+param=barrows_piece,23
+param=barrows_stage,2
 
 [barrows_verac_legs_50]
 name=Veracs skirt 50
@@ -61706,6 +61988,8 @@ param=crushdefence,83
 param=rangedefence,84
 param=prayerbonus,4
 param=barrows_set,6
+param=barrows_piece,23
+param=barrows_stage,3
 
 [barrows_verac_legs_25]
 name=Veracs skirt 25
@@ -61736,6 +62020,8 @@ param=crushdefence,83
 param=rangedefence,84
 param=prayerbonus,4
 param=barrows_set,6
+param=barrows_piece,23
+param=barrows_stage,4
 
 [barrows_verac_legs_broken]
 name=Veracs skirt 0
@@ -61757,6 +62043,8 @@ womanwear=obj_barrows_verac_legs_womanwear,0
 model=obj_barrows_verac_legs_broken
 weight=10lb
 wearpos=legs
+param=barrows_piece,23
+param=barrows_stage,5
 
 [cert_barrows_verac_legs_broken]
 certlink=barrows_verac_legs_broken

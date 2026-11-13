@@ -48,6 +48,7 @@ if ($barrows_effect = true) {
     ~barrows_effect_pvp($barrows_set, $damage);
 }
 
+~barrows_degrade_combat;
 anim(%com_attackanim, 0);
 sound_synth(%com_attacksound, 0, 0);
 .sound_synth(%com_attacksound, 0, 0);

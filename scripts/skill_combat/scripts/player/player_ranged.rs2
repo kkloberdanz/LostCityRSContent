@@ -71,6 +71,7 @@ if ($damage > 0 & $poison_severity > 0 & random(8) = 0) { // 1/8 chance to poiso
 p_opnpc(2);
 
 //mes("attackstyle: <tostring(%attackstyle)>, damagestyle: <tostring(%damagestyle)>, damage: <tostring($damage)>, damagetype: <tostring(%damagetype)>");
+~barrows_degrade_combat;
 anim(%com_attackanim, 0);
 sound_synth(%com_attacksound, 0, 0);
 def_int $delay = add(~player_ranged_use_weapon($rhand, $ammo), 30); // osrs it seems to be delayed an extra tick

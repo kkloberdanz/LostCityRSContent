@@ -1,0 +1,160 @@
+// Barrows degradation and repair (phase 4). OSRS Wiki, Barrows equipment:
+// - each piece has 1000 points (15 hours of combat): it loses 1 when combat starts, then 1 every 90 ticks
+//   while still in combat, even with protection prayers
+// - fresh pieces become "100" on first use; stages are 250 points each (100, 75, 50, 25, then 0 = broken)
+// - a piece that breaks while worn stays on (with no stats) until removed, and can't be worn again
+// - repair costs per missing point: weapon 100, body 90, legs 80, helm 60 coins (60k/90k/80k/100k when broken)
+// Degradation came in on 17 May 2005, so it applies in May 2006.
+//
+// Points used are stored per piece type (377 has no per-item variables): see barrows.varp.
+
+// ---- storage ----
+
+[proc,barrows_deg_varp](int $i)(int)
+switch_int ($i) {
+    case 0 : return(%barrows_deg0);
+    case 1 : return(%barrows_deg1);
+    case 2 : return(%barrows_deg2);
+    case 3 : return(%barrows_deg3);
+    case 4 : return(%barrows_deg4);
+    case 5 : return(%barrows_deg5);
+    case 6 : return(%barrows_deg6);
+    case 7 : return(%barrows_deg7);
+}
+return(0);
+
+[proc,barrows_set_deg_varp](int $i, int $value)
+switch_int ($i) {
+    case 0 : %barrows_deg0 = $value;
+    case 1 : %barrows_deg1 = $value;
+    case 2 : %barrows_deg2 = $value;
+    case 3 : %barrows_deg3 = $value;
+    case 4 : %barrows_deg4 = $value;
+    case 5 : %barrows_deg5 = $value;
+    case 6 : %barrows_deg6 = $value;
+    case 7 : %barrows_deg7 = $value;
+}
+
+// $p: piece 0-23
+[proc,barrows_used](int $p)(int)
+def_int $o = multiply(modulo($p, 3), 10);
+return(getbit_range(~barrows_deg_varp(divide($p, 3)), $o, add($o, 9)));
+
+[proc,barrows_set_used](int $p, int $used)
+def_int $o = multiply(modulo($p, 3), 10);
+def_int $i = divide($p, 3);
+~barrows_set_deg_varp($i, setbit_range_toint(~barrows_deg_varp($i), min(max($used, 0), 1000), $o, add($o, 9)));
+
+// stage 1 "100" .. 4 "25", 5 broken
+[proc,barrows_stage_of](int $used)(int)
+if ($used >= 1000) {
+    return(5);
+}
+return(add(divide($used, 250), 1));
+
+// points used for an item, from its stage; the shared counter is only trusted inside that stage's range
+[proc,barrows_item_used](obj $obj)(int)
+def_int $stage = oc_param($obj, barrows_stage);
+if ($stage = 0) {
+    return(0);
+}
+if ($stage = 5) {
+    return(1000);
+}
+def_int $low = multiply(sub($stage, 1), 250);
+def_int $used = ~barrows_used(sub(oc_param($obj, barrows_piece), 1));
+if ($used < $low | $used >= add($low, 250)) {
+    return($low);
+}
+return($used);
+
+// ---- combat ----
+
+// called whenever the player attacks or is hit
+[proc,barrows_degrade_combat]
+if (%barrows_degrade_clock = 0) {
+    // combat starts: every worn piece loses a point now, then one per 90 ticks while combat lasts
+    %barrows_degrade_clock = map_clock;
+    ~barrows_degrade_worn;
+    settimer(barrows_degrade, 90);
+}
+
+[timer,barrows_degrade]
+// still in combat if you attacked or were attacked in the last 90 ticks
+if (%action_delay > sub(map_clock, 90) | %lastcombat > sub(map_clock, 90)) {
+    %barrows_degrade_clock = map_clock;
+    ~barrows_degrade_worn;
+} else {
+    %barrows_degrade_clock = 0;
+    cleartimer(barrows_degrade);
+}
+
+[proc,barrows_degrade_worn]
+def_obj $weapon = inv_getobj(worn, ^wearpos_rhand);
+def_boolean $changed = false;
+if (~barrows_degrade_slot(^wearpos_hat) = true) $changed = true;
+if (~barrows_degrade_slot(^wearpos_torso) = true) $changed = true;
+if (~barrows_degrade_slot(^wearpos_legs) = true) $changed = true;
+if (~barrows_degrade_slot(^wearpos_rhand) = true) $changed = true;
+if ($changed = true) {
+    ~update_all($weapon);
+}
+
+// returns true if the item in the slot changed stage
+[proc,barrows_degrade_slot](int $slot)(boolean)
+def_obj $obj = inv_getobj(worn, $slot);
+if ($obj = null) {
+    return(false);
+}
+def_int $piece = oc_param($obj, barrows_piece);
+def_int $stage = oc_param($obj, barrows_stage);
+if ($piece = 0 | $stage = 5) {
+    return(false);
+}
+def_int $used = add(~barrows_item_used($obj), 1);
+~barrows_set_used(sub($piece, 1), $used);
+def_int $new = ~barrows_stage_of($used);
+if ($new = $stage) {
+    return(false);
+}
+inv_setslot(worn, $slot, enum(int, namedobj, barrows_variant, add(multiply(sub($piece, 1), 5), sub($new, 1))), 1);
+if ($new = 5) {
+    mes("Your <oc_name($obj)> has broken!"); // wording is a guess
+}
+return(true);
+
+// ---- repair with Bob (called from [opnpcu,bob]) ----
+
+[proc,barrows_repair_cost](obj $obj)(int)
+def_int $used = ~barrows_item_used($obj);
+switch_int (modulo(sub(oc_param($obj, barrows_piece), 1), 4)) {
+    case 0 : return(multiply($used, 60));
+    case 1 : return(multiply($used, 90));
+    case 2 : return(multiply($used, 80));
+}
+return(multiply($used, 100));
+
+[label,barrows_bob_repair](obj $item, int $slot)
+def_int $piece = oc_param($item, barrows_piece);
+if (oc_param($item, barrows_stage) = 0) {
+    ~chatnpc("<p,neutral>That doesn't need repairing."); // guess
+    return;
+}
+def_int $cost = ~barrows_repair_cost($item);
+if (inv_total(inv, coins) < $cost) {
+    ~chatnpc("<p,sad>I'll need <tostring($cost)>gp to repair that."); // osrs, as for axes
+    return;
+}
+~chatnpc("<p,neutral>Quite badly damaged, but easy to repair. Would you like me to repair it for <tostring($cost)>gp?");
+def_int $option = ~p_choice2("Yes, please.", 1, "No, thank you.", 2);
+if ($option = 1) {
+    if (inv_getobj(inv, $slot) ! $item | inv_total(inv, coins) < $cost) {
+        return;
+    }
+    inv_delslot(inv, $slot);
+    inv_del(inv, coins, $cost);
+    // back to a fresh piece; its counter restarts the next time it is used
+    inv_add(inv, enum(int, namedobj, barrows_items, add($piece, 3)), 1);
+    ~barrows_set_used(sub($piece, 1), 0);
+    mes("Bob fixes your <oc_name(enum(int, namedobj, barrows_items, add($piece, 3)))> for <tostring($cost)>gp.");
+}

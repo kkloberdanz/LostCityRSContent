@@ -8,3 +8,32 @@ scope=perm
 // chest looted this run: the tunnels collapse until the player leaves, then the run resets
 [barrows_looted]
 scope=perm
+
+// Degradation (phase 4): points used (0-1000) per piece, 3 pieces of 10 bits per varp. 377 has no per-item
+// state, so pieces of the same type share a counter. Reuse empty 377 varp slots 191-237.
+[barrows_deg0]
+scope=perm
+
+[barrows_deg1]
+scope=perm
+
+[barrows_deg2]
+scope=perm
+
+[barrows_deg3]
+scope=perm
+
+[barrows_deg4]
+scope=perm
+
+[barrows_deg5]
+scope=perm
+
+[barrows_deg6]
+scope=perm
+
+[barrows_deg7]
+scope=perm
+
+// map_clock when the current combat period's last point was taken (0 = not in combat)
+[barrows_degrade_clock]

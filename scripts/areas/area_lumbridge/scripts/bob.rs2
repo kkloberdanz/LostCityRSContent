@@ -19,6 +19,9 @@ if($option = 1) {
 [opnpcu,bob]
 def_obj $item = last_useitem;
 def_int $slot = last_useslot;
+if (oc_param($item, barrows_piece) > 0) {
+    @barrows_bob_repair($item, $slot);
+}
 def_int $cost = oc_cost($item);
 if (oc_param($item, to_be_fixed_by_bob) = ^true) {
 // https://youtu.be/bdvD8uxlEAs?list=PLn23LiLYLb1aYjPgadhUQGX61AeHWaT4y

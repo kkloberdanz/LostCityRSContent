@@ -282,12 +282,6 @@ clientcode=7
 [marketthief]
 transmit=yes
 
-[varp_191]
-
-[varp_196]
-
-[varp_199]
-
 [hopper_full]
 
 [flour]
@@ -310,8 +304,6 @@ scope=perm
 [gnomeball_owedball]
 scope=perm
 
-[varp_216]
-
 [pk_prey1]
 protect=no
 type=player_uid
@@ -321,10 +313,6 @@ protect=no
 type=player_uid
 
 [death]
-
-[varp_220]
-
-[varp_221]
 
 [gnome_cocktail_bits1]
 
@@ -341,12 +329,6 @@ type=player_uid
 [gnome_crunchies_bits1]
 
 [gnome_crunchies_bits2]
-
-[varp_235]
-
-[varp_236]
-
-[varp_237]
 
 [varp_238]
 
