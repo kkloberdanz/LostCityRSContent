@@ -182,7 +182,9 @@ if (~barrows_killed($b) = true | ~barrows_brother_present($b) = true) {
     mes("You don't find anything.");
     return;
 }
-~barrows_spawn_brother($b, coord);
+// he rises in the open part of the crypt (by the stairs). Next to the sarcophagus he can end up stuck
+// diagonally behind its corner, which is a real safespot but shouldn't happen on every spawn.
+~barrows_spawn_brother($b, enum(int, coord, barrows_crypt, $b));
 
 [label,barrows_enter_tunnel]
 // you arrive in one of the four corner rooms, the only one where the exit ladder shows (approx: OSRS Wiki

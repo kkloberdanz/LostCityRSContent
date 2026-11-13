@@ -1,0 +1,78 @@
+// Barrows set effects for players wearing a full set: helm, body, legs and weapon of one brother, any
+// degradation except broken. OSRS Wiki brother/equipment pages; 2006 behaviour where it differed is unknown.
+//   Dharok  max hit * (1 + lost hp/100 * max hp/100), always
+//   Guthan  25%: heal by the damage dealt
+//   Verac   25%: the hit ignores Defence (and protection prayers against players)
+//   Torag   25%: target loses 20% run energy (players only)
+//   Karil   25%: target's Agility -20% (players only)
+//   Ahrim   25%: target's Strength -5
+
+[proc,barrows_set_worn]()(int)
+def_obj $head = inv_getobj(worn, ^wearpos_hat);
+def_obj $body = inv_getobj(worn, ^wearpos_torso);
+def_obj $legs = inv_getobj(worn, ^wearpos_legs);
+def_obj $weapon = inv_getobj(worn, ^wearpos_rhand);
+if ($head = null | $body = null | $legs = null | $weapon = null) {
+    return(0);
+}
+def_int $set = oc_param($head, barrows_set);
+if ($set = 0) {
+    return(0);
+}
+if (oc_param($body, barrows_set) ! $set | oc_param($legs, barrows_set) ! $set | oc_param($weapon, barrows_set) ! $set) {
+    return(0);
+}
+return($set);
+
+// the 25% roll (Dharok's effect is always on and isn't rolled)
+[proc,barrows_effect_roll](int $set)(boolean)
+if ($set = 0 | $set = 2) {
+    return(false);
+}
+if (random(4) = 0) {
+    return(true);
+}
+return(false);
+
+[proc,barrows_dharok_maxhit](int $maxhit)(int)
+def_int $lost = sub(stat_base(hitpoints), stat(hitpoints));
+if ($lost <= 0) {
+    return($maxhit);
+}
+return(add($maxhit, scale(multiply($lost, stat_base(hitpoints)), 10000, $maxhit)));
+
+// effect on an npc target, after the hit is rolled
+[proc,barrows_effect_npc](int $set, int $damage)
+switch_int ($set) {
+    case 1 :
+        npc_statsub(strength, 5, 0);
+        spotanim_npc(barrows_ahirm_blighted_aura, 0, 0);
+    case 3 :
+        if ($damage > 0) {
+            stat_heal(hitpoints, $damage, 0);
+            spotanim_npc(barrows_guthan_effect, 0, 0);
+        }
+    case 4 :
+        spotanim_npc(barrows_karil_tainted_shot, 0, 0);
+    case 5 :
+        spotanim_npc(barrows_torag_effect, 0, 0);
+}
+
+// effect on a player target (the secondary player)
+[proc,barrows_effect_pvp](int $set, int $damage)
+switch_int ($set) {
+    case 1 :
+        .stat_sub(strength, 5, 0);
+        .spotanim_pl(barrows_ahirm_blighted_aura, 0, 0);
+    case 3 :
+        if ($damage > 0) {
+            stat_heal(hitpoints, $damage, 0);
+            .spotanim_pl(barrows_guthan_effect, 0, 0);
+        }
+    case 4 :
+        .stat_sub(agility, 0, 20);
+        .spotanim_pl(barrows_karil_tainted_shot, 0, 0);
+    case 5 :
+        .healenergy(-2000);
+        .spotanim_pl(barrows_torag_effect, 0, 0);
+}

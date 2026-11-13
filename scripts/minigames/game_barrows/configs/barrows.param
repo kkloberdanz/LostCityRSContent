@@ -1,0 +1,4 @@
+// which brother's set an item belongs to: 1 ahrim, 2 dharok, 3 guthan, 4 karil, 5 torag, 6 verac
+[barrows_set]
+type=int
+default=0

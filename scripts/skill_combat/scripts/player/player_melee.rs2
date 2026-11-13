@@ -17,8 +17,14 @@ if (npc_stat(hitpoints) = 0) {
 
 // check hit, give combat xp
 def_int $damage = 0;
-if (~player_npc_hit_roll(%damagetype) = true) {
+def_int $barrows_set = ~barrows_set_worn;
+def_boolean $barrows_effect = ~barrows_effect_roll($barrows_set);
+// Verac's set effect: the hit ignores defence
+if (~player_npc_hit_roll(%damagetype) = true | ($barrows_set = 6 & $barrows_effect = true)) {
     def_int $maxhit = %com_maxhit;
+    if ($barrows_set = 2) {
+        $maxhit = ~barrows_dharok_maxhit($maxhit);
+    }
     if (npc_type = count_draynor & inv_total(inv, garlic) > 0) {
         $maxhit = add($maxhit, 1);
     }
@@ -32,6 +38,9 @@ if (~player_npc_hit_roll(%damagetype) = true) {
     def_int $damage_capped = min($damage, npc_stat(hitpoints));
     ~give_combat_experience(%damagestyle, $damage_capped, %npc_combat_xp_multiplier);
     npc_heropoints($damage_capped);
+}
+if ($barrows_effect = true) {
+    ~barrows_effect_npc($barrows_set, $damage);
 }
 
 def_obj $weapon = inv_getobj(worn, ^wearpos_rhand);

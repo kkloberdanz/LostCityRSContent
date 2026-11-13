@@ -42,6 +42,10 @@ if (~pvp_hit_roll(%damagetype) = true) {
     ~give_combat_experience_pvp(%damagestyle, $damage, ~pvp_xp_multiplier(~.player_combat_level));
     both_heropoints($damage);
 }
+def_int $barrows_set = ~barrows_set_worn;
+if (~barrows_effect_roll($barrows_set) = true) {
+    ~barrows_effect_pvp($barrows_set, $damage);
+}
 def_int $poison_severity = oc_param($ammo, poison_severity); // ammo will never be null
 if ($damage > 0 & $poison_severity > 0 & random(4) = 0) { // 1/4 chance to poison
     .queue(poison_player, 0, $poison_severity);

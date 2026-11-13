@@ -57,6 +57,10 @@ if (~player_npc_hit_roll(%damagetype) = true) {
     ~give_combat_experience(%damagestyle, $damage_capped, %npc_combat_xp_multiplier);
     npc_heropoints($damage_capped);
 }
+def_int $barrows_set = ~barrows_set_worn;
+if (~barrows_effect_roll($barrows_set) = true) {
+    ~barrows_effect_npc($barrows_set, $damage);
+}
 
 def_int $poison_severity = oc_param($ammo, poison_severity);
 if ($damage > 0 & $poison_severity > 0 & random(8) = 0) { // 1/8 chance to poison

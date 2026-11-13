@@ -16,7 +16,23 @@ while (npc_findnext = true) {
 return(false);
 
 [proc,barrows_spawn_brother](int $b, coord $near)
-def_coord $spawn = map_findsquare($near, 1, 2, ^map_findsquare_lineofwalk);
+// a few tiles away, where he can see you (otherwise he can start stuck behind a corner: a real safespot,
+// but it shouldn't happen just because of where he appeared)
+def_coord $spawn = null;
+def_coord $try;
+def_int $i = 0;
+while ($i < 10 & $spawn = null) {
+    $try = map_findsquare($near, 2, 4, ^map_findsquare_lineofwalk);
+    if ($try ! null) {
+        if (lineofsight($try, coord) = true) {
+            $spawn = $try;
+        }
+    }
+    $i = add($i, 1);
+}
+if ($spawn = null) {
+    $spawn = map_findsquare($near, 1, 4, ^map_findsquare_lineofwalk);
+}
 if ($spawn = null) {
     $spawn = $near;
 }
@@ -24,7 +40,11 @@ npc_add($spawn, enum(int, npc, barrows_brother_npc, $b), 1000);
 %npc_barrows_owner = uid;
 npc_facesquare(coord);
 %aggressive_npc = npc_uid;
-npc_setmode(opplayer2);
+if ($b = 1 | $b = 4) {
+    npc_setmode(applayer2); // Ahrim and Karil attack from range straight away
+} else {
+    npc_setmode(opplayer2);
+}
 
 // every 5 ticks (npc timer=5): vanish if the owner has gone (left the crypt or tunnels, logged out)
 [ai_timer,barrows_ahrim] ~barrows_brother_timer;

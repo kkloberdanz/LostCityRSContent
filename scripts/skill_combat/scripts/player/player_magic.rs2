@@ -242,6 +242,10 @@ if ($maxhit ! null) {
     def_int $damage_capped = min($damage, npc_stat(hitpoints));
     ~give_combat_experience($damagestyle, $damage_capped, %npc_combat_xp_multiplier);
     npc_heropoints($damage_capped);
+    def_int $barrows_set = ~barrows_set_worn;
+    if (~barrows_effect_roll($barrows_set) = true) {
+        ~barrows_effect_npc($barrows_set, $damage);
+    }
 }
 // spell visual
 if (db_getfieldcount($spell_data, magic_spell_table:sound_hit) > 0) {
