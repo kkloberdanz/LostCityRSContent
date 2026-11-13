@@ -121,19 +121,15 @@ if (~barrows_underground = true) {
 
 // the overlay: kill count text is driven by %barrows_killed_count in the interface itself
 [proc,barrows_update_overlay]
-~barrows_overlay_icon(inter_98:com_1, 1);
-~barrows_overlay_icon(inter_98:com_2, 2);
-~barrows_overlay_icon(inter_98:com_3, 3);
-~barrows_overlay_icon(inter_98:com_4, 4);
-~barrows_overlay_icon(inter_98:com_5, 5);
-~barrows_overlay_icon(inter_98:com_6, 6);
-
-[proc,barrows_overlay_icon](component $com, int $b)
-if (~barrows_killed($b) = true) {
-    if_setobject($com, enum(int, obj, barrows_icon_killed, $b), 400);
-} else {
-    if_setobject($com, enum(int, obj, barrows_icon, $b), 400);
-}
+// inter_98 com_1..6 are the brothers' faces that flash on screen during prayer drain (not implemented yet),
+// not kill icons. Keep them hidden: with an object model set they cover the whole viewport, and the client
+// remembers a component's model until it restarts, so hide them explicitly.
+if_sethide(inter_98:com_1, true);
+if_sethide(inter_98:com_2, true);
+if_sethide(inter_98:com_3, true);
+if_sethide(inter_98:com_4, true);
+if_sethide(inter_98:com_5, true);
+if_sethide(inter_98:com_6, true);
 
 // ---- digging into a crypt (called from [opheld1,spade]) ----
 
