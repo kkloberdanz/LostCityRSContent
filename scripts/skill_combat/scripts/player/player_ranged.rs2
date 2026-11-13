@@ -98,6 +98,11 @@ if ($weapon_cat = weapon_crossbow & $ammo_cat ! bolts) {
     mes("You can't use that ammo with your crossbow."); // todo confirm this for 2004.
     return(null);
 }
+// Karil's crossbow only fires bolt racks, and bolt racks only fit it (OSRS Wiki, Karil's crossbow)
+if ($weapon_cat = weapon_crossbow & ~barrows_is_karil_crossbow($rhand) ! ~barrows_is_bolt_rack($ammo)) {
+    mes("You can't use that ammo with your crossbow.");
+    return(null);
+}
 if (oc_param($ammo, levelrequire) > oc_param($rhand, levelrequire)) { //todo confirm crossbows could use all bolts at lvl 1
     mes("Your bow isn't powerful enough for those arrows."); // todo confirm this for 2004.
     return(null);
@@ -125,6 +130,11 @@ switch_category(oc_category($rhand)) {
 return($delay);
 
 [proc,ranged_dropammo_npc](obj $ammo, int $delay)
+if (~barrows_is_bolt_rack($ammo) = true) {
+    // bolt racks break when fired
+    inv_del(worn, $ammo, 1);
+    return;
+}
 if($ammo = holy_water) {
     ~ranged_dropammo_holywater(npc_coord, $delay);
     return;

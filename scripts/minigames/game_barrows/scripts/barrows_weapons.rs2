@@ -1,0 +1,13 @@
+// Barrows weapons (phase 2). Stats and animations are in all.obj (tools/barrows/weapons.py).
+
+[proc,barrows_is_karil_crossbow](obj $obj)(boolean)
+switch_obj ($obj) {
+    case barrows_karil_weapon, barrows_karil_weapon_100, barrows_karil_weapon_75, barrows_karil_weapon_50, barrows_karil_weapon_25 : return(true);
+}
+return(false);
+
+[proc,barrows_is_bolt_rack](obj $obj)(boolean)
+if ($obj = barrows_karil_ammo) {
+    return(true);
+}
+return(false);
