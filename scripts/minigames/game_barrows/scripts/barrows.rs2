@@ -197,6 +197,7 @@ switch_int ($corner) {
     case 2 : %barrows_chamber_g = 1;
     case 3 : %barrows_chamber_i = 1;
 }
+~barrows_ensure_layout;
 p_telejump(enum(int, coord, barrows_corner, $corner));
 ~barrows_enter;
 
@@ -220,58 +221,40 @@ if (%barrows_looted = 1) {
     ~barrows_clear_chambers;
 }
 
-// ---- tunnel doors ----
-// Phase 1: every door opens (door varbits all 0 = unlocked). The real per-run locking comes later.
+// ---- tunnel doors (handled in barrows_tunnels.rs2) ----
 
-[oploc1,barrows_door_a_l] @barrows_door;
-[oploc1,barrows_door_a_r] @barrows_door;
-[oploc1,barrows_door_b_l] @barrows_door;
-[oploc1,barrows_door_b_r] @barrows_door;
-[oploc1,barrows_door_c_l] @barrows_door;
-[oploc1,barrows_door_c_r] @barrows_door;
-[oploc1,barrows_door_d_l] @barrows_door;
-[oploc1,barrows_door_d_r] @barrows_door;
-[oploc1,barrows_door_e_l] @barrows_door;
-[oploc1,barrows_door_e_r] @barrows_door;
-[oploc1,barrows_door_f_l] @barrows_door;
-[oploc1,barrows_door_f_r] @barrows_door;
-[oploc1,barrows_door_g_l] @barrows_door;
-[oploc1,barrows_door_g_r] @barrows_door;
-[oploc1,barrows_door_h_l] @barrows_door;
-[oploc1,barrows_door_h_r] @barrows_door;
-[oploc1,barrows_door_i_l] @barrows_door;
-[oploc1,barrows_door_i_r] @barrows_door;
-[oploc1,barrows_door_j_l] @barrows_door;
-[oploc1,barrows_door_j_r] @barrows_door;
-[oploc1,barrows_door_k_l] @barrows_door;
-[oploc1,barrows_door_k_r] @barrows_door;
-[oploc1,barrows_door_l_l] @barrows_door;
-[oploc1,barrows_door_l_r] @barrows_door;
-[oploc1,barrows_door_m_l] @barrows_door;
-[oploc1,barrows_door_m_r] @barrows_door;
-[oploc1,barrows_door_n_l] @barrows_door;
-[oploc1,barrows_door_n_r] @barrows_door;
-[oploc1,barrows_door_o_l] @barrows_door;
-[oploc1,barrows_door_o_r] @barrows_door;
-[oploc1,barrows_door_p_l] @barrows_door;
-[oploc1,barrows_door_p_r] @barrows_door;
-
-// step through the doorway (the doors have no open model, so the player is moved through, like other doors)
-[label,barrows_door]
-def_int $x;
-def_int $z;
-def_coord $loc_coord = loc_coord;
-$x, $z = ~door_open(loc_angle, loc_shape);
-sound_synth(barrows_door_open, 1, 0);
-if (~check_axis(coord, $loc_coord, loc_angle) = true) {
-    if (coord ! $loc_coord) {
-        p_teleport($loc_coord);
-        p_delay(0);
-    }
-    p_teleport(movecoord($loc_coord, $x, 0, $z));
-} else {
-    p_teleport($loc_coord);
-}
+[oploc1,barrows_door_a_l] @barrows_door(0);
+[oploc1,barrows_door_a_r] @barrows_door(0);
+[oploc1,barrows_door_b_l] @barrows_door(1);
+[oploc1,barrows_door_b_r] @barrows_door(1);
+[oploc1,barrows_door_c_l] @barrows_door(2);
+[oploc1,barrows_door_c_r] @barrows_door(2);
+[oploc1,barrows_door_d_l] @barrows_door(3);
+[oploc1,barrows_door_d_r] @barrows_door(3);
+[oploc1,barrows_door_e_l] @barrows_door(4);
+[oploc1,barrows_door_e_r] @barrows_door(4);
+[oploc1,barrows_door_f_l] @barrows_door(5);
+[oploc1,barrows_door_f_r] @barrows_door(5);
+[oploc1,barrows_door_g_l] @barrows_door(6);
+[oploc1,barrows_door_g_r] @barrows_door(6);
+[oploc1,barrows_door_h_l] @barrows_door(7);
+[oploc1,barrows_door_h_r] @barrows_door(7);
+[oploc1,barrows_door_i_l] @barrows_door(8);
+[oploc1,barrows_door_i_r] @barrows_door(8);
+[oploc1,barrows_door_j_l] @barrows_door(9);
+[oploc1,barrows_door_j_r] @barrows_door(9);
+[oploc1,barrows_door_k_l] @barrows_door(10);
+[oploc1,barrows_door_k_r] @barrows_door(10);
+[oploc1,barrows_door_l_l] @barrows_door(11);
+[oploc1,barrows_door_l_r] @barrows_door(11);
+[oploc1,barrows_door_m_l] @barrows_door(12);
+[oploc1,barrows_door_m_r] @barrows_door(12);
+[oploc1,barrows_door_n_l] @barrows_door(13);
+[oploc1,barrows_door_n_r] @barrows_door(13);
+[oploc1,barrows_door_o_l] @barrows_door(14);
+[oploc1,barrows_door_o_r] @barrows_door(14);
+[oploc1,barrows_door_p_l] @barrows_door(15);
+[oploc1,barrows_door_p_r] @barrows_door(15);
 
 // ---- the chest ----
 

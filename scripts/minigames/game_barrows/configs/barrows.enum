@@ -101,3 +101,35 @@ val=3,barrows_interface_guthan_green
 val=4,barrows_interface_karil_green
 val=5,barrows_interface_torag_green
 val=6,barrows_interface_verac_green
+
+// door puzzle shapes (inter_99). 24 unnamed models 6713-6736 sit with the barrows models: 4 puzzles x 6.
+// The first of each block is the answer (RuneLite's barrows plugin lists 6713/6719/6725/6731 as the
+// answers). Which of the other five are the sequence vs. the wrong options is a guess: check in a client.
+// key: puzzle * 10 + 0..2 sequence, 3 answer, 4..5 wrong options
+[barrows_puzzle_model]
+inputtype=int
+outputtype=int
+val=0,6716
+val=1,6717
+val=2,6718
+val=3,6713
+val=4,6714
+val=5,6715
+val=10,6722
+val=11,6723
+val=12,6724
+val=13,6719
+val=14,6720
+val=15,6721
+val=20,6728
+val=21,6729
+val=22,6730
+val=23,6725
+val=24,6726
+val=25,6727
+val=30,6734
+val=31,6735
+val=32,6736
+val=33,6731
+val=34,6732
+val=35,6733

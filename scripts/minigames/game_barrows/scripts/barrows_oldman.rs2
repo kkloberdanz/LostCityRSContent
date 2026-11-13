@@ -1,0 +1,42 @@
+// The Strange Old Man digs graves at the Barrows. Talk-to picks one of five variants (OSRS Wiki, Transcript:
+// Strange Old Man). Only the "secret" lines are quoted from the source; the other wording is approximate.
+// The OSRS-only options (His Faithful Servants, condensing the warnings, clue scrolls) are left out.
+
+[opnpc1,barrows_oldman]
+@barrows_oldman_talk(random(5));
+
+[label,barrows_oldman_talk](int $variant)
+switch_int ($variant) {
+    case 0 :
+        ~chatnpc("<p,neutral>Pst, wanna hear a secret?");
+        if (~p_choice2("Sure!", 1, "No thanks.", 2) = 1) {
+            ~chatplayer("<p,happy>Sure!");
+            ~chatnpc("<p,neutral>They're not normal!");
+        } else {
+            ~chatplayer("<p,neutral>No thanks.");
+        }
+    case 1 :
+        ~chatnpc("<p,happy>Knock knock!");
+        ~chatplayer("<p,quiz>Who's there?");
+        ~chatnpc("<p,neutral>A big scary monster.");
+        ~chatplayer("<p,quiz>A big scary monster who?");
+        ~chatnpc("<p,angry>AAAAAARGH!");
+        ~chatplayer("<p,neutral>Okay...");
+    case 2 :
+        ~chatnpc("<p,angry>AAAAAARGH!");
+        if (~p_choice2("What's wrong?", 1, "Never mind.", 2) = 1) {
+            ~chatplayer("<p,quiz>What's wrong?");
+            ~chatnpc("<p,angry>AAAAAARGH!");
+        }
+    case 3 :
+        ~chatnpc("<p,angry>I didn't ask for a book! Here, you have it.");
+        if (inv_freespace(inv) > 0) {
+            inv_add(inv, barrows_book_history, 1);
+            mes("The old man gives you a crumbling tome.");
+        } else {
+            ~chatnpc("<p,neutral>You've no room for it. Never mind.");
+        }
+    case default :
+        ~chatnpc("<p,neutral>Dig, dig, dig...");
+        @barrows_oldman_talk(random(4));
+}

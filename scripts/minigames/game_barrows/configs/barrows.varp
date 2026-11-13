@@ -37,3 +37,10 @@ scope=perm
 
 // map_clock when the current combat period's last point was taken (0 = not in combat)
 [barrows_degrade_clock]
+
+// door puzzle (phase 5): where the player goes if they answer right, and which button (1-3) is right.
+// Empty 377 slots 238, 239.
+[barrows_puzzle_dest]
+type=coord
+
+[barrows_puzzle_answer]

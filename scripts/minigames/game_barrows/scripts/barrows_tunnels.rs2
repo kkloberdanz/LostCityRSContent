@@ -1,0 +1,152 @@
+// Barrows tunnels (phase 5): per-run door layout and the chest room puzzle.
+//
+// The tunnels are a 3x3 grid of rooms. Each door letter (varbit barrows_door_<x>, 1 = locked) is one corridor
+// with a door at each end:
+//   rooms: NW N NE / W C E / SW S SE (C = the chest room)
+//   a NW-NE (north corridor)  b NW-SW (west)  h NE-SE (east)  p SW-SE (south)
+//   ring: d NW-N, f N-NE, g NE-E, m E-SE, o S-SE, n SW-S, k W-SW, c NW-W
+//   chest room: e N-C, i W-C, j C-E, l C-S
+// Layout (approx: the real algorithm isn't documented, OSRS Wiki only says not every door opens and you have
+// to find the way to the middle): one ring door locked, each outer corridor locked half the time, and one of
+// the four chest room doors open, guarded by the puzzle. Every room can still reach the chest.
+
+[proc,barrows_set_door](int $d, int $locked)
+switch_int ($d) {
+    case 0 : %barrows_door_a = $locked;
+    case 1 : %barrows_door_b = $locked;
+    case 2 : %barrows_door_c = $locked;
+    case 3 : %barrows_door_d = $locked;
+    case 4 : %barrows_door_e = $locked;
+    case 5 : %barrows_door_f = $locked;
+    case 6 : %barrows_door_g = $locked;
+    case 7 : %barrows_door_h = $locked;
+    case 8 : %barrows_door_i = $locked;
+    case 9 : %barrows_door_j = $locked;
+    case 10 : %barrows_door_k = $locked;
+    case 11 : %barrows_door_l = $locked;
+    case 12 : %barrows_door_m = $locked;
+    case 13 : %barrows_door_n = $locked;
+    case 14 : %barrows_door_o = $locked;
+    case 15 : %barrows_door_p = $locked;
+}
+
+[proc,barrows_ensure_layout]
+// no layout yet this run: the four chest room doors are never all open once one is made
+if (calc(%barrows_door_e + %barrows_door_i + %barrows_door_j + %barrows_door_l) = 0) {
+    ~barrows_randomise_layout;
+}
+
+[proc,barrows_randomise_layout]
+def_int $d = 0;
+while ($d < 16) {
+    ~barrows_set_door($d, 0);
+    $d = add($d, 1);
+}
+// one door of the ring
+switch_int (random(8)) {
+    case 0 : ~barrows_set_door(2, 1);
+    case 1 : ~barrows_set_door(3, 1);
+    case 2 : ~barrows_set_door(5, 1);
+    case 3 : ~barrows_set_door(6, 1);
+    case 4 : ~barrows_set_door(10, 1);
+    case 5 : ~barrows_set_door(12, 1);
+    case 6 : ~barrows_set_door(13, 1);
+    case default : ~barrows_set_door(14, 1);
+}
+// outer corridors
+if (random(2) = 0) ~barrows_set_door(0, 1);
+if (random(2) = 0) ~barrows_set_door(1, 1);
+if (random(2) = 0) ~barrows_set_door(7, 1);
+if (random(2) = 0) ~barrows_set_door(15, 1);
+// chest room: lock three of e, i, j, l
+def_int $open = random(4);
+if ($open ! 0) ~barrows_set_door(4, 1);
+if ($open ! 1) ~barrows_set_door(8, 1);
+if ($open ! 2) ~barrows_set_door(9, 1);
+if ($open ! 3) ~barrows_set_door(11, 1);
+%barrows_puzzle = 0;
+
+[proc,barrows_in_chest_room](coord $coord)(boolean)
+return(inzone(0_55_151_26_25, 0_55_151_37_36, $coord));
+
+// step through the doorway (the doors have no open model, so the player is moved through, like other doors).
+// Locked doors have no Open option, so only unlocked ones get here.
+[label,barrows_door](int $d)
+def_int $x;
+def_int $z;
+def_coord $loc_coord = loc_coord;
+$x, $z = ~door_open(loc_angle, loc_shape);
+def_coord $dest = $loc_coord;
+def_boolean $step = false;
+if (~check_axis(coord, $loc_coord, loc_angle) = true) {
+    $dest = movecoord($loc_coord, $x, 0, $z);
+    if (coord ! $loc_coord) {
+        $step = true;
+    }
+}
+if (~barrows_in_chest_room($dest) = true & ~barrows_in_chest_room(coord) = false & %barrows_puzzle ! 7) {
+    %barrows_puzzle_dest = $dest;
+    @barrows_puzzle_open;
+}
+sound_synth(barrows_door_open, 1, 0);
+if ($step = true) {
+    p_teleport($loc_coord);
+    p_delay(0);
+}
+p_teleport($dest);
+
+// ---- the puzzle (inter_99: "Which is the next shape in the above sequence?") ----
+
+[label,barrows_puzzle_open]
+def_int $type = random(4);
+%barrows_puzzle = add($type, 1);
+def_int $base = multiply($type, 10);
+def_int $correct = add(random(3), 1);
+%barrows_puzzle_answer = $correct;
+if_openmain(inter_99);
+if_setmodel(inter_99:com_1, enum(int, int, barrows_puzzle_model, $base));
+if_setmodel(inter_99:com_2, enum(int, int, barrows_puzzle_model, add($base, 1)));
+if_setmodel(inter_99:com_3, enum(int, int, barrows_puzzle_model, add($base, 2)));
+def_int $wrong = 4;
+def_int $button = 1;
+def_int $model;
+while ($button <= 3) {
+    if ($button = $correct) {
+        $model = enum(int, int, barrows_puzzle_model, add($base, 3));
+    } else {
+        $model = enum(int, int, barrows_puzzle_model, add($base, $wrong));
+        $wrong = add($wrong, 1);
+    }
+    switch_int ($button) {
+        case 1 : if_setmodel(inter_99:com_6, $model);
+        case 2 : if_setmodel(inter_99:com_7, $model);
+        case 3 : if_setmodel(inter_99:com_8, $model);
+    }
+    $button = add($button, 1);
+}
+
+[if_button,inter_99:com_6] @barrows_puzzle_answer(1);
+[if_button,inter_99:com_7] @barrows_puzzle_answer(2);
+[if_button,inter_99:com_8] @barrows_puzzle_answer(3);
+
+[label,barrows_puzzle_answer](int $button)
+if_close;
+if (%barrows_puzzle < 1 | %barrows_puzzle > 4) {
+    return;
+}
+if ($button = %barrows_puzzle_answer) {
+    %barrows_puzzle = 7; // solved for this run
+    sound_synth(barrows_door_unlock, 1, 0);
+    p_teleport(%barrows_puzzle_dest);
+    return;
+}
+// a wrong answer shifts the doors and rooms, and the exit ladder moves (OSRS Wiki, Barrows tunnels)
+mes("You got the puzzle wrong! You can hear the catacombs moving around you."); // wording is a guess
+~barrows_randomise_layout;
+~barrows_clear_chambers;
+switch_int (random(4)) {
+    case 0 : %barrows_chamber_a = 1;
+    case 1 : %barrows_chamber_c = 1;
+    case 2 : %barrows_chamber_g = 1;
+    case default : %barrows_chamber_i = 1;
+}
