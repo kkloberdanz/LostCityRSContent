@@ -36620,6 +36620,29 @@ iop2=Wield
 weight=5lb
 wearpos=righthand
 wearpos2=lefthand
+category=weapon_spear
+param=stabattack,5
+param=slashattack,5
+param=crushattack,5
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,6
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=walk_f_baseanim,human_halberdwalk_f
+param=walk_b_baseanim,human_halberdwalk_b
+param=walk_l_baseanim,human_halberdwalk_l
+param=walk_r_baseanim,human_halberdwalk_r
+param=running_baseanim,human_halberdrunning
+param=turnonspot_baseanim,human_halberdturnonspot
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [tbwt_iron_spear_kp]
 name=Iron spear(kp)
@@ -36643,6 +36666,29 @@ iop2=Wield
 weight=5lb
 wearpos=righthand
 wearpos2=lefthand
+category=weapon_spear
+param=stabattack,8
+param=slashattack,8
+param=crushattack,8
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,10
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=walk_f_baseanim,human_halberdwalk_f
+param=walk_b_baseanim,human_halberdwalk_b
+param=walk_l_baseanim,human_halberdwalk_l
+param=walk_r_baseanim,human_halberdwalk_r
+param=running_baseanim,human_halberdrunning
+param=turnonspot_baseanim,human_halberdturnonspot
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [tbwt_steel_spear_kp]
 name=Steel spear(kp)
@@ -36666,6 +36712,29 @@ iop2=Wield
 weight=5lb
 wearpos=righthand
 wearpos2=lefthand
+category=weapon_spear
+param=stabattack,12
+param=slashattack,12
+param=crushattack,12
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,12
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=walk_f_baseanim,human_halberdwalk_f
+param=walk_b_baseanim,human_halberdwalk_b
+param=walk_l_baseanim,human_halberdwalk_l
+param=walk_r_baseanim,human_halberdwalk_r
+param=running_baseanim,human_halberdrunning
+param=turnonspot_baseanim,human_halberdturnonspot
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [tbwt_mithril_spear_kp]
 name=Mithril spear(kp)
@@ -36689,6 +36758,29 @@ iop2=Wield
 weight=4lb
 wearpos=righthand
 wearpos2=lefthand
+category=weapon_spear
+param=stabattack,17
+param=slashattack,17
+param=crushattack,17
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,18
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=walk_f_baseanim,human_halberdwalk_f
+param=walk_b_baseanim,human_halberdwalk_b
+param=walk_l_baseanim,human_halberdwalk_l
+param=walk_r_baseanim,human_halberdwalk_r
+param=running_baseanim,human_halberdrunning
+param=turnonspot_baseanim,human_halberdturnonspot
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [tbwt_adamant_spear_kp]
 name=Adamant spear(kp)
@@ -36712,6 +36804,29 @@ iop2=Wield
 weight=6lb
 wearpos=righthand
 wearpos2=lefthand
+category=weapon_spear
+param=stabattack,24
+param=slashattack,24
+param=crushattack,24
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,28
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=walk_f_baseanim,human_halberdwalk_f
+param=walk_b_baseanim,human_halberdwalk_b
+param=walk_l_baseanim,human_halberdwalk_l
+param=walk_r_baseanim,human_halberdwalk_r
+param=running_baseanim,human_halberdrunning
+param=turnonspot_baseanim,human_halberdturnonspot
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [tbwt_rune_spear_kp]
 name=Rune spear(kp)
@@ -36735,6 +36850,29 @@ iop2=Wield
 weight=5lb
 wearpos=righthand
 wearpos2=lefthand
+category=weapon_spear
+param=stabattack,36
+param=slashattack,36
+param=crushattack,36
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,42
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=walk_f_baseanim,human_halberdwalk_f
+param=walk_b_baseanim,human_halberdwalk_b
+param=walk_l_baseanim,human_halberdwalk_l
+param=walk_r_baseanim,human_halberdwalk_r
+param=running_baseanim,human_halberdrunning
+param=turnonspot_baseanim,human_halberdturnonspot
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [tbwt_dragon_spear_kp]
 name=Dragon spear(kp)
@@ -36756,6 +36894,34 @@ iop2=Wield
 weight=5lb
 wearpos=righthand
 wearpos2=lefthand
+category=weapon_spear
+param=stabattack,55
+param=slashattack,55
+param=crushattack,55
+param=stabdefence,5
+param=slashdefence,5
+param=crushdefence,5
+param=magicdefence,5
+param=rangedefence,5
+param=strengthbonus,60
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=walk_f_baseanim,human_halberdwalk_f
+param=walk_b_baseanim,human_halberdwalk_b
+param=walk_l_baseanim,human_halberdwalk_l
+param=walk_r_baseanim,human_halberdwalk_r
+param=running_baseanim,human_halberdrunning
+param=turnonspot_baseanim,human_halberdturnonspot
+param=stabattack_anim,human_dspear_stab
+param=slashattack_anim,human_dspear_slash
+param=crushattack_anim,human_dspear_lunge
+param=defend_anim,human_dspear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
+param=poison_severity,30
+param=specwep,^true
+param=sa_energy,250
 
 [banana_left]
 name=Banana left
@@ -38235,6 +38401,14 @@ manhead=obj_snelm_round_swamp_manhead
 womanhead=obj_snelm_round_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_round_swamp]
 certlink=snelm_round_swamp
@@ -38267,6 +38441,14 @@ manhead=obj_snelm_round_swamp_manhead
 womanhead=obj_snelm_round_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_round_red+black]
 certlink=snelm_round_red+black
@@ -38299,6 +38481,14 @@ manhead=obj_snelm_round_swamp_manhead
 womanhead=obj_snelm_round_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_round_yellow]
 certlink=snelm_round_yellow
@@ -38331,6 +38521,14 @@ manhead=obj_snelm_round_swamp_manhead
 womanhead=obj_snelm_round_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_round_blue]
 certlink=snelm_round_blue
@@ -38363,6 +38561,14 @@ manhead=obj_snelm_round_swamp_manhead
 womanhead=obj_snelm_round_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_round_orange]
 certlink=snelm_round_orange
@@ -38387,6 +38593,14 @@ manhead=obj_snelm_point_swamp_manhead
 womanhead=obj_snelm_point_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_point_swamp]
 certlink=snelm_point_swamp
@@ -38415,6 +38629,14 @@ manhead=obj_snelm_point_swamp_manhead
 womanhead=obj_snelm_point_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_point_red+black]
 certlink=snelm_point_red+black
@@ -38443,6 +38665,14 @@ manhead=obj_snelm_point_swamp_manhead
 womanhead=obj_snelm_point_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_point_yellow]
 certlink=snelm_point_yellow
@@ -38471,6 +38701,14 @@ manhead=obj_snelm_point_swamp_manhead
 womanhead=obj_snelm_point_swamp_womanhead
 weight=2kg
 wearpos=hat
+category=armour_helmet
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,6
+param=magicdefence,-1
+param=rangedefence,7
 
 [cert_snelm_point_blue]
 certlink=snelm_point_blue
@@ -38947,6 +39185,13 @@ members=yes
 2dxan=272
 wearpos=hat
 weight=2lb
+category=armour_helmet
+param=magicattack,2
+param=rangeattack,-2
+param=stabdefence,10
+param=slashdefence,9
+param=crushdefence,11
+param=magicdefence,3
 
 [cert_splitbark_helm]
 certlink=splitbark_helm
@@ -38969,6 +39214,13 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=10lb
+category=armour_body
+param=magicattack,8
+param=rangeattack,-10
+param=stabdefence,36
+param=slashdefence,26
+param=crushdefence,42
+param=magicdefence,15
 
 [cert_splitbark_body]
 certlink=splitbark_body
@@ -38989,6 +39241,13 @@ members=yes
 2dxan=252
 wearpos=legs
 weight=8lb
+category=armour_legs
+param=magicattack,7
+param=rangeattack,-6
+param=stabdefence,22
+param=slashdefence,20
+param=crushdefence,25
+param=magicdefence,10
 
 [cert_splitbark_legs]
 certlink=splitbark_legs
@@ -39009,6 +39268,13 @@ members=yes
 2dxan=308
 wearpos=hands
 weight=2lb
+category=category_16
+param=magicattack,1
+param=rangeattack,-1
+param=stabdefence,3
+param=slashdefence,2
+param=crushdefence,4
+param=magicdefence,2
 
 [cert_splitbark_gauntlets]
 certlink=splitbark_gauntlets
@@ -39029,6 +39295,13 @@ members=yes
 2dxan=168
 wearpos=feet
 weight=2lb
+category=category_17
+param=magicattack,1
+param=rangeattack,-1
+param=stabdefence,3
+param=slashdefence,2
+param=crushdefence,4
+param=magicdefence,2
 
 [cert_splitbark_greaves]
 certlink=splitbark_greaves
@@ -40096,6 +40369,14 @@ manwear=obj_black_plateskirt_trim_manwear,0
 womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=20lb
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,21
+param=slashdefence,20
+param=crushdefence,19
+param=magicdefence,-4
+param=rangedefence,20
 
 [black_plateskirt_gold]
 name=Black plateskirt (g)
@@ -40119,6 +40400,14 @@ manwear=obj_black_plateskirt_trim_manwear,0
 womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=20lb
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,21
+param=slashdefence,20
+param=crushdefence,19
+param=magicdefence,-4
+param=rangedefence,20
 
 [adamant_plateskirt_trim]
 name=Adam plateskirt (t)
@@ -40142,6 +40431,14 @@ manwear=obj_black_plateskirt_trim_manwear,0
 womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=23lb
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,33
+param=slashdefence,31
+param=crushdefence,29
+param=magicdefence,-4
+param=rangedefence,31
 
 [adamant_plateskirt_gold]
 name=Adam plateskirt (g)
@@ -40165,6 +40462,14 @@ manwear=obj_black_plateskirt_trim_manwear,0
 womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=23lb
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,33
+param=slashdefence,31
+param=crushdefence,29
+param=magicdefence,-4
+param=rangedefence,31
 
 [rune_plateskirt_gold]
 name=Rune plateskirt (g)
@@ -40188,6 +40493,14 @@ manwear=obj_black_plateskirt_trim_manwear,0
 womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=20lb
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,51
+param=slashdefence,49
+param=crushdefence,47
+param=magicdefence,-4
+param=rangedefence,49
 
 [rune_plateskirt_trim]
 name=Rune plateskirt (t)
@@ -40211,6 +40524,14 @@ manwear=obj_black_plateskirt_trim_manwear,0
 womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=20lb
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,51
+param=slashdefence,49
+param=crushdefence,47
+param=magicdefence,-4
+param=rangedefence,49
 
 [rune_plateskirt_zamorak]
 name=Zamorak plateskirt
@@ -40235,6 +40556,14 @@ womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=20lb
 param=zamorakitem,^true
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,51
+param=slashdefence,49
+param=crushdefence,47
+param=magicdefence,-4
+param=rangedefence,49
 
 [rune_plateskirt_saradomin]
 name=Saradomin skirt
@@ -40259,6 +40588,14 @@ womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=20lb
 param=saradominitem,^true
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,51
+param=slashdefence,49
+param=crushdefence,47
+param=magicdefence,-4
+param=rangedefence,49
 
 [rune_plateskirt_guthix]
 name=Guthix plateskirt
@@ -40283,6 +40620,14 @@ womanwear=obj_black_plateskirt_trim_womanwear,0
 wearpos=legs
 weight=20lb
 param=guthixitem,^true
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,51
+param=slashdefence,49
+param=crushdefence,47
+param=magicdefence,-4
+param=rangedefence,49
 
 [rune_platebody_goldplate]
 name=Gilded platebody
@@ -40308,6 +40653,14 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=22lb
+category=armour_body
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,82
+param=slashdefence,80
+param=crushdefence,72
+param=magicdefence,-6
+param=rangedefence,80
 
 [cert_rune_platebody_goldplate]
 certlink=rune_platebody_goldplate
@@ -40333,6 +40686,14 @@ womanwear=obj_iron_platelegs_womanwear,0
 members=yes
 wearpos=legs
 weight=20lb
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,51
+param=slashdefence,49
+param=crushdefence,47
+param=magicdefence,-4
+param=rangedefence,49
 
 [cert_rune_platelegs_goldplate]
 certlink=rune_platelegs_goldplate
@@ -40361,6 +40722,14 @@ womanwear=obj_black_plateskirt_trim_womanwear,0
 members=yes
 wearpos=legs
 weight=20lb
+category=armour_legs
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,51
+param=slashdefence,49
+param=crushdefence,47
+param=magicdefence,-4
+param=rangedefence,49
 
 [rune_full_helm_goldplate]
 name=Gilded full helm
@@ -40386,6 +40755,14 @@ wearpos=hat
 wearpos2=head
 wearpos3=jaw
 weight=6lb
+category=armour_helmet
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,30
+param=slashdefence,32
+param=crushdefence,27
+param=magicdefence,-1
+param=rangedefence,30
 
 [cert_rune_full_helm_goldplate]
 certlink=rune_full_helm_goldplate
@@ -40413,6 +40790,15 @@ womanwear=obj_bronze_kiteshield_manwear,6
 members=yes
 wearpos=lefthand
 weight=12lb
+category=armour_shield
+param=magicattack,-8
+param=rangeattack,-2
+param=stabdefence,44
+param=slashdefence,48
+param=crushdefence,46
+param=magicdefence,-1
+param=rangedefence,46
+param=defend_anim,human_shield_defence
 
 [cert_rune_kiteshield_goldplate]
 certlink=rune_kiteshield_goldplate
@@ -43764,6 +44150,14 @@ cost=5000
 wearpos=hat
 wearpos2=head
 weight=6lb
+category=armour_helmet
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,19
+param=slashdefence,21
+param=crushdefence,16
+param=rangedefence,-1
+param=rangedefence,19
 
 [viking_helmet_range]
 name=Archer helm
@@ -43789,6 +44183,17 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=6lb
+category=armour_helmet
+param=stabattack,-5
+param=slashattack,-5
+param=crushattack,-5
+param=magicattack,-5
+param=rangeattack,6
+param=stabdefence,6
+param=slashdefence,8
+param=crushdefence,10
+param=magicdefence,6
+param=rangedefence,6
 
 [cert_viking_helmet_range]
 certlink=viking_helmet_range
@@ -43818,6 +44223,14 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=6lb
+category=armour_helmet
+param=magicattack,-5
+param=rangeattack,-5
+param=stabdefence,31
+param=slashdefence,29
+param=crushdefence,33
+param=rangedefence,30
+param=strengthbonus,3
 
 [cert_viking_helmet_crush]
 certlink=viking_helmet_crush
@@ -43847,6 +44260,14 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=6lb
+category=armour_helmet
+param=slashattack,5
+param=magicattack,-5
+param=rangeattack,-5
+param=stabdefence,31
+param=slashdefence,33
+param=crushdefence,29
+param=rangedefence,30
 
 [cert_viking_helmet_slash]
 certlink=viking_helmet_slash
@@ -43876,6 +44297,16 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=6lb
+category=armour_helmet
+param=stabattack,-5
+param=slashattack,-5
+param=crushattack,-5
+param=magicattack,6
+param=rangeattack,-5
+param=stabdefence,8
+param=slashdefence,10
+param=crushdefence,12
+param=magicdefence,6
 
 [cert_viking_helmet_magic]
 certlink=viking_helmet_magic
@@ -43897,6 +44328,17 @@ members=yes
 cost=5000
 wearpos=righthand
 weight=4lb
+category=weapon_slash
+param=stabattack,-6
+param=slashattack,29
+param=crushattack,-2
+param=slashdefence,1
+param=strengthbonus,28
+param=slashattack_anim,human_sword_slash
+param=stabattack_anim,human_sword_stab
+param=defend_anim,human_sword_def
+param=slash_sound,hacksword_slash
+param=stab_sound,hacksword_stab
 
 [viking_shield]
 name=Fremennik shield
@@ -43914,6 +44356,15 @@ members=yes
 cost=5000
 wearpos=lefthand
 weight=5lb
+category=armour_shield
+param=magicattack,-8
+param=rangeattack,-2
+param=stabdefence,27
+param=slashdefence,31
+param=crushdefence,29
+param=magicdefence,-1
+param=rangedefence,29
+param=defend_anim,human_shield_defence
 
 [viking_cloak_green]
 name=Fremennik cloak
@@ -43933,6 +44384,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_green]
 certlink=viking_cloak_green
@@ -43956,6 +44410,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_darkbrown]
 certlink=viking_cloak_darkbrown
@@ -43979,6 +44436,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_lightbrown]
 certlink=viking_cloak_lightbrown
@@ -44002,6 +44462,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_brown]
 certlink=viking_cloak_brown
@@ -44032,6 +44495,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_viking_top_darkbrown]
 certlink=viking_top_darkbrown
@@ -44062,6 +44527,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_viking_top_green]
 certlink=viking_top_green
@@ -44092,6 +44559,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_viking_top_beige]
 certlink=viking_top_beige
@@ -44122,6 +44591,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_viking_top_red]
 certlink=viking_top_red
@@ -44152,6 +44623,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_viking_top_blue]
 certlink=viking_top_blue
@@ -44175,6 +44648,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_red]
 certlink=viking_cloak_red
@@ -44198,6 +44674,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_grey]
 certlink=viking_cloak_grey
@@ -44221,6 +44700,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_tangerine]
 certlink=viking_cloak_tangerine
@@ -44244,6 +44726,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_ocean]
 certlink=viking_cloak_ocean
@@ -44267,6 +44752,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_purple]
 certlink=viking_cloak_purple
@@ -44290,6 +44778,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_pink]
 certlink=viking_cloak_pink
@@ -44313,6 +44804,9 @@ womanwear=obj_viking_cloak_green_womanwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_viking_cloak_black]
 certlink=viking_cloak_black
@@ -44336,6 +44830,8 @@ cost=500
 members=yes
 wearpos=feet
 weight=12oz
+param=slashdefence,1
+param=crushdefence,1
 
 [cert_vikingboots]
 certlink=vikingboots
@@ -44360,6 +44856,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_vikingrobetop]
 certlink=vikingrobetop
@@ -44381,6 +44879,8 @@ cost=500
 members=yes
 wearpos=legs
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_vikingrobebottom]
 certlink=vikingrobebottom
@@ -44406,6 +44906,8 @@ iop2=Wear
 members=yes
 wearpos=hat
 weight=1lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_vikinghat]
 certlink=vikinghat
@@ -44431,6 +44933,9 @@ womanwear=obj_gauntlets_of_cooking_womanwear,0
 members=yes
 wearpos=hands
 weight=1lb
+category=armour_hands
+param=slashdefence,1
+param=crushdefence,2
 
 [cert_vikinggloves]
 certlink=vikinggloves
@@ -45072,6 +45577,8 @@ cost=200
 weight=1kg
 wearpos=lefthand
 param=saradominitem,^true
+param=defend_anim,human_unarmedblock
+param=prayerbonus,5
 
 [saradominbook_complete]
 name=Holy book
@@ -45098,6 +45605,13 @@ cost=200
 weight=1kg
 wearpos=lefthand
 param=saradominitem,^true
+param=defend_anim,human_unarmedblock
+param=stabdefence,8
+param=slashdefence,8
+param=crushdefence,8
+param=magicdefence,8
+param=rangedefence,8
+param=prayerbonus,5
 
 [unfinished_zamorakbook]
 name=Damaged book
@@ -45123,6 +45637,8 @@ cost=200
 weight=1kg
 wearpos=lefthand
 param=zamorakitem,^true
+param=defend_anim,human_unarmedblock
+param=prayerbonus,5
 
 [zamorakbook_complete]
 name=Unholy book
@@ -45148,6 +45664,13 @@ cost=200
 weight=1kg
 wearpos=lefthand
 param=zamorakitem,^true
+param=defend_anim,human_unarmedblock
+param=stabattack,8
+param=slashattack,8
+param=crushattack,8
+param=magicattack,8
+param=rangeattack,8
+param=prayerbonus,5
 
 [unfinished_guthixbook]
 name=Damaged book
@@ -45173,6 +45696,8 @@ cost=200
 weight=1kg
 wearpos=lefthand
 param=guthixitem,^true
+param=defend_anim,human_unarmedblock
+param=prayerbonus,5
 
 [guthixbook_complete]
 name=Book of balance
@@ -45198,6 +45723,18 @@ cost=200
 weight=1kg
 wearpos=lefthand
 param=guthixitem,^true
+param=defend_anim,human_unarmedblock
+param=stabattack,4
+param=slashattack,4
+param=crushattack,4
+param=magicattack,4
+param=rangeattack,4
+param=stabdefence,4
+param=slashdefence,4
+param=crushdefence,4
+param=magicdefence,4
+param=rangedefence,4
+param=prayerbonus,5
 
 [horror_diary1]
 name=Journal
@@ -47315,6 +47852,10 @@ womanwear=obj_crystalshard_necklace_womanwear,0
 members=yes
 wearpos=front
 weight=7g
+param=stabdefence,3
+param=slashdefence,3
+param=crushdefence,3
+param=prayerbonus,3
 
 [crystalshard_necklace_unstrung]
 name=Salve shard
@@ -47340,6 +47881,13 @@ womanwear=obj_dragon_platelegs_womanwear,0
 members=yes
 wearpos=legs
 weight=20lb
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,68
+param=slashdefence,66
+param=crushdefence,63
+param=magicdefence,-4
+param=rangedefence,65
 
 [cert_dragon_platelegs]
 certlink=dragon_platelegs
@@ -47362,6 +47910,8 @@ members=yes
 2dxan=208
 wearpos=hat
 weight=1lb
+param=magicattack,4
+param=magicdefence,4
 
 [cert_mystic_hat]
 certlink=mystic_hat
@@ -47384,6 +47934,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=6lb
+param=magicattack,20
+param=magicdefence,20
 
 [cert_mystic_robe_top]
 certlink=mystic_robe_top
@@ -47405,6 +47957,8 @@ members=yes
 2dxan=408
 wearpos=legs
 weight=4lb
+param=magicattack,15
+param=magicdefence,15
 
 [cert_mystic_robe_bottom]
 certlink=mystic_robe_bottom
@@ -47424,6 +47978,8 @@ members=yes
 2dxan=536
 wearpos=hands
 weight=1lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_mystic_gloves]
 certlink=mystic_gloves
@@ -47444,6 +48000,8 @@ members=yes
 2dxan=188
 wearpos=feet
 weight=1lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_mystic_boots]
 certlink=mystic_boots
@@ -47476,6 +48034,8 @@ members=yes
 2dxan=208
 wearpos=hat
 weight=1lb
+param=magicattack,4
+param=magicdefence,4
 
 [cert_mystic_hat_dark]
 certlink=mystic_hat_dark
@@ -47504,6 +48064,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=6lb
+param=magicattack,20
+param=magicdefence,20
 
 [cert_mystic_robe_top_dark]
 certlink=mystic_robe_top_dark
@@ -47535,6 +48097,8 @@ members=yes
 2dxan=408
 wearpos=legs
 weight=4lb
+param=magicattack,15
+param=magicdefence,15
 
 [cert_mystic_robe_bottom_dark]
 certlink=mystic_robe_bottom_dark
@@ -47558,6 +48122,8 @@ members=yes
 2dxan=536
 wearpos=hands
 weight=1lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_mystic_gloves_dark]
 certlink=mystic_gloves_dark
@@ -47580,6 +48146,8 @@ members=yes
 2dxan=188
 wearpos=feet
 weight=1lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_mystic_boots_dark]
 certlink=mystic_boots_dark
@@ -47612,6 +48180,8 @@ members=yes
 2dxan=208
 wearpos=hat
 weight=1lb
+param=magicattack,4
+param=magicdefence,4
 
 [cert_mystic_hat_light]
 certlink=mystic_hat_light
@@ -47640,6 +48210,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=6lb
+param=magicattack,20
+param=magicdefence,20
 
 [cert_mystic_robe_top_light]
 certlink=mystic_robe_top_light
@@ -47671,6 +48243,8 @@ members=yes
 2dxan=408
 wearpos=legs
 weight=4lb
+param=magicattack,15
+param=magicdefence,15
 
 [cert_mystic_robe_bottom_light]
 certlink=mystic_robe_bottom_light
@@ -47694,6 +48268,8 @@ members=yes
 2dxan=536
 wearpos=hands
 weight=1lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_mystic_gloves_light]
 certlink=mystic_gloves_light
@@ -47716,6 +48292,8 @@ members=yes
 2dxan=188
 wearpos=feet
 weight=1lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_mystic_boots_light]
 certlink=mystic_boots_light
@@ -48175,6 +48753,11 @@ manwear=obj_slayer_mirror_shield_manwear,0
 womanwear=obj_slayer_mirror_shield_manwear,6
 members=yes
 cost=5000
+param=stabdefence,10
+param=slashdefence,15
+param=crushdefence,5
+param=magicdefence,5
+param=rangedefence,10
 
 [cert_slayer_mirror_shield]
 certlink=slayer_mirror_shield
@@ -50209,6 +50792,8 @@ iop2=Wear
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_ham_shirt]
 certlink=ham_shirt
@@ -50230,6 +50815,8 @@ manwear=obj_priest_robe_manwear,0
 womanwear=obj_priest_robe_womanwear,0
 wearpos=legs
 weight=2lb
+param=slashdefence,2
+param=crushdefence,2
 
 [cert_ham_robe]
 certlink=ham_robe
@@ -50257,6 +50844,9 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=1lb
+param=slashdefence,1
+param=crushdefence,2
+param=rangedefence,1
 
 [cert_ham_hood]
 certlink=ham_hood
@@ -50288,6 +50878,9 @@ womanwear2=obj_ham_cloak_manwear2
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_ham_cloak]
 certlink=ham_cloak
@@ -50334,6 +50927,8 @@ womanwear=obj_gauntlets_of_cooking_womanwear,0
 members=yes
 wearpos=hands
 weight=1lb
+param=slashdefence,1
+param=crushdefence,2
 
 [cert_ham_gloves]
 certlink=ham_gloves
@@ -50357,6 +50952,8 @@ cost=75
 members=yes
 wearpos=feet
 weight=12oz
+param=slashdefence,1
+param=crushdefence,1
 
 [cert_ham_boots]
 certlink=ham_boots
@@ -50413,6 +51010,9 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_1]
 certlink=wilderness_cape_1
@@ -50439,6 +51039,9 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_2]
 certlink=wilderness_cape_2
@@ -50465,6 +51068,9 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_3]
 certlink=wilderness_cape_3
@@ -50491,6 +51097,9 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_4]
 certlink=wilderness_cape_4
@@ -50517,6 +51126,9 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_5]
 certlink=wilderness_cape_5
@@ -50543,6 +51155,9 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_6]
 certlink=wilderness_cape_6
@@ -50569,6 +51184,9 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_7]
 certlink=wilderness_cape_7
@@ -50595,6 +51213,9 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_8]
 certlink=wilderness_cape_8
@@ -50621,6 +51242,9 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_9]
 certlink=wilderness_cape_9
@@ -50647,6 +51271,9 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_10]
 certlink=wilderness_cape_10
@@ -50673,6 +51300,9 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_11]
 certlink=wilderness_cape_11
@@ -50699,6 +51329,9 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_12]
 certlink=wilderness_cape_12
@@ -50725,6 +51358,9 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_13]
 certlink=wilderness_cape_13
@@ -50751,6 +51387,9 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_14]
 certlink=wilderness_cape_14
@@ -50777,6 +51416,9 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_15]
 certlink=wilderness_cape_15
@@ -50803,6 +51445,9 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_16]
 certlink=wilderness_cape_16
@@ -50829,6 +51474,9 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_17]
 certlink=wilderness_cape_17
@@ -50855,6 +51503,9 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_18]
 certlink=wilderness_cape_18
@@ -50881,6 +51532,9 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_19]
 certlink=wilderness_cape_19
@@ -50907,6 +51561,9 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_20]
 certlink=wilderness_cape_20
@@ -50933,6 +51590,9 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_21]
 certlink=wilderness_cape_21
@@ -50959,6 +51619,9 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_22]
 certlink=wilderness_cape_22
@@ -50985,6 +51648,9 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_23]
 certlink=wilderness_cape_23
@@ -51011,6 +51677,9 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_24]
 certlink=wilderness_cape_24
@@ -51037,6 +51706,9 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_25]
 certlink=wilderness_cape_25
@@ -51065,6 +51737,9 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_26]
 certlink=wilderness_cape_26
@@ -51091,6 +51766,9 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_27]
 certlink=wilderness_cape_27
@@ -51117,6 +51795,9 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_28]
 certlink=wilderness_cape_28
@@ -51143,6 +51824,9 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_29]
 certlink=wilderness_cape_29
@@ -51169,6 +51853,9 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_30]
 certlink=wilderness_cape_30
@@ -51195,6 +51882,9 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_31]
 certlink=wilderness_cape_31
@@ -51221,6 +51911,9 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_32]
 certlink=wilderness_cape_32
@@ -51247,6 +51940,9 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_33]
 certlink=wilderness_cape_33
@@ -51273,6 +51969,9 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_34]
 certlink=wilderness_cape_34
@@ -51299,6 +51998,9 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_35]
 certlink=wilderness_cape_35
@@ -51325,6 +52027,9 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_36]
 certlink=wilderness_cape_36
@@ -51351,6 +52056,9 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_37]
 certlink=wilderness_cape_37
@@ -51377,6 +52085,9 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_38]
 certlink=wilderness_cape_38
@@ -51403,6 +52114,9 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_39]
 certlink=wilderness_cape_39
@@ -51429,6 +52143,9 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_40]
 certlink=wilderness_cape_40
@@ -51455,6 +52172,9 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_41]
 certlink=wilderness_cape_41
@@ -51481,6 +52201,9 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_42]
 certlink=wilderness_cape_42
@@ -51507,6 +52230,9 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_43]
 certlink=wilderness_cape_43
@@ -51533,6 +52259,9 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_44]
 certlink=wilderness_cape_44
@@ -51559,6 +52288,9 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dxan=364
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_45]
 certlink=wilderness_cape_45
@@ -51585,6 +52317,9 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_46]
 certlink=wilderness_cape_46
@@ -51611,6 +52346,9 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_47]
 certlink=wilderness_cape_47
@@ -51637,6 +52375,9 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_48]
 certlink=wilderness_cape_48
@@ -51663,6 +52404,9 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_49]
 certlink=wilderness_cape_49
@@ -51689,6 +52433,9 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dxan=304
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_wilderness_cape_50]
 certlink=wilderness_cape_50
@@ -52646,6 +53393,13 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=1lb
+param=magicattack,-3
+param=rangeattack,-3
+param=stabdefence,12
+param=slashdefence,14
+param=crushdefence,10
+param=magicdefence,7
+param=rangedefence,9
 
 [giant_frog_legs]
 name=Giant frog legs
@@ -52986,6 +53740,13 @@ wearpos=hat
 wearpos2=head
 wearpos3=jaw
 weight=5lb
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,9
+param=slashdefence,10
+param=crushdefence,7
+param=magicdefence,-1
+param=rangedefence,9
 
 [cert_wallbeast_spike_helmet]
 certlink=wallbeast_spike_helmet
@@ -53206,6 +53967,9 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=70lb
+param=slashdefence,10
+param=crushdefence,20
+param=rangedefence,10
 
 [dwarf_rock_book]
 name=Dwarven lore
@@ -53438,6 +54202,13 @@ womanwear=obj_dragon_plateskirt_womanwear,0
 members=yes
 wearpos=legs
 weight=20lb
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,68
+param=slashdefence,66
+param=crushdefence,63
+param=magicdefence,-4
+param=rangedefence,65
 
 [cert_dragon_plateskirt]
 certlink=dragon_plateskirt
@@ -54373,6 +55144,22 @@ womanwear=obj_staff_of_zaros_manwear,6
 cost=100000
 wearpos=righthand
 weight=5lb
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,10
+param=slashattack,-1
+param=crushattack,40
+param=magicattack,15
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,15
+param=strengthbonus,50
+param=prayerbonus,-1
 
 [cert_staff_of_zaros]
 certlink=staff_of_zaros
@@ -54808,6 +55595,12 @@ model=obj_ham_hood
 weight=2lb
 wearpos=hat
 wearpos2=head
+param=magicattack,6
+param=rangeattack,-2
+param=stabdefence,15
+param=slashdefence,13
+param=crushdefence,16
+param=magicdefence,6
 
 [cert_barrows_ahrim_head]
 certlink=barrows_ahrim_head
@@ -54837,6 +55630,21 @@ womanwear=obj_barrows_ahrim_weapon_manwear,6
 model=obj_barrows_ahrim_weapon
 weight=5lb
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,12
+param=slashattack,-1
+param=crushattack,65
+param=magicattack,15
+param=stabdefence,3
+param=slashdefence,5
+param=crushdefence,2
+param=magicdefence,15
+param=strengthbonus,68
 
 [cert_barrows_ahrim_weapon]
 certlink=barrows_ahrim_weapon
@@ -54863,6 +55671,12 @@ model=obj_barrows_ahrim_body
 weight=10lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,30
+param=rangeattack,-10
+param=stabdefence,52
+param=slashdefence,37
+param=crushdefence,63
+param=magicdefence,30
 
 [cert_barrows_ahrim_body]
 certlink=barrows_ahrim_body
@@ -54886,6 +55700,12 @@ womanwear=obj_barrows_ahrim_legs_womanwear,0
 model=obj_barrows_ahrim_legs
 weight=25lb
 wearpos=legs
+param=magicattack,22
+param=rangeattack,-7
+param=stabdefence,33
+param=slashdefence,30
+param=crushdefence,36
+param=magicdefence,22
 
 [cert_barrows_ahrim_legs]
 certlink=barrows_ahrim_legs
@@ -54914,6 +55734,13 @@ model=obj_barrows_dharok_head
 weight=4lb
 wearpos=hat
 wearpos2=head
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,45
+param=slashdefence,48
+param=crushdefence,44
+param=magicdefence,-1
+param=rangedefence,51
 
 [cert_barrows_dharok_head]
 certlink=barrows_dharok_head
@@ -54962,6 +55789,13 @@ model=obj_barrows_dharok_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [cert_barrows_dharok_body]
 certlink=barrows_dharok_body
@@ -54986,6 +55820,13 @@ model=obj_barrows_dharok_legs
 2dxan=456
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [cert_barrows_dharok_legs]
 certlink=barrows_dharok_legs
@@ -55014,6 +55855,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [cert_barrows_guthan_head]
 certlink=barrows_guthan_head
@@ -55072,6 +55920,13 @@ model=obj_barrows_guthan_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [cert_barrows_guthan_body]
 certlink=barrows_guthan_body
@@ -55097,6 +55952,13 @@ model=obj_barrows_guthan_legs
 2dxan=468
 weight=18lb
 wearpos=legs
+param=magicattack,-14
+param=rangeattack,-11
+param=stabdefence,75
+param=slashdefence,72
+param=crushdefence,73
+param=magicdefence,-4
+param=rangedefence,82
 
 [cert_barrows_guthan_legs]
 certlink=barrows_guthan_legs
@@ -55133,6 +55995,13 @@ weight=2lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-1
+param=rangeattack,7
+param=stabdefence,6
+param=slashdefence,9
+param=crushdefence,12
+param=magicdefence,6
+param=rangedefence,10
 
 [cert_barrows_karil_head]
 certlink=barrows_karil_head
@@ -55195,6 +56064,13 @@ model=obj_barrows_karil_body
 weight=15lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-15
+param=rangeattack,30
+param=stabdefence,47
+param=slashdefence,42
+param=crushdefence,50
+param=magicdefence,65
+param=rangedefence,57
 
 [cert_barrows_karil_body]
 certlink=barrows_karil_body
@@ -55225,6 +56101,13 @@ womanwear=obj_barrows_karil_legs_womanwear,0
 model=obj_barrows_karil_legs
 weight=12lb
 wearpos=legs
+param=magicattack,-10
+param=rangeattack,17
+param=stabdefence,26
+param=slashdefence,20
+param=crushdefence,28
+param=magicdefence,35
+param=rangedefence,33
 
 [cert_barrows_karil_legs]
 certlink=barrows_karil_legs
@@ -55349,6 +56232,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [cert_barrows_torag_head]
 certlink=barrows_torag_head
@@ -55397,6 +56287,13 @@ model=obj_barrows_torag_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [cert_barrows_torag_body]
 certlink=barrows_torag_body
@@ -55418,6 +56315,13 @@ model=obj_barrows_torag_legs
 2dxan=468
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [cert_barrows_torag_legs]
 certlink=barrows_torag_legs
@@ -55455,6 +56359,13 @@ weight=3lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=rangedefence,56
+param=prayerbonus,3
 
 [cert_barrows_verac_head]
 certlink=barrows_verac_head
@@ -55522,6 +56433,13 @@ model=obj_barrows_verac_body
 weight=11lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,81
+param=slashdefence,95
+param=crushdefence,85
+param=rangedefence,81
+param=prayerbonus,5
 
 [cert_barrows_verac_body]
 certlink=barrows_verac_body
@@ -55548,6 +56466,13 @@ womanwear=obj_barrows_verac_legs_womanwear,0
 model=obj_barrows_verac_legs
 weight=10lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=rangedefence,84
+param=prayerbonus,4
 
 [cert_barrows_verac_legs]
 certlink=barrows_verac_legs
@@ -56933,6 +57858,12 @@ model=obj_ham_hood
 weight=2lb
 wearpos=hat
 wearpos2=head
+param=magicattack,6
+param=rangeattack,-2
+param=stabdefence,15
+param=slashdefence,13
+param=crushdefence,16
+param=magicdefence,6
 
 [barrows_ahrim_head_75]
 name=Ahrims hood 75
@@ -56952,6 +57883,12 @@ model=obj_ham_hood
 weight=2lb
 wearpos=hat
 wearpos2=head
+param=magicattack,6
+param=rangeattack,-2
+param=stabdefence,15
+param=slashdefence,13
+param=crushdefence,16
+param=magicdefence,6
 
 [barrows_ahrim_head_50]
 name=Ahrims hood 50
@@ -56971,6 +57908,12 @@ model=obj_ham_hood
 weight=2lb
 wearpos=hat
 wearpos2=head
+param=magicattack,6
+param=rangeattack,-2
+param=stabdefence,15
+param=slashdefence,13
+param=crushdefence,16
+param=magicdefence,6
 
 [barrows_ahrim_head_25]
 name=Ahrims hood 25
@@ -56990,6 +57933,12 @@ model=obj_ham_hood
 weight=2lb
 wearpos=hat
 wearpos2=head
+param=magicattack,6
+param=rangeattack,-2
+param=stabdefence,15
+param=slashdefence,13
+param=crushdefence,16
+param=magicdefence,6
 
 [barrows_ahrim_head_broken]
 name=Ahrims hood 0
@@ -57037,6 +57986,21 @@ womanwear=obj_barrows_ahrim_weapon_manwear,6
 model=obj_barrows_ahrim_weapon
 weight=5lb
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,12
+param=slashattack,-1
+param=crushattack,65
+param=magicattack,15
+param=stabdefence,3
+param=slashdefence,5
+param=crushdefence,2
+param=magicdefence,15
+param=strengthbonus,68
 
 [barrows_ahrim_weapon_75]
 name=Ahrims staff 75
@@ -57062,6 +58026,21 @@ womanwear=obj_barrows_ahrim_weapon_manwear,6
 model=obj_barrows_ahrim_weapon
 weight=5lb
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,12
+param=slashattack,-1
+param=crushattack,65
+param=magicattack,15
+param=stabdefence,3
+param=slashdefence,5
+param=crushdefence,2
+param=magicdefence,15
+param=strengthbonus,68
 
 [barrows_ahrim_weapon_50]
 name=Ahrims staff 50
@@ -57087,6 +58066,21 @@ womanwear=obj_barrows_ahrim_weapon_manwear,6
 model=obj_barrows_ahrim_weapon
 weight=5lb
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,12
+param=slashattack,-1
+param=crushattack,65
+param=magicattack,15
+param=stabdefence,3
+param=slashdefence,5
+param=crushdefence,2
+param=magicdefence,15
+param=strengthbonus,68
 
 [barrows_ahrim_weapon_25]
 name=Ahrims staff 25
@@ -57112,6 +58106,21 @@ womanwear=obj_barrows_ahrim_weapon_manwear,6
 model=obj_barrows_ahrim_weapon
 weight=5lb
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,12
+param=slashattack,-1
+param=crushattack,65
+param=magicattack,15
+param=stabdefence,3
+param=slashdefence,5
+param=crushdefence,2
+param=magicdefence,15
+param=strengthbonus,68
 
 [barrows_ahrim_weapon_broken]
 name=Ahrims staff 0
@@ -57162,6 +58171,12 @@ model=obj_barrows_ahrim_body
 weight=10lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,30
+param=rangeattack,-10
+param=stabdefence,52
+param=slashdefence,37
+param=crushdefence,63
+param=magicdefence,30
 
 [barrows_ahrim_body_75]
 name=Ahrims top 75
@@ -57184,6 +58199,12 @@ model=obj_barrows_ahrim_body
 weight=10lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,30
+param=rangeattack,-10
+param=stabdefence,52
+param=slashdefence,37
+param=crushdefence,63
+param=magicdefence,30
 
 [barrows_ahrim_body_50]
 name=Ahrims top 50
@@ -57206,6 +58227,12 @@ model=obj_barrows_ahrim_body
 weight=10lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,30
+param=rangeattack,-10
+param=stabdefence,52
+param=slashdefence,37
+param=crushdefence,63
+param=magicdefence,30
 
 [barrows_ahrim_body_25]
 name=Ahrims top 25
@@ -57228,6 +58255,12 @@ model=obj_barrows_ahrim_body
 weight=10lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,30
+param=rangeattack,-10
+param=stabdefence,52
+param=slashdefence,37
+param=crushdefence,63
+param=magicdefence,30
 
 [barrows_ahrim_body_broken]
 name=Ahrims top 0
@@ -57272,6 +58305,12 @@ womanwear=obj_barrows_ahrim_legs_womanwear,0
 model=obj_barrows_ahrim_legs
 weight=25lb
 wearpos=legs
+param=magicattack,22
+param=rangeattack,-7
+param=stabdefence,33
+param=slashdefence,30
+param=crushdefence,36
+param=magicdefence,22
 
 [barrows_ahrim_legs_75]
 name=Ahrims skirt 75
@@ -57291,6 +58330,12 @@ womanwear=obj_barrows_ahrim_legs_womanwear,0
 model=obj_barrows_ahrim_legs
 weight=25lb
 wearpos=legs
+param=magicattack,22
+param=rangeattack,-7
+param=stabdefence,33
+param=slashdefence,30
+param=crushdefence,36
+param=magicdefence,22
 
 [barrows_ahrim_legs_50]
 name=Ahrims skirt 50
@@ -57310,6 +58355,12 @@ womanwear=obj_barrows_ahrim_legs_womanwear,0
 model=obj_barrows_ahrim_legs
 weight=25lb
 wearpos=legs
+param=magicattack,22
+param=rangeattack,-7
+param=stabdefence,33
+param=slashdefence,30
+param=crushdefence,36
+param=magicdefence,22
 
 [barrows_ahrim_legs_25]
 name=Ahrims skirt 25
@@ -57329,6 +58380,12 @@ womanwear=obj_barrows_ahrim_legs_womanwear,0
 model=obj_barrows_ahrim_legs
 weight=25lb
 wearpos=legs
+param=magicattack,22
+param=rangeattack,-7
+param=stabdefence,33
+param=slashdefence,30
+param=crushdefence,36
+param=magicdefence,22
 
 [barrows_ahrim_legs_broken]
 name=Ahrims skirt 0
@@ -57375,6 +58432,13 @@ model=obj_barrows_dharok_head
 weight=4lb
 wearpos=hat
 wearpos2=head
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,45
+param=slashdefence,48
+param=crushdefence,44
+param=magicdefence,-1
+param=rangedefence,51
 
 [barrows_dharok_head_75]
 name=Dharoks helm 75
@@ -57399,6 +58463,13 @@ model=obj_barrows_dharok_head
 weight=4lb
 wearpos=hat
 wearpos2=head
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,45
+param=slashdefence,48
+param=crushdefence,44
+param=magicdefence,-1
+param=rangedefence,51
 
 [barrows_dharok_head_50]
 name=Dharoks helm 50
@@ -57423,6 +58494,13 @@ model=obj_barrows_dharok_head
 weight=4lb
 wearpos=hat
 wearpos2=head
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,45
+param=slashdefence,48
+param=crushdefence,44
+param=magicdefence,-1
+param=rangedefence,51
 
 [barrows_dharok_head_25]
 name=Dharoks helm 25
@@ -57447,6 +58525,13 @@ model=obj_barrows_dharok_head
 weight=4lb
 wearpos=hat
 wearpos2=head
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,45
+param=slashdefence,48
+param=crushdefence,44
+param=magicdefence,-1
+param=rangedefence,51
 
 [barrows_dharok_head_broken]
 name=Dharoks helm 0
@@ -57585,6 +58670,13 @@ model=obj_barrows_dharok_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_dharok_body_75]
 name=Dharoks body 75
@@ -57608,6 +58700,13 @@ model=obj_barrows_dharok_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_dharok_body_50]
 name=Dharoks body 50
@@ -57631,6 +58730,13 @@ model=obj_barrows_dharok_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_dharok_body_25]
 name=Dharoks body 25
@@ -57654,6 +58760,13 @@ model=obj_barrows_dharok_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_dharok_body_broken]
 name=Dharoks body 0
@@ -57700,6 +58813,13 @@ model=obj_barrows_dharok_legs
 2dxan=456
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [barrows_dharok_legs_75]
 name=Dharoks legs 75
@@ -57720,6 +58840,13 @@ model=obj_barrows_dharok_legs
 2dxan=456
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [barrows_dharok_legs_50]
 name=Dharoks legs 50
@@ -57740,6 +58867,13 @@ model=obj_barrows_dharok_legs
 2dxan=456
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [barrows_dharok_legs_25]
 name=Dharoks legs 25
@@ -57760,6 +58894,13 @@ model=obj_barrows_dharok_legs
 2dxan=456
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [barrows_dharok_legs_broken]
 name=Dharoks legs 0
@@ -57807,6 +58948,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [barrows_guthan_head_75]
 name=Guthans helm 75
@@ -57831,6 +58979,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [barrows_guthan_head_50]
 name=Guthans helm 50
@@ -57855,6 +59010,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [barrows_guthan_head_25]
 name=Guthans helm 25
@@ -57879,6 +59041,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [barrows_guthan_head_broken]
 name=Guthans helm 0
@@ -58071,6 +59240,13 @@ model=obj_barrows_guthan_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_guthan_body_75]
 name=Guthans body 75
@@ -58093,6 +59269,13 @@ model=obj_barrows_guthan_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_guthan_body_50]
 name=Guthans body 50
@@ -58115,6 +59298,13 @@ model=obj_barrows_guthan_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_guthan_body_25]
 name=Guthans body 25
@@ -58137,6 +59327,13 @@ model=obj_barrows_guthan_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_guthan_body_broken]
 name=Guthans body 0
@@ -58183,6 +59380,13 @@ model=obj_barrows_guthan_legs
 2dxan=468
 weight=18lb
 wearpos=legs
+param=magicattack,-14
+param=rangeattack,-11
+param=stabdefence,75
+param=slashdefence,72
+param=crushdefence,73
+param=magicdefence,-4
+param=rangedefence,82
 
 [barrows_guthan_legs_75]
 name=Guthans skirt 75
@@ -58204,6 +59408,13 @@ model=obj_barrows_guthan_legs
 2dxan=468
 weight=18lb
 wearpos=legs
+param=magicattack,-14
+param=rangeattack,-11
+param=stabdefence,75
+param=slashdefence,72
+param=crushdefence,73
+param=magicdefence,-4
+param=rangedefence,82
 
 [barrows_guthan_legs_50]
 name=Guthans skirt 50
@@ -58225,6 +59436,13 @@ model=obj_barrows_guthan_legs
 2dxan=468
 weight=18lb
 wearpos=legs
+param=magicattack,-14
+param=rangeattack,-11
+param=stabdefence,75
+param=slashdefence,72
+param=crushdefence,73
+param=magicdefence,-4
+param=rangedefence,82
 
 [barrows_guthan_legs_25]
 name=Guthans skirt 25
@@ -58246,6 +59464,13 @@ model=obj_barrows_guthan_legs
 2dxan=468
 weight=18lb
 wearpos=legs
+param=magicattack,-14
+param=rangeattack,-11
+param=stabdefence,75
+param=slashdefence,72
+param=crushdefence,73
+param=magicdefence,-4
+param=rangedefence,82
 
 [barrows_guthan_legs_broken]
 name=Guthans skirt 0
@@ -58302,6 +59527,13 @@ weight=2lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-1
+param=rangeattack,7
+param=stabdefence,6
+param=slashdefence,9
+param=crushdefence,12
+param=magicdefence,6
+param=rangedefence,10
 
 [barrows_karil_head_75]
 name=Karils coif 75
@@ -58334,6 +59566,13 @@ weight=2lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-1
+param=rangeattack,7
+param=stabdefence,6
+param=slashdefence,9
+param=crushdefence,12
+param=magicdefence,6
+param=rangedefence,10
 
 [barrows_karil_head_50]
 name=Karils coif 50
@@ -58366,6 +59605,13 @@ weight=2lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-1
+param=rangeattack,7
+param=stabdefence,6
+param=slashdefence,9
+param=crushdefence,12
+param=magicdefence,6
+param=rangedefence,10
 
 [barrows_karil_head_25]
 name=Karils coif 25
@@ -58398,6 +59644,13 @@ weight=2lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-1
+param=rangeattack,7
+param=stabdefence,6
+param=slashdefence,9
+param=crushdefence,12
+param=magicdefence,6
+param=rangedefence,10
 
 [barrows_karil_head_broken]
 name=Karils coif 0
@@ -58594,6 +59847,13 @@ model=obj_barrows_karil_body
 weight=15lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-15
+param=rangeattack,30
+param=stabdefence,47
+param=slashdefence,42
+param=crushdefence,50
+param=magicdefence,65
+param=rangedefence,57
 
 [barrows_karil_body_75]
 name=Karils top 75
@@ -58622,6 +59882,13 @@ model=obj_barrows_karil_body
 weight=15lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-15
+param=rangeattack,30
+param=stabdefence,47
+param=slashdefence,42
+param=crushdefence,50
+param=magicdefence,65
+param=rangedefence,57
 
 [barrows_karil_body_50]
 name=Karils top 50
@@ -58650,6 +59917,13 @@ model=obj_barrows_karil_body
 weight=15lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-15
+param=rangeattack,30
+param=stabdefence,47
+param=slashdefence,42
+param=crushdefence,50
+param=magicdefence,65
+param=rangedefence,57
 
 [barrows_karil_body_25]
 name=Karils top 25
@@ -58678,6 +59952,13 @@ model=obj_barrows_karil_body
 weight=15lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-15
+param=rangeattack,30
+param=stabdefence,47
+param=slashdefence,42
+param=crushdefence,50
+param=magicdefence,65
+param=rangedefence,57
 
 [barrows_karil_body_broken]
 name=Karils top 0
@@ -58735,6 +60016,13 @@ womanwear=obj_barrows_karil_legs_womanwear,0
 model=obj_barrows_karil_legs
 weight=12lb
 wearpos=legs
+param=magicattack,-10
+param=rangeattack,17
+param=stabdefence,26
+param=slashdefence,20
+param=crushdefence,28
+param=magicdefence,35
+param=rangedefence,33
 
 [barrows_karil_legs_75]
 name=Karils skirt 75
@@ -58761,6 +60049,13 @@ womanwear=obj_barrows_karil_legs_womanwear,0
 model=obj_barrows_karil_legs
 weight=12lb
 wearpos=legs
+param=magicattack,-10
+param=rangeattack,17
+param=stabdefence,26
+param=slashdefence,20
+param=crushdefence,28
+param=magicdefence,35
+param=rangedefence,33
 
 [barrows_karil_legs_50]
 name=Karils skirt 50
@@ -58787,6 +60082,13 @@ womanwear=obj_barrows_karil_legs_womanwear,0
 model=obj_barrows_karil_legs
 weight=12lb
 wearpos=legs
+param=magicattack,-10
+param=rangeattack,17
+param=stabdefence,26
+param=slashdefence,20
+param=crushdefence,28
+param=magicdefence,35
+param=rangedefence,33
 
 [barrows_karil_legs_25]
 name=Karils skirt 25
@@ -58813,6 +60115,13 @@ womanwear=obj_barrows_karil_legs_womanwear,0
 model=obj_barrows_karil_legs
 weight=12lb
 wearpos=legs
+param=magicattack,-10
+param=rangeattack,17
+param=stabdefence,26
+param=slashdefence,20
+param=crushdefence,28
+param=magicdefence,35
+param=rangedefence,33
 
 [barrows_karil_legs_broken]
 name=Karils skirt 0
@@ -58865,6 +60174,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [barrows_torag_head_75]
 name=Torags helm 75
@@ -58888,6 +60204,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [barrows_torag_head_50]
 name=Torags helm 50
@@ -58911,6 +60234,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [barrows_torag_head_25]
 name=Torags helm 25
@@ -58934,6 +60264,13 @@ weight=6lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=magicdefence,-1
+param=rangedefence,62
 
 [barrows_torag_head_broken]
 name=Torags helm 0
@@ -59075,6 +60412,13 @@ model=obj_barrows_torag_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_torag_body_75]
 name=Torags body 75
@@ -59097,6 +60441,13 @@ model=obj_barrows_torag_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_torag_body_50]
 name=Torags body 50
@@ -59119,6 +60470,13 @@ model=obj_barrows_torag_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_torag_body_25]
 name=Torags body 25
@@ -59141,6 +60499,13 @@ model=obj_barrows_torag_body
 weight=22lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,122
+param=slashdefence,120
+param=crushdefence,107
+param=magicdefence,-6
+param=rangedefence,132
 
 [barrows_torag_body_broken]
 name=Torags body 0
@@ -59183,6 +60548,13 @@ model=obj_barrows_torag_legs
 2dxan=468
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [barrows_torag_legs_75]
 name=Torags legs 75
@@ -59200,6 +60572,13 @@ model=obj_barrows_torag_legs
 2dxan=468
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [barrows_torag_legs_50]
 name=Torags legs 50
@@ -59217,6 +60596,13 @@ model=obj_barrows_torag_legs
 2dxan=468
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [barrows_torag_legs_25]
 name=Torags legs 25
@@ -59234,6 +60620,13 @@ model=obj_barrows_torag_legs
 2dxan=468
 weight=20lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=magicdefence,-4
+param=rangedefence,92
 
 [barrows_torag_legs_broken]
 name=Torags legs 0
@@ -59287,6 +60680,13 @@ weight=3lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=rangedefence,56
+param=prayerbonus,3
 
 [barrows_verac_head_75]
 name=Veracs helm 75
@@ -59320,6 +60720,13 @@ weight=3lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=rangedefence,56
+param=prayerbonus,3
 
 [barrows_verac_head_50]
 name=Veracs helm 50
@@ -59353,6 +60760,13 @@ weight=3lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=rangedefence,56
+param=prayerbonus,3
 
 [barrows_verac_head_25]
 name=Veracs helm 25
@@ -59386,6 +60800,13 @@ weight=3lb
 wearpos=hat
 wearpos2=head
 wearpos3=jaw
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,55
+param=slashdefence,58
+param=crushdefence,54
+param=rangedefence,56
+param=prayerbonus,3
 
 [barrows_verac_head_broken]
 name=Veracs helm 0
@@ -59588,6 +61009,13 @@ model=obj_barrows_verac_body
 weight=11lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,81
+param=slashdefence,95
+param=crushdefence,85
+param=rangedefence,81
+param=prayerbonus,5
 
 [barrows_verac_body_75]
 name=Veracs top 75
@@ -59618,6 +61046,13 @@ model=obj_barrows_verac_body
 weight=11lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,81
+param=slashdefence,95
+param=crushdefence,85
+param=rangedefence,81
+param=prayerbonus,5
 
 [barrows_verac_body_50]
 name=Veracs top 50
@@ -59648,6 +61083,13 @@ model=obj_barrows_verac_body
 weight=11lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,81
+param=slashdefence,95
+param=crushdefence,85
+param=rangedefence,81
+param=prayerbonus,5
 
 [barrows_verac_body_25]
 name=Veracs top 25
@@ -59678,6 +61120,13 @@ model=obj_barrows_verac_body
 weight=11lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,81
+param=slashdefence,95
+param=crushdefence,85
+param=rangedefence,81
+param=prayerbonus,5
 
 [barrows_verac_body_broken]
 name=Veracs top 0
@@ -59733,6 +61182,13 @@ womanwear=obj_barrows_verac_legs_womanwear,0
 model=obj_barrows_verac_legs
 weight=10lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=rangedefence,84
+param=prayerbonus,4
 
 [barrows_verac_legs_75]
 name=Veracs skirt 75
@@ -59755,6 +61211,13 @@ womanwear=obj_barrows_verac_legs_womanwear,0
 model=obj_barrows_verac_legs
 weight=10lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=rangedefence,84
+param=prayerbonus,4
 
 [barrows_verac_legs_50]
 name=Veracs skirt 50
@@ -59777,6 +61240,13 @@ womanwear=obj_barrows_verac_legs_womanwear,0
 model=obj_barrows_verac_legs
 weight=10lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=rangedefence,84
+param=prayerbonus,4
 
 [barrows_verac_legs_25]
 name=Veracs skirt 25
@@ -59799,6 +61269,13 @@ womanwear=obj_barrows_verac_legs_womanwear,0
 model=obj_barrows_verac_legs
 weight=10lb
 wearpos=legs
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,85
+param=slashdefence,82
+param=crushdefence,83
+param=rangedefence,84
+param=prayerbonus,4
 
 [barrows_verac_legs_broken]
 name=Veracs skirt 0
@@ -59992,6 +61469,13 @@ iop2=Wear
 iop3=Extinguish
 weight=2lb
 wearpos=hat
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,4
+param=slashdefence,5
+param=crushdefence,3
+param=magicdefence,-1
+param=rangedefence,4
 
 [cave_goblin_mining_helmet_unlit]
 name=Mining helmet
@@ -60013,6 +61497,13 @@ weight=2lb
 wearpos=hat
 category=light_source_unlit
 param=product,cave_goblin_mining_helmet_lit
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,4
+param=slashdefence,5
+param=crushdefence,3
+param=magicdefence,-1
+param=rangedefence,4
 
 [cert_cave_goblin_mining_helmet_unlit]
 certlink=cave_goblin_mining_helmet_unlit
@@ -65789,6 +67280,11 @@ cost=625
 wearpos=torso
 wearpos2=arms
 weight=1lb
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,10
+param=magicdefence,10
+param=rangedefence,10
 
 [roguesden_helm]
 name=Rogue mask
@@ -65808,6 +67304,11 @@ wearpos=hat
 wearpos2=head
 wearpos3=jaw
 weight=1lb
+param=stabdefence,5
+param=slashdefence,5
+param=crushdefence,5
+param=magicdefence,5
+param=rangedefence,5
 
 [roguesden_legs]
 name=Rogue trousers
@@ -65824,6 +67325,11 @@ womanwear=obj_roguesden_legs_womanwear,0
 cost=500
 wearpos=legs
 weight=1lb
+param=stabdefence,7
+param=slashdefence,7
+param=crushdefence,7
+param=magicdefence,7
+param=rangedefence,7
 
 [roguesden_gloves]
 name=Rogue gloves
@@ -65841,6 +67347,11 @@ womanwear=obj_roguesden_gloves_womanwear,0
 cost=250
 wearpos=hands
 weight=1lb
+param=stabdefence,2
+param=slashdefence,2
+param=crushdefence,2
+param=magicdefence,2
+param=rangedefence,2
 
 [roguesden_boots]
 name=Rogue boots
@@ -65856,6 +67367,11 @@ womanwear=obj_roguesden_boots_womanwear,0
 cost=250
 wearpos=feet
 weight=1lb
+param=stabdefence,2
+param=slashdefence,2
+param=crushdefence,2
+param=magicdefence,2
+param=rangedefence,2
 
 [roguesden_kit]
 name=Rogue kit
@@ -66056,6 +67572,14 @@ wearpos=hat
 wearpos2=head
 wearpos3=jaw
 weight=5lb
+param=magicattack,-6
+param=rangeattack,-3
+param=stabdefence,13
+param=slashdefence,14
+param=crushdefence,11
+param=magicdefence,-1
+param=rangedefence,13
+param=prayerbonus,3
 
 [basic_tk_body]
 name=Initiate platemail
@@ -66080,6 +67604,14 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=19lb
+param=magicattack,-30
+param=rangeattack,-15
+param=stabdefence,46
+param=slashdefence,44
+param=crushdefence,38
+param=magicdefence,-6
+param=rangedefence,44
+param=prayerbonus,6
 
 [basic_tk_legs]
 name=Initiate platelegs
@@ -66101,6 +67633,14 @@ womanwear=obj_iron_platelegs_womanwear,0
 members=yes
 wearpos=legs
 weight=17lb
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,24
+param=slashdefence,22
+param=crushdefence,20
+param=magicdefence,-4
+param=rangedefence,22
+param=prayerbonus,5
 
 [rd_cupric_sulphate]
 name=Cupric sulfate
@@ -66609,6 +68149,12 @@ count3=bronze_arrow_p_4,4
 count4=bronze_arrow_p_5,5
 wearpos=quiver
 weight=16g
+category=arrows
+param=rangebonus,7
+param=levelrequire,1
+param=proj_launch,bronze_arrow_launch
+param=proj_travel,bronze_arrow_travel
+param=poison_severity,25
 
 [iron_arrow_p+]
 name=Iron arrow(+)
@@ -66633,6 +68179,12 @@ count3=iron_arrow_p_4,4
 count4=iron_arrow_p_5,5
 wearpos=quiver
 weight=16g
+category=arrows
+param=rangebonus,10
+param=levelrequire,1
+param=proj_launch,iron_arrow_launch
+param=proj_travel,iron_arrow_travel
+param=poison_severity,25
 
 [steel_arrow_p+]
 name=Steel arrow(+)
@@ -66655,6 +68207,12 @@ count3=steel_arrow_p_4,4
 count4=steel_arrow_p_5,5
 wearpos=quiver
 weight=16g
+category=arrows
+param=rangebonus,16
+param=levelrequire,5
+param=proj_launch,steel_arrow_launch
+param=proj_travel,steel_arrow_travel
+param=poison_severity,25
 
 [mithril_arrow_p+]
 name=Mithril arrow(+)
@@ -66679,6 +68237,12 @@ count3=mithril_arrow_p_4,4
 count4=mithril_arrow_p_5,5
 wearpos=quiver
 weight=14g
+category=arrows
+param=rangebonus,22
+param=levelrequire,20
+param=proj_launch,mithril_arrow_launch
+param=proj_travel,mithril_arrow_travel
+param=poison_severity,25
 
 [adamant_arrow_p+]
 name=Adamant arrow(+)
@@ -66703,6 +68267,12 @@ count3=adamant_arrow_p_4,4
 count4=adamant_arrow_p_5,5
 wearpos=quiver
 weight=18g
+category=arrows
+param=rangebonus,31
+param=levelrequire,30
+param=proj_launch,adamant_arrow_launch
+param=proj_travel,adamant_arrow_travel
+param=poison_severity,25
 
 [rune_arrow_p+]
 name=Rune arrow(+)
@@ -66727,6 +68297,12 @@ count3=rune_arrow_p_4,4
 count4=rune_arrow_p_5,5
 wearpos=quiver
 weight=16g
+category=arrows
+param=rangebonus,49
+param=levelrequire,40
+param=proj_launch,rune_arrow_launch
+param=proj_travel,rune_arrow_travel
+param=poison_severity,25
 
 [bronze_arrow_p++]
 name=Bronze arrow(s)
@@ -66751,6 +68327,12 @@ count3=bronze_arrow_p_4,4
 count4=bronze_arrow_p_5,5
 wearpos=quiver
 weight=16g
+category=arrows
+param=rangebonus,7
+param=levelrequire,1
+param=proj_launch,bronze_arrow_launch
+param=proj_travel,bronze_arrow_travel
+param=poison_severity,30
 
 [iron_arrow_p++]
 name=Iron arrow(s)
@@ -66775,6 +68357,12 @@ count3=iron_arrow_p_4,4
 count4=iron_arrow_p_5,5
 wearpos=quiver
 weight=16g
+category=arrows
+param=rangebonus,10
+param=levelrequire,1
+param=proj_launch,iron_arrow_launch
+param=proj_travel,iron_arrow_travel
+param=poison_severity,30
 
 [steel_arrow_p++]
 name=Steel arrow(s)
@@ -66797,6 +68385,12 @@ count3=steel_arrow_p_4,4
 count4=steel_arrow_p_5,5
 wearpos=quiver
 weight=16g
+category=arrows
+param=rangebonus,16
+param=levelrequire,5
+param=proj_launch,steel_arrow_launch
+param=proj_travel,steel_arrow_travel
+param=poison_severity,30
 
 [mithril_arrow_p++]
 name=Mithril arrow(s)
@@ -66821,6 +68415,12 @@ count3=mithril_arrow_p_4,4
 count4=mithril_arrow_p_5,5
 wearpos=quiver
 weight=14g
+category=arrows
+param=rangebonus,22
+param=levelrequire,20
+param=proj_launch,mithril_arrow_launch
+param=proj_travel,mithril_arrow_travel
+param=poison_severity,30
 
 [adamant_arrow_p++]
 name=Adamant arrow(s)
@@ -66845,6 +68445,12 @@ count3=adamant_arrow_p_4,4
 count4=adamant_arrow_p_5,5
 wearpos=quiver
 weight=18g
+category=arrows
+param=rangebonus,31
+param=levelrequire,30
+param=proj_launch,adamant_arrow_launch
+param=proj_travel,adamant_arrow_travel
+param=poison_severity,30
 
 [rune_arrow_p++]
 name=Rune arrow(s)
@@ -66869,6 +68475,12 @@ count3=rune_arrow_p_4,4
 count4=rune_arrow_p_5,5
 wearpos=quiver
 weight=16g
+category=arrows
+param=rangebonus,49
+param=levelrequire,40
+param=proj_launch,rune_arrow_launch
+param=proj_travel,rune_arrow_travel
+param=poison_severity,30
 
 [bronze_dart_p+]
 name=Bronze dart(+)
@@ -66893,6 +68505,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,3
+param=rangebonus,1
+param=levelrequire,1
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,bronze_dart_launch
+param=proj_travel,bronze_dart_travel
+param=poison_severity,25
 
 [iron_dart_p+]
 name=Iron dart(+)
@@ -66915,6 +68539,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,4
+param=rangebonus,3
+param=levelrequire,1
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,iron_dart_launch
+param=proj_travel,iron_dart_travel
+param=poison_severity,25
 
 [steel_dart_p+]
 name=Steel dart(+)
@@ -66937,6 +68573,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,5
+param=rangebonus,4
+param=levelrequire,5
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,steel_dart_launch
+param=proj_travel,steel_dart_travel
+param=poison_severity,25
 
 [black_dart_p+]
 name=Black dart(+)
@@ -66959,6 +68607,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,7
+param=rangebonus,6
+param=levelrequire,10
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,black_dart_launch
+param=proj_travel,black_dart_travel
+param=poison_severity,25
 
 [mithril_dart_p+]
 name=Mithril dart(+)
@@ -66981,6 +68641,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=8g
+category=weapon_thrown
+param=rangeattack,8
+param=rangebonus,7
+param=levelrequire,20
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,mithril_dart_launch
+param=proj_travel,mithril_dart_travel
+param=poison_severity,25
 
 [adamant_dart_p+]
 name=Adamant dart(+)
@@ -67003,6 +68675,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=12g
+category=weapon_thrown
+param=rangeattack,11
+param=rangebonus,10
+param=levelrequire,30
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,adamant_dart_launch
+param=proj_travel,adamant_dart_travel
+param=poison_severity,25
 
 [rune_dart_p+]
 name=Rune dart(+)
@@ -67025,6 +68709,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,15
+param=rangebonus,14
+param=levelrequire,40
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,rune_dart_launch
+param=proj_travel,rune_dart_travel
+param=poison_severity,25
 
 [bronze_dart_p++]
 name=Bronze dart(s)
@@ -67049,6 +68745,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,3
+param=rangebonus,1
+param=levelrequire,1
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,bronze_dart_launch
+param=proj_travel,bronze_dart_travel
+param=poison_severity,30
 
 [iron_dart_p++]
 name=Iron dart(s)
@@ -67071,6 +68779,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,4
+param=rangebonus,3
+param=levelrequire,1
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,iron_dart_launch
+param=proj_travel,iron_dart_travel
+param=poison_severity,30
 
 [steel_dart_p++]
 name=Steel dart(s)
@@ -67093,6 +68813,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,5
+param=rangebonus,4
+param=levelrequire,5
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,steel_dart_launch
+param=proj_travel,steel_dart_travel
+param=poison_severity,30
 
 [black_dart_p++]
 name=Black dart(s)
@@ -67115,6 +68847,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,7
+param=rangebonus,6
+param=levelrequire,10
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,black_dart_launch
+param=proj_travel,black_dart_travel
+param=poison_severity,30
 
 [mithril_dart_p++]
 name=Mithril dart(s)
@@ -67137,6 +68881,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=8g
+category=weapon_thrown
+param=rangeattack,8
+param=rangebonus,7
+param=levelrequire,20
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,mithril_dart_launch
+param=proj_travel,mithril_dart_travel
+param=poison_severity,30
 
 [adamant_dart_p++]
 name=Adamant dart(s)
@@ -67159,6 +68915,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=12g
+category=weapon_thrown
+param=rangeattack,11
+param=rangebonus,10
+param=levelrequire,30
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,adamant_dart_launch
+param=proj_travel,adamant_dart_travel
+param=poison_severity,30
 
 [rune_dart_p++]
 name=Rune dart(s)
@@ -67181,6 +68949,18 @@ womanwear=obj_bronze_dart_p_manwear,6
 iop2=Wield
 wearpos=righthand
 weight=10g
+category=weapon_thrown
+param=rangeattack,15
+param=rangebonus,14
+param=levelrequire,40
+param=attackrate,3
+param=attackrange,3
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,dart
+param=proj_launch,rune_dart_launch
+param=proj_travel,rune_dart_travel
+param=poison_severity,30
 
 [bronze_javelin_p+]
 name=Bronze javelin(+)
@@ -67200,6 +68980,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,5
+param=rangebonus,6
+param=levelrequire,1
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,bronze_javelin_launch
+param=proj_travel,bronze_javelin_travel
+param=poison_severity,25
 
 [iron_javelin_p+]
 name=Iron javelin(+)
@@ -67219,6 +69011,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,8
+param=rangebonus,10
+param=levelrequire,1
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,iron_javelin_launch
+param=proj_travel,iron_javelin_travel
+param=poison_severity,25
 
 [steel_javelin_p+]
 name=Steel javelin(+)
@@ -67236,6 +69040,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,12
+param=rangebonus,12
+param=levelrequire,5
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,steel_javelin_launch
+param=proj_travel,steel_javelin_travel
+param=poison_severity,25
 
 [mithril_javelin_p+]
 name=Mithril javelin(+)
@@ -67255,6 +69071,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,17
+param=rangebonus,18
+param=levelrequire,20
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,mithril_javelin_launch
+param=proj_travel,mithril_javelin_travel
+param=poison_severity,25
 
 [adamant_javelin_p+]
 name=Adamant javelin(+)
@@ -67274,6 +69102,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,24
+param=rangebonus,28
+param=levelrequire,30
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,mithril_javelin_launch
+param=proj_travel,mithril_javelin_travel
+param=poison_severity,25
 
 [rune_javelin_p+]
 name=Rune javelin(+)
@@ -67293,6 +69133,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,38
+param=rangebonus,42
+param=levelrequire,40
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,rune_javelin_launch
+param=proj_travel,rune_javelin_travel
+param=poison_severity,25
 
 [bronze_javelin_p++]
 name=Bronze javelin(s)
@@ -67312,6 +69164,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,5
+param=rangebonus,6
+param=levelrequire,1
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,bronze_javelin_launch
+param=proj_travel,bronze_javelin_travel
+param=poison_severity,30
 
 [iron_javelin_p++]
 name=Iron javelin(s)
@@ -67331,6 +69195,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,8
+param=rangebonus,10
+param=levelrequire,1
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,iron_javelin_launch
+param=proj_travel,iron_javelin_travel
+param=poison_severity,30
 
 [steel_javelin_p++]
 name=Steel javelin(s)
@@ -67348,6 +69224,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,12
+param=rangebonus,12
+param=levelrequire,5
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,steel_javelin_launch
+param=proj_travel,steel_javelin_travel
+param=poison_severity,30
 
 [mithril_javelin_p++]
 name=Mithril javelin(s)
@@ -67367,6 +69255,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,17
+param=rangebonus,18
+param=levelrequire,20
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,mithril_javelin_launch
+param=proj_travel,mithril_javelin_travel
+param=poison_severity,30
 
 [adamant_javelin_p++]
 name=Adamant javelin(s)
@@ -67386,6 +69286,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,24
+param=rangebonus,28
+param=levelrequire,30
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,mithril_javelin_launch
+param=proj_travel,mithril_javelin_travel
+param=poison_severity,30
 
 [rune_javelin_p++]
 name=Rune javelin(s)
@@ -67405,6 +69317,18 @@ model=obj_bronze_javelin
 stackable=yes
 members=yes
 wearpos=quiver
+category=weapon_javelin
+param=rangeattack,38
+param=rangebonus,42
+param=levelrequire,40
+param=attackrange,5
+param=attackrate,6
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,javelin
+param=proj_launch,rune_javelin_launch
+param=proj_travel,rune_javelin_travel
+param=poison_severity,30
 
 [bronze_knife_p+]
 name=Bronze knife(+)
@@ -67428,6 +69352,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,4
+param=rangebonus,3
+param=levelrequire,1
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,bronze_tknife_launch
+param=proj_travel,bronze_tknife_travel
+param=poison_severity,25
 
 [iron_knife_p+]
 name=Iron knife(+)
@@ -67451,6 +69387,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,5
+param=rangebonus,4
+param=levelrequire,1
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,iron_tknife_launch
+param=proj_travel,iron_tknife_travel
+param=poison_severity,25
 
 [steel_knife_p+]
 name=Steel knife(+)
@@ -67472,6 +69420,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,8
+param=rangebonus,7
+param=levelrequire,5
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,steel_tknife_launch
+param=proj_travel,steel_tknife_travel
+param=poison_severity,25
 
 [mithril_knife_p+]
 name=Mithril knife(+)
@@ -67495,6 +69455,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=10oz
+category=weapon_thrown
+param=rangeattack,11
+param=rangebonus,10
+param=levelrequire,20
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,mithril_tknife_launch
+param=proj_travel,mithril_tknife_travel
+param=poison_severity,25
 
 [black_knife_p+]
 name=Black knife(+)
@@ -67518,6 +69490,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,10
+param=rangebonus,8
+param=levelrequire,10
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,black_tknife_launch
+param=proj_travel,black_tknife_travel
+param=poison_severity,25
 
 [adamant_knife_p+]
 name=Adamant knife(+)
@@ -67541,6 +69525,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=14oz
+category=weapon_thrown
+param=rangeattack,15
+param=rangebonus,14
+param=levelrequire,30
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,adamant_tknife_launch
+param=proj_travel,adamant_tknife_travel
+param=poison_severity,25
 
 [rune_knife_p+]
 name=Rune knife(+)
@@ -67564,6 +69560,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,25
+param=rangebonus,24
+param=levelrequire,40
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,rune_tknife_launch
+param=proj_travel,rune_tknife_travel
+param=poison_severity,25
 
 [bronze_knife_p++]
 name=Bronze knife(s)
@@ -67587,6 +69595,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,4
+param=rangebonus,3
+param=levelrequire,1
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,bronze_tknife_launch
+param=proj_travel,bronze_tknife_travel
+param=poison_severity,30
 
 [iron_knife_p++]
 name=Iron knife(s)
@@ -67610,6 +69630,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,5
+param=rangebonus,4
+param=levelrequire,1
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,iron_tknife_launch
+param=proj_travel,iron_tknife_travel
+param=poison_severity,30
 
 [steel_knife_p++]
 name=Steel knife(s)
@@ -67631,6 +69663,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,8
+param=rangebonus,7
+param=levelrequire,5
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,steel_tknife_launch
+param=proj_travel,steel_tknife_travel
+param=poison_severity,30
 
 [mithril_knife_p++]
 name=Mithril knife(s)
@@ -67654,6 +69698,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=10oz
+category=weapon_thrown
+param=rangeattack,11
+param=rangebonus,10
+param=levelrequire,20
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,mithril_tknife_launch
+param=proj_travel,mithril_tknife_travel
+param=poison_severity,30
 
 [black_knife_p++]
 name=Black knife(s)
@@ -67677,6 +69733,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,10
+param=rangebonus,8
+param=levelrequire,10
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,black_tknife_launch
+param=proj_travel,black_tknife_travel
+param=poison_severity,30
 
 [adamant_knife_p++]
 name=Adamant knife(s)
@@ -67700,6 +69768,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=14oz
+category=weapon_thrown
+param=rangeattack,15
+param=rangebonus,14
+param=levelrequire,30
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,adamant_tknife_launch
+param=proj_travel,adamant_tknife_travel
+param=poison_severity,30
 
 [rune_knife_p++]
 name=Rune knife(s)
@@ -67723,6 +69803,18 @@ iop2=Wield
 stackable=yes
 wearpos=righthand
 weight=12oz
+category=weapon_thrown
+param=rangeattack,25
+param=rangebonus,24
+param=levelrequire,40
+param=attackrate,3
+param=attackrange,4
+param=rangeattack_anim,human_stake2
+param=defend_anim,human_unarmedblock
+param=rangeattack_sound,throwingknife
+param=proj_launch,rune_tknife_launch
+param=proj_travel,rune_tknife_travel
+param=poison_severity,30
 
 [iron_dagger_p+]
 name=Iron dagger(+)
@@ -67749,6 +69841,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,5
+param=slashattack,3
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,4
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,25
 
 [cert_iron_dagger_p+]
 certlink=iron_dagger_p+
@@ -67779,6 +69884,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,4
+param=slashattack,2
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,3
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,25
 
 [cert_bronze_dagger_p+]
 certlink=bronze_dagger_p+
@@ -67801,6 +69919,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,8
+param=slashattack,4
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,7
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,25
 
 [cert_steel_dagger_p+]
 certlink=steel_dagger_p+
@@ -67831,6 +69962,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=14oz
+category=weapon_stab
+param=stabattack,11
+param=slashattack,5
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,10
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,25
 
 [cert_mithril_dagger_p+]
 certlink=mithril_dagger_p+
@@ -67861,6 +70005,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=18oz
+category=weapon_stab
+param=stabattack,15
+param=slashattack,8
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,14
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,25
 
 [cert_adamant_dagger_p+]
 certlink=adamant_dagger_p+
@@ -67891,6 +70048,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,25
+param=slashattack,12
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,24
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,25
 
 [cert_rune_dagger_p+]
 certlink=rune_dagger_p+
@@ -67911,6 +70081,21 @@ manwear=obj_dragon_dagger_manwear,0
 womanwear=obj_dragon_dagger_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,40
+param=slashattack,25
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,40
+param=stabattack_anim,human_ddagger_lunge
+param=slashattack_anim,human_ddagger_hack
+param=defend_anim,human_ddagger_block
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=specwep,^true
+param=sa_energy,250
+param=poison_severity,25
 
 [cert_dragon_dagger_p+]
 certlink=dragon_dagger_p+
@@ -67941,6 +70126,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,10
+param=slashattack,5
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,7
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,25
 
 [cert_black_dagger_p+]
 certlink=black_dagger_p+
@@ -67991,6 +70189,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,5
+param=slashattack,3
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,4
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,30
 
 [cert_iron_dagger_p++]
 certlink=iron_dagger_p++
@@ -68021,6 +70232,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,4
+param=slashattack,2
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,3
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,30
 
 [cert_bronze_dagger_p++]
 certlink=bronze_dagger_p++
@@ -68043,6 +70267,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,8
+param=slashattack,4
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,7
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,30
 
 [cert_steel_dagger_p++]
 certlink=steel_dagger_p++
@@ -68073,6 +70310,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=14oz
+category=weapon_stab
+param=stabattack,11
+param=slashattack,5
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,10
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,30
 
 [cert_mithril_dagger_p++]
 certlink=mithril_dagger_p++
@@ -68103,6 +70353,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=18oz
+category=weapon_stab
+param=stabattack,15
+param=slashattack,8
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,14
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,30
 
 [cert_adamant_dagger_p++]
 certlink=adamant_dagger_p++
@@ -68133,6 +70396,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,25
+param=slashattack,12
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,24
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,30
 
 [cert_rune_dagger_p++]
 certlink=rune_dagger_p++
@@ -68153,6 +70429,21 @@ manwear=obj_dragon_dagger_manwear,0
 womanwear=obj_dragon_dagger_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,40
+param=slashattack,25
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,40
+param=stabattack_anim,human_ddagger_lunge
+param=slashattack_anim,human_ddagger_hack
+param=defend_anim,human_ddagger_block
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=specwep,^true
+param=sa_energy,250
+param=poison_severity,30
 
 [cert_dragon_dagger_p++]
 certlink=dragon_dagger_p++
@@ -68183,6 +70474,19 @@ manwear=obj_iron_dagger_p_manwear,0
 womanwear=obj_iron_dagger_p_manwear,6
 wearpos=righthand
 weight=1lb
+category=weapon_stab
+param=stabattack,10
+param=slashattack,5
+param=crushattack,-4
+param=magicattack,1
+param=magicdefence,1
+param=strengthbonus,7
+param=stabattack_anim,human_sword_stab
+param=slashattack_anim,human_sword_slash
+param=defend_anim,human_sword_def
+param=stab_sound,stabsword_stab
+param=slash_sound,stabsword_slash
+param=poison_severity,30
 
 [cert_black_dagger_p++]
 certlink=black_dagger_p++
@@ -68230,6 +70534,22 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=slashattack,5
+param=crushattack,5
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,6
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,25
 
 [cert_bronze_spear_p+]
 certlink=bronze_spear_p+
@@ -68257,6 +70577,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=stabattack,8
+param=slashattack,8
+param=crushattack,8
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,10
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,25
 
 [cert_iron_spear_p+]
 certlink=iron_spear_p+
@@ -68284,6 +70621,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=stabattack,12
+param=slashattack,12
+param=crushattack,12
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,12
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,25
 
 [cert_steel_spear_p+]
 certlink=steel_spear_p+
@@ -68311,6 +70665,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=4lb
+category=weapon_spear
+param=stabattack,17
+param=slashattack,17
+param=crushattack,17
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,18
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,25
 
 [cert_mithril_spear_p+]
 certlink=mithril_spear_p+
@@ -68338,6 +70709,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=6lb
+category=weapon_spear
+param=stabattack,24
+param=slashattack,24
+param=crushattack,24
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,28
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,25
 
 [cert_adamant_spear_p+]
 certlink=adamant_spear_p+
@@ -68365,6 +70753,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=stabattack,36
+param=slashattack,36
+param=crushattack,36
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,42
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,25
 
 [cert_rune_spear_p+]
 certlink=rune_spear_p+
@@ -68390,6 +70795,28 @@ womanwear=obj_dragon_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=stabattack,55
+param=slashattack,55
+param=crushattack,55
+param=stabdefence,5
+param=slashdefence,5
+param=crushdefence,5
+param=magicdefence,5
+param=rangedefence,5
+param=strengthbonus,60
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_dspear_stab
+param=slashattack_anim,human_dspear_slash
+param=crushattack_anim,human_dspear_lunge
+param=defend_anim,human_dspear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=specwep,^true
+param=sa_energy,250
+param=poison_severity,25
 
 [cert_dragon_spear_p+]
 certlink=dragon_spear_p+
@@ -68417,6 +70844,22 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=slashattack,5
+param=crushattack,5
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,6
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [cert_bronze_spear_p++]
 certlink=bronze_spear_p++
@@ -68444,6 +70887,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=stabattack,8
+param=slashattack,8
+param=crushattack,8
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,10
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [cert_iron_spear_p++]
 certlink=iron_spear_p++
@@ -68471,6 +70931,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=stabattack,12
+param=slashattack,12
+param=crushattack,12
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,12
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [cert_steel_spear_p++]
 certlink=steel_spear_p++
@@ -68498,6 +70975,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=4lb
+category=weapon_spear
+param=stabattack,17
+param=slashattack,17
+param=crushattack,17
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,18
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [cert_mithril_spear_p++]
 certlink=mithril_spear_p++
@@ -68525,6 +71019,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=6lb
+category=weapon_spear
+param=stabattack,24
+param=slashattack,24
+param=crushattack,24
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,28
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [cert_adamant_spear_p++]
 certlink=adamant_spear_p++
@@ -68552,6 +71063,23 @@ womanwear=obj_bronze_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=stabattack,36
+param=slashattack,36
+param=crushattack,36
+param=stabdefence,1
+param=slashdefence,1
+param=strengthbonus,42
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=poison_severity,30
 
 [cert_rune_spear_p++]
 certlink=rune_spear_p++
@@ -68577,6 +71105,28 @@ womanwear=obj_dragon_spear_manwear,6
 wearpos=righthand
 wearpos2=lefthand
 weight=5lb
+category=weapon_spear
+param=stabattack,55
+param=slashattack,55
+param=crushattack,55
+param=stabdefence,5
+param=slashdefence,5
+param=crushdefence,5
+param=magicdefence,5
+param=rangedefence,5
+param=strengthbonus,60
+param=attackrate,6
+param=ready_baseanim,human_staffready
+param=stabattack_anim,human_dspear_stab
+param=slashattack_anim,human_dspear_slash
+param=crushattack_anim,human_dspear_lunge
+param=defend_anim,human_dspear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+param=specwep,^true
+param=sa_energy,250
+param=poison_severity,30
 
 [cert_dragon_spear_p++]
 certlink=dragon_spear_p++
@@ -71834,6 +74384,8 @@ members=yes
 wearpos=hands
 weight=500g
 weight=8oz
+param=slashdefence,1
+param=crushdefence,2
 
 [mourning_mourner_boots]
 name=Mourner boots
@@ -71853,6 +74405,8 @@ cost=30
 members=yes
 wearpos=feet
 weight=3lb
+param=slashdefence,1
+param=crushdefence,1
 
 [mourning_mourner_cloak]
 name=Mourner cloak
@@ -72323,6 +74877,8 @@ cost=300
 members=yes
 wearpos=feet
 weight=1g
+param=magicattack,2
+param=magicdefence,2
 
 [secret_ghost_top]
 name=Ghostly robe
@@ -72339,6 +74895,8 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=1g
+param=magicattack,5
+param=magicdefence,5
 
 [secret_ghost_bottom]
 name=Ghostly robe
@@ -72353,6 +74911,8 @@ womanwear=obj_secret_ghost_bottom_womanwear,0
 members=yes
 wearpos=legs
 weight=1g
+param=magicattack,4
+param=magicdefence,4
 
 [secret_ghost_hat]
 name=Ghostly hood
@@ -72374,6 +74934,8 @@ members=yes
 weight=1g
 wearpos=hat
 wearpos2=head
+param=magicattack,3
+param=magicdefence,3
 
 [secret_ghost_gloves]
 name=Ghostly gloves
@@ -72389,6 +74951,8 @@ womanwear=obj_secret_ghost_gloves_womanwear,0
 members=yes
 wearpos=hands
 weight=1g
+param=magicattack,2
+param=magicdefence,2
 
 [secret_ghost_cloak]
 name=Ghostly cloak
@@ -72405,6 +74969,8 @@ womanwear=obj_secret_ghost_cloak_womanwear,0
 members=yes
 wearpos=back
 weight=1g
+param=magicattack,5
+param=magicdefence,5
 
 [kelda_hop_seed]
 name=Kelda seed
@@ -72639,6 +75205,13 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=6lb
+param=magicattack,-6
+param=rangeattack,-2
+param=stabdefence,30
+param=slashdefence,32
+param=crushdefence,27
+param=magicdefence,-1
+param=rangedefence,30
 
 [dagganoth_melee_body]
 name=Rock-shell plate
@@ -72654,6 +75227,13 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=22lb
+param=magicattack,-30
+param=rangeattack,-10
+param=stabdefence,82
+param=slashdefence,80
+param=crushdefence,72
+param=magicdefence,-6
+param=rangedefence,80
 
 [dagganoth_melee_legs]
 name=Rock-shell legs
@@ -72669,6 +75249,13 @@ members=yes
 2dxan=528
 wearpos=legs
 weight=20lb
+param=magicattack,-21
+param=rangeattack,-7
+param=stabdefence,51
+param=slashdefence,49
+param=crushdefence,47
+param=magicdefence,-4
+param=rangedefence,49
 
 [dagganoth_ranged_helm]
 name=Spined helm
@@ -72691,6 +75278,15 @@ members=yes
 wearpos=hat
 wearpos2=head
 weight=6lb
+param=stabattack,-6
+param=slashattack,-6
+param=crushattack,-6
+param=magicattack,-6
+param=rangeattack,6
+param=stabdefence,6
+param=slashdefence,6
+param=crushdefence,6
+param=magicdefence,6
 
 [cert_dagganoth_ranged_helm]
 certlink=dagganoth_ranged_helm
@@ -72712,6 +75308,13 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=15lb
+param=magicattack,-15
+param=rangeattack,15
+param=stabdefence,40
+param=slashdefence,32
+param=crushdefence,45
+param=magicdefence,20
+param=rangedefence,40
 
 [cert_dagganoth_ranged_body]
 certlink=dagganoth_ranged_body
@@ -72733,6 +75336,13 @@ womanwear=obj_dagganoth_ranged_legs_womanwear,0
 members=yes
 wearpos=legs
 weight=12lb
+param=magicattack,-10
+param=rangeattack,8
+param=stabdefence,22
+param=slashdefence,16
+param=crushdefence,24
+param=magicdefence,8
+param=rangedefence,22
 
 [cert_dagganoth_ranged_legs]
 certlink=dagganoth_ranged_legs
@@ -72760,6 +75370,12 @@ contrast=30
 wearpos=hat
 wearpos2=head
 weight=3lb
+param=magicattack,2
+param=rangeattack,-2
+param=stabdefence,10
+param=slashdefence,9
+param=crushdefence,11
+param=magicdefence,3
 
 [cert_dagganoth_mage_helm]
 certlink=dagganoth_mage_helm
@@ -72779,6 +75395,12 @@ members=yes
 wearpos=torso
 wearpos2=arms
 weight=11lb
+param=magicattack,8
+param=rangeattack,-10
+param=stabdefence,35
+param=slashdefence,25
+param=crushdefence,42
+param=magicdefence,15
 
 [cert_dagganoth_mage_body]
 certlink=dagganoth_mage_body
@@ -72798,6 +75420,12 @@ members=yes
 2dxan=536
 wearpos=legs
 weight=9lb
+param=magicattack,6
+param=rangeattack,-7
+param=stabdefence,22
+param=slashdefence,20
+param=crushdefence,24
+param=magicdefence,10
 
 [cert_dagganoth_mage_legs]
 certlink=dagganoth_mage_legs
@@ -72819,6 +75447,8 @@ manwear=obj_dagganoth_range_feet_manwear,0
 womanwear=obj_dagganoth_range_feet_womanwear,0
 weight=7lb
 wearpos=feet
+param=slashdefence,1
+param=crushdefence,1
 
 [cert_dagganoth_range_feet]
 certlink=dagganoth_range_feet
@@ -72846,6 +75476,8 @@ manwear=obj_dagganoth_range_feet_manwear,0
 womanwear=obj_dagganoth_range_feet_womanwear,0
 weight=7lb
 wearpos=feet
+param=slashdefence,1
+param=crushdefence,1
 
 [cert_dagganoth_melee_feet]
 certlink=dagganoth_melee_feet
@@ -72873,6 +75505,8 @@ manwear=obj_dagganoth_range_feet_manwear,0
 womanwear=obj_dagganoth_range_feet_womanwear,0
 weight=7lb
 wearpos=feet
+param=slashdefence,1
+param=crushdefence,1
 
 [cert_dagganoth_mage_feet]
 certlink=dagganoth_mage_feet
@@ -72894,6 +75528,8 @@ manwear=obj_dagganoth_range_gloves_manwear,0
 womanwear=obj_dagganoth_range_gloves_womanwear,0
 weight=7lb
 wearpos=hands
+param=slashdefence,1
+param=crushdefence,2
 
 [cert_dagganoth_range_gloves]
 certlink=dagganoth_range_gloves
@@ -72919,6 +75555,8 @@ manwear=obj_dagganoth_range_gloves_manwear,0
 womanwear=obj_dagganoth_range_gloves_womanwear,0
 weight=7lb
 wearpos=hands
+param=slashdefence,1
+param=crushdefence,2
 
 [cert_dagganoth_melee_gloves]
 certlink=dagganoth_melee_gloves
@@ -72946,6 +75584,8 @@ manwear=obj_dagganoth_range_gloves_manwear,0
 womanwear=obj_dagganoth_range_gloves_womanwear,0
 weight=7lb
 wearpos=hands
+param=slashdefence,1
+param=crushdefence,2
 
 [cert_dagganoth_mage_gloves]
 certlink=dagganoth_mage_gloves
@@ -73254,6 +75894,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_10]
 certlink=broodoo_poisonshield_10
@@ -73284,6 +75931,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_9]
 certlink=broodoo_poisonshield_9
@@ -73314,6 +75968,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_8]
 certlink=broodoo_poisonshield_8
@@ -73344,6 +76005,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_7]
 certlink=broodoo_poisonshield_7
@@ -73374,6 +76042,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_6]
 certlink=broodoo_poisonshield_6
@@ -73404,6 +76079,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_5]
 certlink=broodoo_poisonshield_5
@@ -73434,6 +76116,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_4]
 certlink=broodoo_poisonshield_4
@@ -73464,6 +76153,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_3]
 certlink=broodoo_poisonshield_3
@@ -73494,6 +76190,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_2]
 certlink=broodoo_poisonshield_2
@@ -73524,6 +76227,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield_1]
 certlink=broodoo_poisonshield_1
@@ -73554,6 +76264,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 2dxan=364
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_poisonshield]
 certlink=broodoo_poisonshield
@@ -73584,6 +76301,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_10]
 certlink=broodoo_diseaseshield_10
@@ -73614,6 +76338,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_9]
 certlink=broodoo_diseaseshield_9
@@ -73644,6 +76375,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_8]
 certlink=broodoo_diseaseshield_8
@@ -73674,6 +76412,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_7]
 certlink=broodoo_diseaseshield_7
@@ -73704,6 +76449,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_6]
 certlink=broodoo_diseaseshield_6
@@ -73734,6 +76486,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_5]
 certlink=broodoo_diseaseshield_5
@@ -73764,6 +76523,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_4]
 certlink=broodoo_diseaseshield_4
@@ -73794,6 +76560,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_3]
 certlink=broodoo_diseaseshield_3
@@ -73824,6 +76597,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_2]
 certlink=broodoo_diseaseshield_2
@@ -73854,6 +76634,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield_1]
 certlink=broodoo_diseaseshield_1
@@ -73884,6 +76671,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 2dxan=364
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_diseaseshield]
 certlink=broodoo_diseaseshield
@@ -73904,6 +76698,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_10]
 certlink=broodoo_combatshield_10
@@ -73924,6 +76725,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_9]
 certlink=broodoo_combatshield_9
@@ -73944,6 +76752,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_8]
 certlink=broodoo_combatshield_8
@@ -73964,6 +76779,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_7]
 certlink=broodoo_combatshield_7
@@ -73984,6 +76806,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_6]
 certlink=broodoo_combatshield_6
@@ -74004,6 +76833,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_5]
 certlink=broodoo_combatshield_5
@@ -74024,6 +76860,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_4]
 certlink=broodoo_combatshield_4
@@ -74044,6 +76887,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_3]
 certlink=broodoo_combatshield_3
@@ -74064,6 +76914,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_2]
 certlink=broodoo_combatshield_2
@@ -74084,6 +76941,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 members=yes
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield_1]
 certlink=broodoo_combatshield_1
@@ -74104,6 +76968,13 @@ womanwear=obj_broodoo_poisonshield_10_manwear,6
 2dxan=364
 weight=12lb
 wearpos=lefthand
+param=magicattack,3
+param=rangeattack,-7
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,15
+param=magicdefence,5
+param=prayerbonus,5
 
 [cert_broodoo_combatshield]
 certlink=broodoo_combatshield
@@ -74581,6 +77452,13 @@ womanwear2=obj_snakeskin_body_womanwear2
 weight=15lb
 wearpos=torso
 wearpos2=arms
+param=magicattack,-5
+param=rangeattack,12
+param=stabdefence,25
+param=slashdefence,28
+param=crushdefence,32
+param=magicdefence,15
+param=rangedefence,35
 
 [cert_snakeskin_body]
 certlink=snakeskin_body
@@ -74601,6 +77479,13 @@ womanwear=obj_snakeskin_chaps_womanwear,0
 2dxan=372
 weight=8lb
 wearpos=legs
+param=magicattack,-5
+param=rangeattack,6
+param=stabdefence,8
+param=slashdefence,8
+param=crushdefence,10
+param=magicdefence,4
+param=rangedefence,10
 
 [cert_snakeskin_chaps]
 certlink=snakeskin_chaps
@@ -74623,6 +77508,13 @@ womanhead=obj_snakeskin_bandana_manhead
 weight=2lb
 wearpos=hat
 wearpos2=head
+param=magicattack,-5
+param=rangeattack,4
+param=stabdefence,2
+param=slashdefence,4
+param=crushdefence,4
+param=magicdefence,2
+param=rangedefence,2
 
 [cert_snakeskin_bandana]
 certlink=snakeskin_bandana
@@ -74643,6 +77535,12 @@ womanwear=obj_snakeskin_boots_womanwear,0
 2dxan=104
 weight=12oz
 wearpos=feet
+param=magicattack,-10
+param=rangeattack,3
+param=stabdefence,1
+param=slashdefence,1
+param=crushdefence,2
+param=magicdefence,1
 
 [cert_snakeskin_boots]
 certlink=snakeskin_boots
@@ -74663,6 +77561,12 @@ womanwear=obj_snakeskin_vambraces_womanwear,0
 2dxan=300
 weight=10oz
 wearpos=hands
+param=magicattack,-5
+param=rangeattack,6
+param=stabdefence,2
+param=slashdefence,2
+param=crushdefence,2
+param=magicdefence,1
 
 [cert_snakeskin_vambraces]
 certlink=snakeskin_vambraces
@@ -77492,6 +80396,21 @@ womanwear=obj_mud_battlestaff_manwear,6
 members=yes
 wearpos=righthand
 weight=5lb
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,7
+param=slashattack,-1
+param=crushattack,28
+param=magicattack,12
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,12
+param=strengthbonus,35
 
 [mystic_mud_staff]
 name=Mystic mud staff
@@ -77509,6 +80428,21 @@ womanwear=obj_mud_battlestaff_manwear,6
 members=yes
 wearpos=righthand
 weight=5lb
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,10
+param=slashattack,-1
+param=crushattack,40
+param=magicattack,14
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,14
+param=strengthbonus,50
 
 [invis_ring6]
 name=Onyx ring
@@ -78038,6 +80972,22 @@ womanwear2=obj_staff_of_air_manwear2
 members=yes
 wearpos=righthand
 weight=5lb
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=stabattack,2
+param=slashattack,-1
+param=crushattack,10
+param=magicattack,10
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,10
+param=strengthbonus,7
+param=prayerbonus,1
 
 [cert_white_magic_staff]
 certlink=white_magic_staff
@@ -78187,6 +81137,13 @@ manwear=obj_bronze_chainbody_manwear,0
 womanwear=obj_bronze_chainbody_womanwear,0
 wearpos=torso
 weight=15lb
+param=magicattack,-15
+param=stabdefence,22
+param=slashdefence,32
+param=crushdefence,39
+param=magicdefence,-3
+param=rangedefence,24
+param=prayerbonus,1
 
 [cert_white_chainbody]
 certlink=white_chainbody
@@ -78215,6 +81172,14 @@ womanwear2=obj_iron_platebody_womanwear2
 wearpos=torso
 wearpos2=arms
 weight=22lb
+param=magicattack,-30
+param=rangeattack,-15
+param=stabdefence,41
+param=slashdefence,40
+param=crushdefence,30
+param=magicdefence,-6
+param=rangedefence,40
+param=prayerbonus,1
 
 [cert_white_platebody]
 certlink=white_platebody
@@ -78242,6 +81207,12 @@ members=yes
 2dxan=164
 wearpos=feet
 weight=3lb
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,7
+param=slashdefence,8
+param=crushdefence,9
+param=prayerbonus,1
 
 [cert_white_armoured_boots]
 certlink=white_armoured_boots
@@ -78270,6 +81241,13 @@ womanhead=obj_khazard_helmet_womanhead
 wearpos=hat
 wearpos2=head
 weight=4lb
+param=magicattack,-3
+param=stabdefence,9
+param=slashdefence,10
+param=crushdefence,8
+param=magicdefence,-1
+param=rangedefence,9
+param=prayerbonus,1
 
 [cert_white_med_helm]
 certlink=white_med_helm
@@ -78297,6 +81275,14 @@ wearpos=hat
 wearpos2=head
 wearpos3=jaw
 weight=6lb
+param=magicattack,-6
+param=rangeattack,-3
+param=stabdefence,12
+param=slashdefence,13
+param=crushdefence,10
+param=magicdefence,-1
+param=rangedefence,12
+param=prayerbonus,1
 
 [cert_white_full_helm]
 certlink=white_full_helm
@@ -78322,6 +81308,14 @@ manwear=obj_iron_platelegs_manwear,0
 womanwear=obj_iron_platelegs_womanwear,0
 wearpos=legs
 weight=20lb
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,21
+param=slashdefence,20
+param=crushdefence,19
+param=magicdefence,-4
+param=rangedefence,20
+param=prayerbonus,1
 
 [cert_white_platelegs]
 certlink=white_platelegs
@@ -78348,6 +81342,14 @@ manwear=obj_iron_plateskirt_manwear,0
 womanwear=obj_iron_plateskirt_womanwear,0
 wearpos=legs
 weight=18lb
+param=magicattack,-21
+param=rangeattack,-11
+param=stabdefence,21
+param=slashdefence,20
+param=crushdefence,19
+param=magicdefence,-4
+param=rangedefence,20
+param=prayerbonus,1
 
 [cert_white_plateskirt]
 certlink=white_plateskirt
@@ -78371,6 +81373,9 @@ womanwear=obj_gauntlets_of_cooking_womanwear,0
 2dxan=420
 wearpos=hands
 weight=8oz
+param=slashdefence,1
+param=crushdefence,2
+param=prayerbonus,1
 
 [cert_white_gloves]
 certlink=white_gloves
@@ -78396,6 +81401,12 @@ manwear=obj_bronze_sq_shield_manwear,0
 womanwear=obj_bronze_sq_shield_manwear,6
 wearpos=lefthand
 weight=8lb
+param=magicattack,-6
+param=stabdefence,15
+param=slashdefence,16
+param=crushdefence,14
+param=rangedefence,15
+param=prayerbonus,1
 
 [cert_white_sq_shield]
 certlink=white_sq_shield
@@ -78421,6 +81432,14 @@ manwear=obj_bronze_kiteshield_manwear,0
 womanwear=obj_bronze_kiteshield_manwear,6
 wearpos=lefthand
 weight=12lb
+param=magicattack,-8
+param=rangeattack,-3
+param=stabdefence,17
+param=slashdefence,19
+param=crushdefence,18
+param=magicdefence,-1
+param=rangedefence,18
+param=prayerbonus,1
 
 [cert_white_kiteshield]
 certlink=white_kiteshield
@@ -78859,6 +81878,11 @@ manwear=obj_mudskipper_flippers_manwear,0
 womanwear=obj_mudskipper_flippers_womanwear,0
 wearpos=feet
 weight=12oz
+param=stabattack,-2
+param=slashattack,-2
+param=crushattack,-2
+param=slashdefence,1
+param=crushdefence,1
 
 [fishbowl_empty]
 name=Fishbowl
@@ -79532,6 +82556,9 @@ womanwear=obj_gauntlets_of_cooking_womanwear,0
 members=yes
 wearpos=hands
 weight=8oz
+param=stabdefence,4
+param=slashdefence,5
+param=crushdefence,3
 
 [deal_rusty_scimitar]
 name=Rusty scimitar
@@ -80790,6 +83817,13 @@ members=yes
 2dxan=276
 wearpos=legs
 weight=35lb
+param=magicattack,-31
+param=rangeattack,-18
+param=stabdefence,43
+param=slashdefence,45
+param=crushdefence,41
+param=magicdefence,-4
+param=rangedefence,68
 
 [pot_bonemeal_wyvern]
 name=Bonemeal
@@ -81950,6 +84984,8 @@ members=yes
 cost=500
 wearpos=lefthand
 weight=1kg
+param=magicattack,15
+param=magicdefence,15
 
 [cert_magictraining_bookofmagic]
 certlink=magictraining_bookofmagic
@@ -82208,6 +85244,14 @@ cost=1200
 members=yes
 wearpos=righthand
 weight=10oz
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=magicattack,5
+param=magicdefence,5
 
 [cert_magictraining_wand_beg]
 certlink=magictraining_wand_beg
@@ -82229,6 +85273,14 @@ cost=1500
 members=yes
 wearpos=righthand
 weight=9oz
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=magicattack,10
+param=magicdefence,10
 
 [cert_magictraining_wand_appr]
 certlink=magictraining_wand_appr
@@ -82250,6 +85302,14 @@ cost=2000
 members=yes
 wearpos=righthand
 weight=8oz
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=magicattack,15
+param=magicdefence,15
 
 [cert_magictraining_wand_teach]
 certlink=magictraining_wand_teach
@@ -82271,6 +85331,14 @@ cost=2500
 members=yes
 wearpos=righthand
 weight=7oz
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=magicattack,20
+param=magicdefence,20
 
 [cert_magictraining_wand_master]
 certlink=magictraining_wand_master
@@ -82294,6 +85362,8 @@ cost=140000
 wearpos=torso
 wearpos2=arms
 weight=5lb
+param=magicattack,22
+param=magicdefence,22
 
 [cert_magictraining_infinitytop]
 certlink=magictraining_infinitytop
@@ -82315,6 +85385,8 @@ members=yes
 cost=17000
 wearpos=hat
 weight=1lb
+param=magicattack,6
+param=magicdefence,6
 
 [cert_magictraining_infinityhat]
 certlink=magictraining_infinityhat
@@ -82336,6 +85408,8 @@ members=yes
 cost=12000
 wearpos=feet
 weight=1lb
+param=magicattack,5
+param=magicdefence,5
 
 [cert_magictraining_infinityboots]
 certlink=magictraining_infinityboots
@@ -82358,6 +85432,8 @@ members=yes
 cost=12000
 wearpos=hands
 weight=1lb
+param=magicattack,5
+param=magicdefence,5
 
 [cert_magictraining_infinitygloves]
 certlink=magictraining_infinitygloves
@@ -82377,6 +85453,8 @@ members=yes
 cost=90000
 wearpos=legs
 weight=4lb
+param=magicattack,17
+param=magicdefence,17
 
 [cert_magictraining_infinitybottom]
 certlink=magictraining_infinitybottom
@@ -82677,6 +85755,9 @@ womanwear=obj_red_cape_manwear,0
 members=yes
 wearpos=back
 weight=1lb
+param=slashdefence,1
+param=crushdefence,1
+param=rangedefence,2
 
 [cert_handsand_pink_cape]
 certlink=handsand_pink_cape
@@ -84435,6 +87516,9 @@ iop2=Wear
 cost=200
 wearpos=feet
 weight=3lb
+param=stabdefence,1
+param=slashdefence,1
+param=rangedefence,1
 
 [slayerguide_killerwatt]
 name=Killerwatt
@@ -87114,6 +90198,14 @@ manwear=obj_studded_body_trim_gold_manwear,0
 womanwear=obj_studded_body_trim_gold_womanwear,0
 wearpos=torso
 weight=12lb
+category=armour_body
+param=magicattack,-4
+param=rangeattack,8
+param=stabdefence,18
+param=slashdefence,25
+param=crushdefence,22
+param=magicdefence,8
+param=rangedefence,25
 
 [cert_studded_body_trim_gold]
 certlink=studded_body_trim_gold
@@ -87133,6 +90225,14 @@ manwear=obj_studded_body_trim_gold_manwear,0
 womanwear=obj_studded_body_trim_gold_womanwear,0
 wearpos=torso
 weight=12lb
+category=armour_body
+param=magicattack,-4
+param=rangeattack,8
+param=stabdefence,18
+param=slashdefence,25
+param=crushdefence,22
+param=magicdefence,8
+param=rangedefence,25
 
 [cert_studded_body_trim_fur]
 certlink=studded_body_trim_fur
@@ -87155,6 +90255,14 @@ manwear=obj_studded_chaps_trim_gold_manwear,0
 womanwear=obj_studded_chaps_trim_gold_womanwear,0
 wearpos=legs
 weight=10lb
+category=armour_legs
+param=magicattack,-5
+param=rangeattack,6
+param=stabdefence,15
+param=slashdefence,16
+param=crushdefence,17
+param=magicdefence,6
+param=rangedefence,16
 
 [cert_studded_chaps_trim_gold]
 certlink=studded_chaps_trim_gold
@@ -87177,6 +90285,14 @@ manwear=obj_studded_chaps_trim_gold_manwear,0
 womanwear=obj_studded_chaps_trim_gold_womanwear,0
 wearpos=legs
 weight=10lb
+category=armour_legs
+param=magicattack,-5
+param=rangeattack,6
+param=stabdefence,15
+param=slashdefence,16
+param=crushdefence,17
+param=magicdefence,6
+param=rangedefence,16
 
 [cert_studded_chaps_trim_fur]
 certlink=studded_chaps_trim_fur
@@ -87197,6 +90313,14 @@ manwear=obj_dragonhide_body_trim_gold_manwear,0
 womanwear=obj_dragonhide_body_trim_gold_womanwear,0
 wearpos=torso
 weight=15lb
+category=armour_body
+param=magicattack,-15
+param=rangeattack,15
+param=stabdefence,40
+param=slashdefence,32
+param=crushdefence,45
+param=magicdefence,20
+param=rangedefence,40
 
 [cert_dragonhide_body_trim_gold]
 certlink=dragonhide_body_trim_gold
@@ -87217,6 +90341,14 @@ manwear=obj_dragonhide_body_trim_gold_manwear,0
 womanwear=obj_dragonhide_body_trim_gold_womanwear,0
 wearpos=torso
 weight=15lb
+category=armour_body
+param=magicattack,-15
+param=rangeattack,15
+param=stabdefence,40
+param=slashdefence,32
+param=crushdefence,45
+param=magicdefence,20
+param=rangedefence,40
 
 [cert_dragonhide_body_trim]
 certlink=dragonhide_body_trim
@@ -87242,6 +90374,14 @@ womanwear=obj_dragonhide_body_trim_gold_womanwear,0
 members=yes
 wearpos=torso
 weight=15lb
+category=armour_body
+param=magicattack,-15
+param=rangeattack,20
+param=stabdefence,45
+param=slashdefence,37
+param=crushdefence,50
+param=magicdefence,30
+param=rangedefence,45
 
 [cert_blue_dragonhide_body_trim_gold]
 certlink=blue_dragonhide_body_trim_gold
@@ -87267,6 +90407,14 @@ womanwear=obj_dragonhide_body_trim_gold_womanwear,0
 members=yes
 wearpos=torso
 weight=15lb
+category=armour_body
+param=magicattack,-15
+param=rangeattack,20
+param=stabdefence,45
+param=slashdefence,37
+param=crushdefence,50
+param=magicdefence,30
+param=rangedefence,45
 
 [cert_blue_dragonhide_body_trim]
 certlink=blue_dragonhide_body_trim
@@ -87291,6 +90439,14 @@ manwear=obj_dragonhide_chaps_trim_gold_manwear,0
 womanwear=obj_dragonhide_chaps_trim_gold_womanwear,0
 wearpos=legs
 weight=12lb
+category=armour_legs
+param=magicattack,-10
+param=rangeattack,8
+param=stabdefence,22
+param=slashdefence,16
+param=crushdefence,24
+param=magicdefence,8
+param=rangedefence,22
 
 [cert_dragonhide_chaps_trim_gold]
 certlink=dragonhide_chaps_trim_gold
@@ -87313,6 +90469,14 @@ manwear=obj_dragonhide_chaps_trim_gold_manwear,0
 womanwear=obj_dragonhide_chaps_trim_gold_womanwear,0
 wearpos=legs
 weight=12lb
+category=armour_legs
+param=magicattack,-10
+param=rangeattack,8
+param=stabdefence,22
+param=slashdefence,16
+param=crushdefence,24
+param=magicdefence,8
+param=rangedefence,22
 
 [cert_dragonhide_chaps_trim]
 certlink=dragonhide_chaps_trim
@@ -87342,6 +90506,14 @@ womanwear=obj_dragonhide_chaps_trim_gold_womanwear,0
 members=yes
 wearpos=legs
 weight=12lb
+category=armour_legs
+param=magicattack,-10
+param=rangeattack,11
+param=stabdefence,25
+param=slashdefence,19
+param=crushdefence,27
+param=magicdefence,14
+param=rangedefence,25
 
 [cert_blue_dragonhide_chaps_trim_gold]
 certlink=blue_dragonhide_chaps_trim_gold
@@ -87369,6 +90541,14 @@ womanwear=obj_dragonhide_chaps_trim_gold_womanwear,0
 members=yes
 wearpos=legs
 weight=12lb
+category=armour_legs
+param=magicattack,-10
+param=rangeattack,11
+param=stabdefence,25
+param=slashdefence,19
+param=crushdefence,27
+param=magicdefence,14
+param=rangedefence,25
 
 [cert_blue_dragonhide_chaps_trim]
 certlink=blue_dragonhide_chaps_trim
@@ -87438,6 +90618,8 @@ womanwear2=obj_wizards_robe_trim_gold_womanwear2
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_wizards_robe_trim_gold]
 certlink=wizards_robe_trim_gold
@@ -87463,6 +90645,8 @@ womanwear2=obj_wizards_robe_trim_gold_womanwear2
 wearpos=torso
 wearpos2=arms
 weight=2lb
+param=magicattack,3
+param=magicdefence,3
 
 [cert_wizards_robe_trim]
 certlink=wizards_robe_trim
@@ -89580,6 +92764,10 @@ womanwear=obj_hundred_pirate_crab_shell_gauntlet_womanwear,0
 cost=1
 wearpos=hands
 weight=2lb
+param=stabdefence,3
+param=slashdefence,4
+param=crushdefence,2
+param=strengthbonus,1
 
 [hundred_pirate_crab_shell_head]
 name=Fresh crab shell
@@ -89613,6 +92801,13 @@ cost=1
 wearpos=hat
 wearpos2=head
 weight=2lb
+param=magicattack,-3
+param=rangeattack,-1
+param=stabdefence,5
+param=slashdefence,4
+param=crushdefence,3
+param=magicdefence,-1
+param=rangedefence,4
 
 [crab_claw_broken]
 name=Broken crab claw
@@ -90501,6 +93696,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_9]
 name=Rod of ivandis(9)
@@ -90523,6 +93732,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_8]
 name=Rod of ivandis(8)
@@ -90545,6 +93768,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_7]
 name=Rod of ivandis(7)
@@ -90567,6 +93804,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_6]
 name=Rod of ivandis(6)
@@ -90589,6 +93840,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_5]
 name=Rod of ivandis(5)
@@ -90611,6 +93876,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_4]
 name=Rod of ivandis(4)
@@ -90633,6 +93912,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_3]
 name=Rod of ivandis(3)
@@ -90655,6 +93948,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_2]
 name=Rod of ivandis(2)
@@ -90677,6 +93984,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_command_final_1]
 name=Rod of ivandis(1)
@@ -90699,6 +94020,20 @@ womanwear=obj_burgh_rod_command1_manwear,0
 iop2=Wield
 weight=1g
 wearpos=righthand
+category=weapon_staff
+param=attackrate,5
+param=ready_baseanim,human_staffready
+param=crushattack_anim,human_staff_pummel
+param=defend_anim,human_staff_block
+param=crush_sound,staff_hit
+param=slashattack,-1
+param=crushattack,7
+param=magicattack,4
+param=stabdefence,2
+param=slashdefence,3
+param=crushdefence,1
+param=magicdefence,4
+param=strengthbonus,3
 
 [burgh_rod_clay]
 name=Rod clay mould
@@ -94208,6 +97543,11 @@ womanhead=obj_rag_ram_helm_womanhead
 weight=3g
 wearpos=hat
 weight=7lb
+param=rangeattack,-2
+param=stabdefence,19
+param=slashdefence,21
+param=crushdefence,16
+param=rangedefence,19
 
 [rag_bonesack]
 name=Bonesack
@@ -94226,6 +97566,11 @@ womanwear=obj_rag_bonesack_womanwear,0
 cost=1
 weight=3g
 wearpos=back
+param=stabdefence,4
+param=slashdefence,4
+param=crushdefence,4
+param=magicdefence,4
+param=rangedefence,4
 
 [rag_bottle_wine]
 name=Bottle of wine
